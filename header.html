@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-1971247-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-1971247-2");
+    </script>
+
+    <meta name="viewport" content="width=1120" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="dns-prefetch" href="//polyfill.io" />
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="https://spicato.com/wp/wp-content/plugins/gutenberg/build/block-library/style.css?ver=1585285929"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-default-css"
+      href="https://spicato.com/assets/css/default.css?ver=af7d3f7a0c62cc4f31f90373d2cdd414"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-common-css"
+      href="https://spicato.com/assets/css/common.css?ver=af7d3f7a0c62cc4f31f90373d2cdd414"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-yakuhanjp_s-css"
+      href="https://spicato.com/assets/css/yakuhanjp_s.min.css?ver=af7d3f7a0c62cc4f31f90373d2cdd414"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theme-print-css"
+      href="https://spicato.com/assets/css/print.css?ver=af7d3f7a0c62cc4f31f90373d2cdd414"
+      type="text/css"
+      media="print"
+    />
+
+    <!-- SEO SIMPLE PACK 1.2.6 -->
+    <title>
+      大阪｜ブランディングデザイン｜WEB制作・システム開発｜株式会社スピッカート
+    </title>
+    <meta
+      name="description"
+      content="スピッカートは、泉州・南大阪、熊取町にあるデザイン事務所です。モットーは、「お客さまといっしょに、ワクワクしながらつくること」。企業・商品のブランディング、ロゴ、各種広報物、WEBサイト、WEBシステム開発、アプリ開発などの制作を行っています。"
+    />
+    <meta
+      name="keyword"
+      content="デザイン事務所,WEBサイト制作,ロゴデザイン,チラシ,イラストレーション,パンフレット,WEBシステム開発"
+    />
+    <link rel="canonical" href="https://spicato.com" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta
+      property="og:image"
+      content="https://spicato.com/wp/wp-content/uploads/2019/08/ogimage.png"
+    />
+    <meta
+      property="og:title"
+      content="大阪｜ブランディングデザイン｜WEB制作・システム開発｜株式会社スピッカート"
+    />
+    <meta
+      property="og:description"
+      content="スピッカートは、泉州・南大阪、熊取町にあるデザイン事務所です。モットーは、「お客さまといっしょに、ワクワクしながらつくること」。企業・商品のブランディング、ロゴ、各種広報物、WEBサイト、WEBシステム開発、アプリ開発などの制作を行っています。"
+    />
+    <meta property="og:url" content="https://spicato.com" />
+    <meta property="og:site_name" content="株式会社スピッカート" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- / SEO SIMPLE PACK -->
+
+    <script>
+      document.createElement("picture");
+    </script>
+    <script src="/assets/js/picturefill.min.js" async></script>
+    <script src="/assets/js/pf.mutation.min.js" async></script>
+
+    <script>
+      WebFontConfig = {
+        google: {
+          families: ["Roboto+Slab:400,700"],
+        },
+      };
+
+      (function (d) {
+        var wf = d.createElement("script"),
+          s = d.scripts[0];
+        wf.src = "//ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js";
+        wf.async = true;
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
+
+    <script
+      type="text/javascript"
+      src="//typesquare.com/3/tsad/script/ja/typesquare.js?v3UkynPCE-4%3D"
+      charset="utf-8"
+    ></script>
+
+    <style>
+      .splash {
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      .splash__logo {
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-filter: drop-shadow(0 0 #000);
+        filter: drop-shadow(0 0 #000);
+      }
+      .splash__fallback {
+        opacity: 0;
+        -webkit-transition: opacity 0.5s ease 0.5s;
+        transition: opacity 0.5s ease;
+      }
+      .fallback .splash__logo {
+        display: none;
+      }
+      .fallback .splash__fallback {
+        opacity: 1;
+      }
+      .splash__fallback,
+      .splash__logo {
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+      }
+      @media screen and (max-width: 767px) {
+        .splash__logo {
+          max-width: 217px;
+          width: 57.866666667vw;
+        }
+        .splash__fallback img {
+          max-width: 217px;
+          width: 57.866666667vw;
+        }
+      }
+      @media screen and (min-width: 768px) {
+        .splash__logo {
+          width: 360px;
+        }
+        .splash__fallback img {
+          width: 360px;
+        }
+      }
+    </style>
+
+    <link
+      rel="apple-touch-icon"
+      href="https://spicato.com/apple-touch-icon.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="https://spicato.com/apple-touch-icon.png"
+    />
+  </head>
+  <body class="top">
+    <div id="splash" class="splash">
+      <video
+        src="/assets/video/logo.mp4"
+        class="splash__logo"
+        muted
+        playsinline
+      ></video>
+      <div class="splash__fallback">
+        <img
+          src="data:image/png;base64,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"
+          alt="spicato"
+        />
+      </div>
+    </div>
+    <div id="wrap">
+      <a href="#" id="toggleMenu" class="toggle-menu">
+        <span></span>
+        <span></span>
+      </a>
+      <div id="overlayMenu" class="overlay-menu" style="display: none;">
+        <div class="overlay-menu__side pcOnly">
+          <div
+            class="overlay-menu__side-image cover-image cover-image--absolute js-overlay-menu-image"
+            style="
+              background-image: url('/assets/img/common/pic_overlay-menu01.jpg');
+            "
+          ></div>
+        </div>
+        <div class="overlay-menu__content">
+          <div class="overlay-menu__inner">
+            <ul class="overlay-menu-sns">
+              <li class="overlay-menu-sns__item">
+                <a
+                  href="https://www.facebook.com/spicato"
+                  target="_blank"
+                  rel="noopener"
+                  class="overlay-menu-sns__link"
+                >
+                  <img
+                    src="/assets/img/common/ico_facebook.svg"
+                    alt="Facebook"
+                    class="overlay-menu-sns__icon"
+                  />
+                </a>
+              </li>
+              <li class="overlay-menu-sns__item">
+                <a
+                  href="https://twitter.com/spicato_inc"
+                  target="_blank"
+                  rel="noopener"
+                  class="overlay-menu-sns__link"
+                >
+                  <img
+                    src="/assets/img/common/ico_twitter.svg"
+                    alt="Twitter"
+                    class="overlay-menu-sns__icon"
+                  />
+                </a>
+              </li>
+              <li class="overlay-menu-sns__item">
+                <a
+                  href="https://www.pinterest.jp/spicato_inc/"
+                  target="_blank"
+                  rel="noopener"
+                  class="overlay-menu-sns__link"
+                >
+                  <img
+                    src="/assets/img/common/ico_pinterest.svg"
+                    alt="Pinterest"
+                    class="overlay-menu-sns__icon"
+                  />
+                </a>
+              </li>
+              <li class="overlay-menu-sns__item">
+                <a
+                  href="https://www.instagram.com/spicato_inc/"
+                  target="_blank"
+                  rel="noopener"
+                  class="overlay-menu-sns__link"
+                >
+                  <img
+                    src="/assets/img/common/ico_instagram.svg"
+                    alt="Instagram"
+                    class="overlay-menu-sns__icon"
+                  />
+                </a>
+              </li>
+            </ul>
+
+            <nav class="overlay-menu-nav">
+              <p class="overlay-menu-nav__text pcOnly">contents</p>
+              <ul class="overlay-menu-nav__list">
+                <li class="overlay-menu-nav__item">
+                  <a
+                    href="https://spicato.com/"
+                    data-hover-image="/assets/img/common/pic_overlay-menu01.jpg"
+                    >home</a
+                  >
+                </li>
+                <li
+                  class="overlay-menu-nav__item overlay-menu-nav__item--works"
+                >
+                  <a
+                    href="https://spicato.com/works/"
+                    data-image="/assets/img/common/pic_overlay-menu02.jpg"
+                    >works</a
+                  >
+                </li>
+                <li class="overlay-menu-nav__item">
+                  <a
+                    href="https://spicato.com/philosophy/"
+                    data-hover-image="/assets/img/common/pic_overlay-menu03.jpg"
+                    >philosophy</a
+                  >
+                </li>
+                <li class="overlay-menu-nav__item">
+                  <a
+                    href="https://spicato.com/company/"
+                    data-hover-image="/assets/img/common/pic_overlay-menu04.jpg"
+                    >company</a
+                  >
+                </li>
+                <li class="overlay-menu-nav__item">
+                  <a
+                    href="https://spicato.com/service/"
+                    data-hover-image="/assets/img/common/pic_overlay-menu05.jpg"
+                    >service</a
+                  >
+                </li>
+                <li class="overlay-menu-nav__item">
+                  <a
+                    href="https://spicato.com/blog/"
+                    data-hover-image="/assets/img/common/pic_overlay-menu06.jpg"
+                    >blog</a
+                  >
+                </li>
+                <li class="overlay-menu-nav__item">
+                  <a
+                    href="https://spicato.com/contact/"
+                    target="_blank"
+                    data-hover-image="/assets/img/common/pic_overlay-menu07.jpg"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </nav>
+
+            <address class="overlay-menu-address">
+              T.<a href="tel:072-424-9827">072-424-9827</a> F.072-424-5923<br />
+              <a href="mailto:hello@spicato.com">hello@spicato.com</a><br />
+              Ogaito 3-3-2<br />
+              Kumatori-cho, Osaka, Japan
+            </address>
+
+            <div class="overlay-menu-music">
+              <img
+                src="/assets/img/common/ico_music.png"
+                alt=""
+                class="overlay-menu-music__icon"
+              />
+              <span class="overlay-menu-music__text01">music</span>
+              <span class="overlay-menu-music__text02 js-toggle-music">on</span>
+            </div>
+
+            <a
+              href="https://spicato.com/files/pdf/spicato_companyguide.pdf"
+              target="_blank"
+              rel="noopener"
+              class="overlay-menu__company-profile pcOnly"
+              onclick="gtag('event', 'download', { 'event_category': 'pdf', 'event_label': 'company' });"
+              >company guide<span class="pdf"><span>PDF</span></span></a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="barba-wrapper">
+        <div class="barba-container" data-namespace="top">
+          <header class="header">
+            <h1>
+              <a href="https://spicato.com/">
+                <svg
+                  class="header__logo"
+                  width="147.711"
+                  height="32"
+                  viewBox="0 0 147.711 32"
+                >
+                  <use xlink:href="#logo"></use>
+                </svg>
+              </a>
+            </h1>
+            <div class="header__texts">
+              <p class="header__text">WEB and GRAPHIC<br />CREATIVE STUDIO</p>
+              <address class="header__address">
+                T.<a href="tel:072-424-9827">072-424-9827</a>
+                F.072-424-5923<br />
+                <a href="mailto:hello@spicato.com">hello@spicato.com</a><br />
+                Ogaito 3-3-2<br />
+                Kumatori-cho, Osaka, Japan
+              </address>
+            </div>
+          </header>
+          <div id="mainVisual" class="main-visual">
+            <div class="main-visual-slides-wrapper">
+              <div id="mainVisualSlides" class="main-visual-slides">
+                <a
+                  href="https://spicato.com/works/detail/w-voila/"
+                  class="main-visual-slide"
+                >
+                  <div
+                    class="cover-image cover-image--absolute pcOnly"
+                    style="
+                      background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/th__MG_1388-2_4.jpg);
+                    "
+                  ></div>
+                  <div
+                    class="cover-image cover-image--absolute smOnly"
+                    style="
+                      background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/th_381A1116-4.jpg);
+                    "
+                  ></div>
+                  <div class="main-visual-slide-data">
+                    <div class="main-visual-slide-data__body">
+                      <span class="main-visual-slide-data__new-works"
+                        >new works</span
+                      >
+                      <p class="main-visual-slide-data__title">
+                        VOILA COFFEE Official site
+                      </p>
+                    </div>
+                    <p class="main-visual-slide-data__category">official</p>
+                  </div>
+                </a>
+                <a
+                  href="https://spicato.com/works/detail/w-ito-noen-2/"
+                  class="main-visual-slide"
+                >
+                  <div
+                    class="cover-image cover-image--absolute pcOnly"
+                    style="
+                      background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/th_381A8618.jpg);
+                    "
+                  ></div>
+                  <div
+                    class="cover-image cover-image--absolute smOnly"
+                    style="
+                      background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/th_381A8620_3-1.jpg);
+                    "
+                  ></div>
+                  <div class="main-visual-slide-data">
+                    <div class="main-visual-slide-data__body">
+                      <span class="main-visual-slide-data__new-works"
+                        >new works</span
+                      >
+                      <p class="main-visual-slide-data__title">
+                        ITO NOEN Official site
+                      </p>
+                    </div>
+                    <p class="main-visual-slide-data__category">official</p>
+                  </div>
+                </a>
+                <a
+                  href="https://spicato.com/works/detail/g-ohtake/"
+                  class="main-visual-slide"
+                >
+                  <div
+                    class="cover-image cover-image--absolute pcOnly"
+                    style="
+                      background-image: url(https://spicato.com/wp/wp-content/uploads/2019/06/mv03_pc.jpg);
+                    "
+                  ></div>
+                  <div
+                    class="cover-image cover-image--absolute smOnly"
+                    style="
+                      background-image: url(https://spicato.com/wp/wp-content/uploads/2019/06/mv03_sp.jpg);
+                    "
+                  ></div>
+                  <div class="main-visual-slide-data">
+                    <div class="main-visual-slide-data__body">
+                      <span class="main-visual-slide-data__new-works"
+                        >new works</span
+                      >
+                      <p class="main-visual-slide-data__title">
+                        OHTAKE GAKUEN School guide
+                      </p>
+                    </div>
+                    <p class="main-visual-slide-data__category">pamphlet</p>
+                  </div>
+                </a>
+              </div>
+              <img
+                src="/assets/img/top/img_main-visual-illust01.gif"
+                alt=""
+                class="main-visual__illust01 smOnly"
+              />
+            </div>
+            <div class="main-visual__contents pcOnly">
+              <ul class="main-visual-sns">
+                <li class="main-visual-sns__item">
+                  <a
+                    href="https://www.facebook.com/spicato"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img
+                      src="/assets/img/common/ico_facebook.svg"
+                      alt="Facebook"
+                      class="main-visual-sns__icon main-visual-sns__icon--facebook"
+                    />
+                  </a>
+                </li>
+                <li class="main-visual-sns__item">
+                  <a
+                    href="https://twitter.com/spicato_inc"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img
+                      src="/assets/img/common/ico_twitter.svg"
+                      alt="Twitter"
+                      class="main-visual-sns__icon main-visual-sns__icon--twitter"
+                    />
+                  </a>
+                </li>
+                <li class="main-visual-sns__item">
+                  <a
+                    href="https://www.pinterest.jp/spicato_inc/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img
+                      src="/assets/img/common/ico_pinterest.svg"
+                      alt="Pinterest"
+                      class="main-visual-sns__icon main-visual-sns__icon--pinterest"
+                    />
+                  </a>
+                </li>
+                <li class="main-visual-sns__item">
+                  <a
+                    href="https://www.instagram.com/spicato_inc/"
+                    target="_blank"
+                    rel="noopener"
+                  >
+                    <img
+                      src="/assets/img/common/ico_instagram.svg"
+                      alt="Instagram"
+                      class="main-visual-sns__icon main-visual-sns__icon--instagram"
+                    />
+                  </a>
+                </li>
+              </ul>
+              <nav class="main-visual-nav">
+                <ul class="main-visual-nav__list">
+                  <li class="main-visual-nav__item">
+                    <a href="https://spicato.com/works/">works</a>
+                  </li>
+                  <li class="main-visual-nav__item">
+                    <a href="https://spicato.com/philosophy/">philosophy</a>
+                  </li>
+                  <li class="main-visual-nav__item">
+                    <a href="https://spicato.com/company/">company</a>
+                  </li>
+                  <li class="main-visual-nav__item">
+                    <a href="https://spicato.com/service/">service</a>
+                  </li>
+                  <li class="main-visual-nav__item">
+                    <a href="https://spicato.com/blog/">blog</a>
+                  </li>
+                  <li class="main-visual-nav__item">
+                    <a href="https://spicato.com/contact/" target="_blank"
+                      >contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <img
+                src="/assets/img/top/img_main-visual-illust02.gif"
+                alt=""
+                class="main-visual__illust02 pcOnly"
+              />
+            </div>
+            <div class="main-visual__copyright-wrapper">
+              <p class="main-visual__copyright">
+                © spicato inc. All rights reserved.
+              </p>
+            </div>
+            <div class="main-visual__scroll-down-wrapper pcOnly">
+              <p class="main-visual__scroll-down">
+                scroll down
+                <svg
+                  enable-background="new 0 0 36 36"
+                  viewBox="0 0 36 36"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g fill="none" stroke="#fff" stroke-width="2">
+                    <path d="m19 27.5 10-9.5-10-9.5" class="path path1" />
+                    <path d="m7 18h15" class="path" />
+                  </g>
+                </svg>
+              </p>
+            </div>
+          </div>
+
+          <div class="p-emergency fadeInUp" data-top-animation>
+            <div class="p-emergency__inner">
+              <h2 class="p-emergency__tit" id="p-emergency__tit">
+                <span>2020.5.25</span>
+                現在の業務状況につきまして
+                <div class="p-emergency__tit-arrow"></div>
+              </h2>
+              <div class="p-emergency__txt" id="p-emergency__txt">
+                <p class="p-emergency__txt-inner" id="p-emergency__txt-inner">
+                  しばらくの間、全社員リモートワークの体制をとっておりましたが、<br />
+                  緊急事態宣言の解除に伴い、通常営業へと移行いたしました。<br />
+                  連絡が取りにくいなど、期間中ご迷惑をおかけし誠に申し訳ございませんでした。<br /><br />
+                  今もなお、終息している状態ではありませんので、状況が収束するまでの間は従業員やそのご家族、お客様の安全を第一に考え、以下の対応を行って参ります。<br /><br />
+                  <span class="p-emergency__txt-line"
+                    >出社時、入室時に手洗いやアルコールスプレーによる手指消毒</span
+                  ><br />
+                  <span class="p-emergency__txt-line"
+                    >勤務中、特に対面など距離が近くなる場合のマスク着用</span
+                  ><br />
+                  <span class="p-emergency__txt-line">日々の検温や体調管理</span
+                  ><br /><br />
+                  ご来社いただけるお客様にもご協力いただければ幸いです。<br />
+                  今後も新型コロナウイルスの感染拡大状況によって、臨機応変に対応して参ります。<br />
+                  体制や営業状況に変化が生じた場合は、当サイトにてお知らせいたします。
+                  <span class="p-emergency__txt-box">
+                    株式会社スピッカート<br />
+                    代表取締役 細尾正行
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <section class="top-intro-section-module">
+            <div class="top-intro-section-module__inner">
+              <h2
+                class="top-intro-section-module__heading fadeInUp"
+                data-top-animation
+              >
+                思いは、<br />つよいほどつよい。
+              </h2>
+              <div class="pcOnly">
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  スピッカートは、泉州・南大阪、熊取町にあるデザイン事務所です。
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  企業・商品のブランディング、ロゴ、各種広報物、WEBサイト、
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  WEBシステム開発、アプリ開発などの制作を行っています。
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  わたしたちにできることは、あなたのお店や会社自体の魅力、
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  サービスや商品の「らしさ」を引き出すこと。
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  そしてそれをデザインというカタチにして伝えるということです。
+                </p>
+                <br />
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  デザインって、思いが強ければ強いほど、ステキになるもの。
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  そのためにまず、あなたのアツい思いを聞かせてください。
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  わたしたちも、その思いに一生懸命ついていきます。
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  あなただけでなく、わたしたちだけでもなく、
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  いっしょにつくりあげていく。
+                </p>
+                <br />
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  あなたが胸を張って誇れるコトを、
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  「あなたらしいね。」と思ってもらえるようなモノを
+                </p>
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  スピッカートといっしょに、たのしく、育てていきませんか？
+                </p>
+              </div>
+              <div class="smOnly">
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  スピッカートは、泉州・南大阪、熊取町にあるデザイン事務所です。企業・商品のブランディング、ロゴ、各種広報物、WEBサイト、WEBシステム開発、アプリ開発などの制作を行っています。わたしたちにできることは、あなたのお店や会社自体の魅力、サービスや商品の「らしさ」を引き出すこと。そしてそれをデザインというカタチにして伝えるということです。
+                </p>
+                <br />
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  デザインって、思いが強ければ強いほど、ステキになるもの。そのためにまず、あなたのアツい思いを聞かせてください。わたしたちも、その思いに一生懸命ついていきます。あなただけでなく、わたしたちだけでもなく、いっしょにつくりあげていく。
+                </p>
+                <br /><br />
+                <p
+                  class="top-intro-section-module__text fadeInUp"
+                  data-top-animation
+                >
+                  あなたが胸を張って誇れるコトを、「あなたらしいね。」と思ってもらえるようなモノをスピッカートといっしょに、たのしく、育てていきませんか？
+                </p>
+              </div>
+            </div>
+            <img
+              src="/assets/img/top/img_top-intro01.gif"
+              alt=""
+              class="top-intro-section-module__image01"
+            />
+          </section>
+          <div class="top-cover-image-module top-cover-image-module--01">
+            <div class="js-parallax-parent top-cover-image-module__inner">
+              <div
+                class="top-cover-image-module__scale"
+                data-animation
+                data-animation-cb="top"
+              >
+                <div
+                  class="js-parallax-child cover-image cover-image--absolute pcOnly"
+                  data-background="/assets/img/top/pic_top01_pc.jpg"
+                ></div>
+                <div
+                  class="js-parallax-child cover-image cover-image--absolute smOnly"
+                  data-background="/assets/img/top/pic_top01.jpg"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <section class="top-section-module top-service-section-module">
+            <div class="top-section-module__heading-wrap">
+              <div class="top-section-module__heading-inner">
+                <h2 class="top-section-module__heading js-heading">service</h2>
+                <img
+                  src="/assets/img/service/service.gif"
+                  alt=""
+                  class="top-section-module__heading-illust"
+                />
+              </div>
+            </div>
+            <ul class="top-service-section-module__list">
+              <li><span>branding</span> design</li>
+              <li><span>graphic and web</span> design</li>
+              <li><span>web system</span> development</li>
+            </ul>
+            <p class="top-service-section-module__text">
+              地元泉州、南大阪地域の起業前のスタートアップのお手伝いから、<br
+                class="pcOnly"
+              />ブランド戦略の転換を目的としたリブランディングなど、ブランディングデザインを行っています。<br />ロゴ制作、WEBサイト制作やWEBシステム開発、グラフィックデザインなど、ツールのみのご依頼もお待ちしております。
+            </p>
+            <ul class="top-services">
+              <li class="top-service">
+                <a href="https://spicato.com/service/">
+                  <figure class="top-service__icon">
+                    <img
+                      src="/assets/img/top/ico_service01.png"
+                      alt="サービス内容について"
+                    />
+                  </figure>
+                  <p class="top-service__title">サービス内容について</p>
+                </a>
+              </li>
+              <li class="top-service">
+                <a href="https://spicato.com/service/pricing/">
+                  <figure class="top-service__icon">
+                    <img
+                      src="/assets/img/top/ico_service02.png"
+                      alt="制作費について"
+                    />
+                  </figure>
+                  <p class="top-service__title">制作費について</p>
+                </a>
+              </li>
+              <li class="top-service">
+                <a href="https://spicato.com/service/for-new-customer/">
+                  <figure class="top-service__icon">
+                    <img
+                      src="/assets/img/top/ico_service03.png"
+                      alt="はじめてご依頼の方へ"
+                    />
+                  </figure>
+                  <p class="top-service__title">はじめてご依頼の方へ</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <div class="top-section-module top-works-section-module">
+            <div
+              class="top-section-module__heading-wrap top-works-section-module__heading"
+            >
+              <div class="top-section-module__heading-inner">
+                <h2 class="top-section-module__heading js-heading">works</h2>
+                <img
+                  src="/assets/img/works/img_heading02.gif"
+                  alt=""
+                  class="top-section-module__heading-illust"
+                />
+              </div>
+            </div>
+            <div
+              class="toolbar-module toolbar-module--one-line toolbar-module--works-index"
+            >
+              <div class="toolbar-section-module">
+                <span class="toolbar-section-module__heading">category</span>
+                <div class="toolbar-section-module__content">
+                  <ul class="toolbar-section-module__list">
+                    <li class="toolbar-section-module__list-item">
+                      <a href="#" class="is-current js-toggle-dropdown-menu"
+                        >all view</a
+                      >
+                      <div
+                        class="toolbar-section-module__dropdown-menu dropdown-menu"
+                        style="display: none;"
+                      >
+                        <ul class="dropdown-menu__list">
+                          <li class="dropdown-menu__list-item">
+                            <a href="https://spicato.com/works">all view</a>
+                          </li>
+                          <li class="dropdown-menu__list-item">
+                            <a
+                              href="https://spicato.com/works/category/branding-design/"
+                            >
+                              branding design
+                            </a>
+                          </li>
+                          <li class="dropdown-menu__list-item">
+                            <a
+                              href="https://spicato.com/works/category/tool-design/"
+                            >
+                              tool design
+                            </a>
+                            <ul
+                              class="dropdown-menu__list dropdown-menu__list--sub-list"
+                            >
+                              <li class="dropdown-menu__list-item">
+                                <a
+                                  href="https://spicato.com/works/category/web/"
+                                >
+                                  web
+                                </a>
+                                <ul
+                                  class="dropdown-menu__list dropdown-menu__list--sub-list"
+                                >
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/official/"
+                                    >
+                                      official
+                                    </a>
+                                  </li>
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/recruiting/"
+                                    >
+                                      recruiting
+                                    </a>
+                                  </li>
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/owned-media/"
+                                    >
+                                      owned media
+                                    </a>
+                                  </li>
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/landing-page/"
+                                    >
+                                      landing page
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li class="dropdown-menu__list-item">
+                                <a
+                                  href="https://spicato.com/works/category/graphic/"
+                                >
+                                  graphic
+                                </a>
+                                <ul
+                                  class="dropdown-menu__list dropdown-menu__list--sub-list"
+                                >
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/logo/"
+                                    >
+                                      logo
+                                    </a>
+                                  </li>
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/cardflier/"
+                                    >
+                                      card,flier
+                                    </a>
+                                  </li>
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/pamphlet/"
+                                    >
+                                      pamphlet
+                                    </a>
+                                  </li>
+                                  <li class="dropdown-menu__list-item">
+                                    <a
+                                      href="https://spicato.com/works/category/others/"
+                                    >
+                                      others
+                                    </a>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-menu__list-item">
+                            <a
+                              href="https://spicato.com/works/category/web-system/"
+                            >
+                              web system
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="top-works-section-module__works">
+              <div id="worksBlock" class="works-block-module">
+                <div class="works-block-module__slider siema">
+                  <div
+                    class="works-block-module__slide"
+                    data-category="web"
+                    data-title="WAKABA HOIKUEN Official site"
+                    data-client="わかばケアグループ わかば保育園"
+                  >
+                    <a
+                      href="https://spicato.com/works/detail/wakaba-hoikuen-official-site/"
+                    >
+                      <div
+                        class="cover-image"
+                        style="
+                          background-image: url(https://spicato.com/wp/wp-content/uploads/2020/01/wakaba.jpg);
+                        "
+                      ></div>
+                    </a>
+                  </div>
+                  <div
+                    class="works-block-module__slide"
+                    data-category="branding design"
+                    data-title="U FOODS Branding design"
+                    data-client="ユーフーズ株式会社"
+                  >
+                    <a href="https://spicato.com/works/detail/b-ufoods/">
+                      <div
+                        class="cover-image"
+                        style="
+                          background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/381A1331-1-2.jpg);
+                        "
+                      ></div>
+                    </a>
+                  </div>
+                  <div
+                    class="works-block-module__slide"
+                    data-category="official"
+                    data-title="OSAKA UNIVERSITY OF TOURISM Official Site"
+                    data-client="学校法人明浄学院 大阪観光大学"
+                  >
+                    <a href="https://spicato.com/works/detail/w-tourism/">
+                      <div
+                        class="cover-image"
+                        style="
+                          background-image: url(https://spicato.com/wp/wp-content/uploads/2019/06/ad2161bcb6b753dbb0c5e06714924573.jpg);
+                        "
+                      ></div>
+                    </a>
+                  </div>
+                  <div
+                    class="works-block-module__slide"
+                    data-category="branding design"
+                    data-title="KITAYAMA MASATSUMU SHOTEN Branding design"
+                    data-client="株式会社北山正積商店"
+                  >
+                    <a
+                      href="https://spicato.com/works/detail/b-kitayamamasatsumu/"
+                    >
+                      <div
+                        class="cover-image"
+                        style="
+                          background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/kitayama_b_matome-3.jpg);
+                        "
+                      ></div>
+                    </a>
+                  </div>
+                  <div
+                    class="works-block-module__slide"
+                    data-category="owned media"
+                    data-title="MIKAN na ZUKAN Owned media"
+                    data-client="株式会社伊藤農園"
+                  >
+                    <a href="https://spicato.com/works/detail/w-ito-noen/">
+                      <div
+                        class="cover-image"
+                        style="
+                          background-image: url(https://spicato.com/wp/wp-content/uploads/2019/06/Mikan-1.png);
+                        "
+                      ></div>
+                    </a>
+                  </div>
+                  <div
+                    class="works-block-module__slide"
+                    data-category="recruiting"
+                    data-title="KYOCERA Document Solutions Recruiting  site"
+                    data-client="京セラドキュメントソリューションズ株式会社"
+                  >
+                    <a
+                      href="https://spicato.com/works/detail/w-kyoceradocumentsolutions/"
+                    >
+                      <div
+                        class="cover-image"
+                        style="
+                          background-image: url(https://spicato.com/wp/wp-content/uploads/2019/07/4e22d6c03dd026de2b0f542b9c4807ba-2.jpg);
+                        "
+                      ></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="works-block-module__content">
+                  <div class="works-block-module__content-inner">
+                    <p class="works-block-module__category">web</p>
+                    <p class="works-block-module__text01">
+                      WAKABA HOIKUEN Official site
+                    </p>
+                    <p class="works-block-module__text02">
+                      わかばケアグループ わかば保育園
+                    </p>
+                  </div>
+                  <a href="#" class="works-block-module__prev js-stalker">
+                    <img src="/assets/img/common/ico_angle-left01.svg" alt="" />
+                  </a>
+                  <a href="#" class="works-block-module__next js-stalker">
+                    <img
+                      src="/assets/img/common/ico_angle-right01.svg"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="d-none">
+                webWAKABA HOIKUEN Official siteわかばケアグループ
+                わかば保育園branding designU FOODS Branding
+                designユーフーズ株式会社officialOSAKA UNIVERSITY OF TOURISM
+                Official Site学校法人明浄学院 大阪観光大学branding
+                designKITAYAMA MASATSUMU SHOTEN Branding
+                design株式会社北山正積商店owned mediaMIKAN na ZUKAN Owned
+                media株式会社伊藤農園recruitingKYOCERA Document Solutions
+                Recruiting site京セラドキュメントソリューションズ株式会社
+              </div>
+            </div>
+          </div>
+          <div class="top-cover-image-module top-cover-image-module--02">
+            <div class="js-parallax-parent top-cover-image-module__inner">
+              <div class="top-cover-image-module__scale" data-animation>
+                <div
+                  class="js-parallax-child cover-image cover-image--absolute pcOnly"
+                  data-background="/assets/img/top/pic_top02_pc.jpg"
+                ></div>
+                <div
+                  class="js-parallax-child cover-image cover-image--absolute smOnly"
+                  data-background="/assets/img/top/pic_top02.jpg"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <div class="top-sections-module">
+            <section
+              class="top-sections-module__section top-section-module top-company-section-module"
+            >
+              <a href="https://spicato.com/company/">
+                <div
+                  class="top-section-module__heading-wrap top-works-section-module__heading"
+                >
+                  <div class="top-section-module__heading-inner">
+                    <h2
+                      class="top-section-module__heading js-heading"
+                      data-heading-invisible="4"
+                    >
+                      company
+                    </h2>
+                    <img
+                      src="/assets/img/company/img_heading01.gif"
+                      alt=""
+                      class="top-section-module__heading-illust"
+                    />
+                  </div>
+                </div>
+                <p class="top-company-section-module__text">
+                  スピッカートは泉州・南大阪、熊取町に本社があります。<br
+                    class="pcOnly"
+                  />わたしたちが頑張ることで、少しでも地元がおもしろくなれば！<br
+                    class="pcOnly"
+                  />そんな思いで、地域に根ざしたデザインを目指しています。
+                </p>
+                <figure
+                  class="top-sections-module__figure top-company-section-module__figure"
+                >
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyNTAnPjwvc3ZnPg=="
+                    alt=""
+                    data-src="/assets/img/top/pic_top03.jpg"
+                    class="lazy"
+                  />
+                </figure>
+              </a>
+            </section>
+            <section
+              class="top-sections-module__section top-section-module top-members-section-module"
+            >
+              <a href="https://spicato.com/company/#members">
+                <div
+                  class="top-section-module__heading-wrap top-works-section-module__heading"
+                >
+                  <div class="top-section-module__heading-inner">
+                    <h2 class="top-section-module__heading js-heading">
+                      members
+                    </h2>
+                    <img
+                      src="/assets/img/service/service.gif"
+                      alt=""
+                      class="top-section-module__heading-illust"
+                    />
+                  </div>
+                </div>
+                <p class="top-members-section-module__text">
+                  スピッカートには新人も含め、現在9名のメンバーがいます。<br
+                    class="pcOnly"
+                  />メンバーそれぞれのスキル、得意なこと、<br
+                    class="pcOnly"
+                  />好きなものなどをご紹介します。
+                </p>
+                <figure
+                  class="top-sections-module__figure top-members-section-module__figure"
+                >
+                  <img
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzQ4MCcgaGVpZ2h0PScyNTAnPjwvc3ZnPg=="
+                    alt=""
+                    data-src="/assets/img/top/pic_top04.jpg"
+                    class="lazy"
+                  />
+                </figure>
+              </a>
+            </section>
+          </div>
+          <section class="top-section-module top-blog-section-module">
+            <div class="top-section-module__heading-wrap">
+              <div class="top-section-module__heading-inner">
+                <h2 class="top-section-module__heading js-heading">blog</h2>
+                <img
+                  src="/assets/img/blog/img_heading01.gif"
+                  alt=""
+                  class="top-section-module__heading-illust"
+                />
+              </div>
+            </div>
+            <div
+              class="top-blog-section-module__articles blog-articles01-module blog-articles01-module--row"
+            >
+              <article class="blog-article01-module">
+                <a href="https://spicato.com/blog/11/atumori/">
+                  <figure class="blog-article01-module__figure">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzQ1NScgaGVpZ2h0PScyNDAnPjwvc3ZnPg=="
+                      alt=""
+                      data-src="https://spicato.com/wp/wp-content/uploads/2020/06/IMG_4786-910x480.jpg"
+                      class="lazy"
+                    />
+                  </figure>
+                  <div class="blog-article01-module__content">
+                    <h3 class="blog-article01-module__title">
+                      あつまれどうぶつの森で美術館巡りをしよう！
+                    </h3>
+                    <p class="blog-article01-module__excerpt">
+                      こんにちは！休日は美術館に行くのが好きな、spicatoの伊藤です。(前回の記事でかいた個人写真のオフショットなのですが、何を思っている顔なんだろうこれ…)
+                      思うように外出できない今日この頃ですが、私は最近ブームの「あつ...
+                    </p>
+                    <div class="blog-article01-module__dls">
+                      <dl class="blog-article01-module__dl">
+                        <dt>author</dt>
+                        <dd>Mizuki Ito</dd>
+                      </dl>
+                      <dl class="blog-article01-module__dl">
+                        <dt>date</dt>
+                        <dd>2020.06.09(tue)</dd>
+                      </dl>
+                    </div>
+                  </div>
+                </a>
+              </article>
+              <article class="blog-article01-module">
+                <a
+                  href="https://spicato.com/blog/9/%e6%96%b0%e5%85%a5%e3%82%8acanon-5d-mark%e2%85%a3%e3%81%a7%e5%95%86%e5%93%81%e6%92%ae%e5%bd%b1%e7%b7%b4%e7%bf%92%e4%bc%9a%ef%bc%81%e3%80%9c%e7%88%bd%e3%82%84%e3%81%8b%e3%82%bc%e3%83%aa%e3%83%bc/"
+                >
+                  <figure class="blog-article01-module__figure">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzQ1NScgaGVpZ2h0PScyNDAnPjwvc3ZnPg=="
+                      alt=""
+                      data-src="https://spicato.com/wp/wp-content/uploads/2020/05/1R3A6429-910x480.jpg"
+                      class="lazy"
+                    />
+                  </figure>
+                  <div class="blog-article01-module__content">
+                    <h3 class="blog-article01-module__title">
+                      新入りcanon 5D markⅣで商品撮影練習会！〜爽やかゼリー編〜
+                    </h3>
+                    <p class="blog-article01-module__excerpt">
+                      みなさんこんばんは。どーです。
+                      緊急事態宣言が解除されましたね。スピッカートも、本日から通常の勤務体制に戻りました。リモートワーク楽しかったのでちょっと残念ですが、やっぱり事務所は落ち着きます。
+                      先日、事務所に新しいカメ...
+                    </p>
+                    <div class="blog-article01-module__dls">
+                      <dl class="blog-article01-module__dl">
+                        <dt>author</dt>
+                        <dd>Akiho Kadowaki</dd>
+                      </dl>
+                      <dl class="blog-article01-module__dl">
+                        <dt>date</dt>
+                        <dd>2020.05.26(tue)</dd>
+                      </dl>
+                    </div>
+                  </div>
+                </a>
+              </article>
+              <article class="blog-article01-module">
+                <a href="https://spicato.com/blog/6/kumatori-orinohana/">
+                  <figure class="blog-article01-module__figure">
+                    <img
+                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZlcnNpb249JzEuMScgd2lkdGg9JzQ1NScgaGVpZ2h0PScyNDAnPjwvc3ZnPg=="
+                      alt=""
+                      data-src="https://spicato.com/wp/wp-content/uploads/2020/05/DSC09823-1-910x480.jpg"
+                      class="lazy"
+                    />
+                  </figure>
+                  <div class="blog-article01-module__content">
+                    <h3 class="blog-article01-module__title">
+                      くまとりエール飯Vol.2　焙煎と珈琲
+                      織の花。（おりのはな）さん
+                    </h3>
+                    <p class="blog-article01-module__excerpt">
+                      こんにちは、エンジニアのしんちゃんです。
+                      前回のくまとりエール飯に引き続き、今回もくまとりエール飯シリーズです。飯とはいえど、ご飯だけじゃないんですよ。これが。お店一覧はこちら↓
+                      ■熊取町内テイクアウト一覧（熊取町公式ペ...
+                    </p>
+                    <div class="blog-article01-module__dls">
+                      <dl class="blog-article01-module__dl">
+                        <dt>author</dt>
+                        <dd>Koji Shintani</dd>
+                      </dl>
+                      <dl class="blog-article01-module__dl">
+                        <dt>date</dt>
+                        <dd>2020.05.14(thu)</dd>
+                      </dl>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </div>
+          </section>
+        </div>
+        <!-- /.barba-container -->
+      </div>
+      <!-- /#barba-wrapper -->
+      <footer class="footer">
+        <a href="#" class="back-to-top">
+          <img src="/assets/img/common/ico_back-to-top.svg" alt="BACK TO TOP" />
+        </a>
+        <ul class="footer-sns">
+          <li class="footer-sns__item">
+            <a
+              href="https://www.facebook.com/spicato"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="/assets/img/common/ico_facebook.svg"
+                alt="Facebook"
+                class="footer-sns__icon"
+              />
+            </a>
+          </li>
+          <li class="footer-sns__item">
+            <a
+              href="https://twitter.com/spicato_inc"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="/assets/img/common/ico_twitter.svg"
+                alt="Twitter"
+                class="footer-sns__icon"
+              />
+            </a>
+          </li>
+          <li class="footer-sns__item">
+            <a
+              href="https://www.pinterest.jp/spicato_inc/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="/assets/img/common/ico_pinterest.svg"
+                alt="Pinterest"
+                class="footer-sns__icon"
+              />
+            </a>
+          </li>
+          <li class="footer-sns__item">
+            <a
+              href="https://www.instagram.com/spicato_inc/"
+              target="_blank"
+              rel="noopener"
+            >
+              <img
+                src="/assets/img/common/ico_instagram.svg"
+                alt="Instagram"
+                class="footer-sns__icon"
+              />
+            </a>
+          </li>
+        </ul>
+        <p class="footer__copyright">© spicato inc. All rights reserved.</p>
+      </footer>
+      <div class="loading">
+        <img
+          src="https://spicato.com/assets/img/common/img_loading01.gif"
+          alt=""
+          class="loading__image"
+        />
+      </div>
+      <img
+        src="/assets/img/common/img_stalker.svg"
+        alt=""
+        class="stalker pcOnly"
+      />
+    </div>
+    <!-- /#wrap -->
+    <audio src="/assets/m4a/bgm.mp4" id="audio" type="audio/aac" loop></audio>
+    <script
+      type="text/javascript"
+      src="//polyfill.io/v3/polyfill.min.js?flags=gated&#038;features=Object.getOwnPropertySymbols,es5,es6,MutationObserver,requestIdleCallback"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://polyfill.io/v3/polyfill.min.js?flags=always,gated&#038;features=IntersectionObserver%2CIntersectionObserverEntry"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://spicato.com/assets/js/vendor.bundle.js?ver=af7d3f7a0c62cc4f31f90373d2cdd414"
+    ></script>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var post_views_count = {
+        url: "https:\/\/spicato.com\/wp-json\/spicato\/v1\/post_views_count\/",
+        nonce: "762716def0",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="https://spicato.com/assets/js/common.js?ver=af7d3f7a0c62cc4f31f90373d2cdd414"
+    ></script>
+    <script type="text/javascript">
+      window.sitest_sent_html = document.getElementsByTagName(
+        "html"
+      )[0].outerHTML;
+    </script>
+  </body>
+</html>
