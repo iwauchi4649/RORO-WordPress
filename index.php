@@ -42,106 +42,44 @@
     </div>
 
   </section>
+  <?php query_posts('posts_per_page=3'); ?>
+  <?php if(have_posts()): ?>
+ <?php while(have_posts()): the_post(); ?>
     <div class="top-blog-section-module__articles blog-articles01-module blog-articles01-module--row">
       <article class="blog-article01-module">
-        <a href="https://spicato.com/blog/11/atumori/">
+        <a href="<?php the_permalink(); ?>">
           <figure class="blog-article01-module__figure">
             <img
-              src="https://lh3.googleusercontent.com/JJTWr_dgKmsutwuB83T8EHpdWPc3VRShJZOJvBxXUy-cpBsO5ErZRjziYD0Xdxx_cAt1WwcfERnoI6H6-fRf-vJSklMcUPZ3HYIt=w0"
+              src="<?php the_post_thumbnail(); ?>"
               class=""
               style="opacity: 1;"
             />
           </figure>
           <div class="blog-article01-module__content">
             <h3 class="blog-article01-module__title">
-              あつまれどうぶつの森で美術館巡りをしよう！
+            <?php echo mb_substr(the_title(), 0, 15, 'UTF-8'); ?>	
             </h3>
             <p class="blog-article01-module__excerpt">
-              こんにちは！休日は美術館に行くのが好きな、spicatoの伊藤です。(前回の記事でかいた個人写真のオフショットなのですが、何を思っている顔なんだろうこれ…)
-              思うように外出できない今日この頃ですが、私は最近ブームの「あつ...
+            <?php echo mb_substr(get_the_excerpt(), 0, 30, 'UTF-8');?>
             </p>
             <div class="blog-article01-module__dls">
               <dl class="blog-article01-module__dl">
                 <dt>author</dt>
-                <dd>Mizuki Ito</dd>
+                <dd><?php the_author(); ?></dd>
               </dl>
               <dl class="blog-article01-module__dl">
                 <dt>date</dt>
-                <dd>2020.06.09(tue)</dd>
+                <dd><?php echo get_the_date( $format, $post ); ?></dd>
               </dl>
             </div>
           </div>
         </a>
       </article>
-      <article class="blog-article01-module">
-        <a
-          href="https://spicato.com/blog/9/%e6%96%b0%e5%85%a5%e3%82%8acanon-5d-mark%e2%85%a3%e3%81%a7%e5%95%86%e5%93%81%e6%92%ae%e5%bd%b1%e7%b7%b4%e7%bf%92%e4%bc%9a%ef%bc%81%e3%80%9c%e7%88%bd%e3%82%84%e3%81%8b%e3%82%bc%e3%83%aa%e3%83%bc/"
-        >
-          <figure class="blog-article01-module__figure">
-            <img
-              src="https://lh3.googleusercontent.com/JJTWr_dgKmsutwuB83T8EHpdWPc3VRShJZOJvBxXUy-cpBsO5ErZRjziYD0Xdxx_cAt1WwcfERnoI6H6-fRf-vJSklMcUPZ3HYIt=w0"
-              alt=""
-              data-src="https://spicato.com/wp/wp-content/uploads/2020/05/1R3A6429-910x480.jpg"
-              class=""
-              style="opacity: 1;"
-            />
-          </figure>
-          <div class="blog-article01-module__content">
-            <h3 class="blog-article01-module__title">
-              新入りcanon 5D markⅣで商品撮影練習会！〜爽やかゼリー編〜
-            </h3>
-            <p class="blog-article01-module__excerpt">
-              みなさんこんばんは。どーです。
-              緊急事態宣言が解除されましたね。スピッカートも、本日から通常の勤務体制に戻りました。リモートワーク楽しかったのでちょっと残念ですが、やっぱり事務所は落ち着きます。
-              先日、事務所に新しいカメ...
-            </p>
-            <div class="blog-article01-module__dls">
-              <dl class="blog-article01-module__dl">
-                <dt>author</dt>
-                <dd>Akiho Kadowaki</dd>
-              </dl>
-              <dl class="blog-article01-module__dl">
-                <dt>date</dt>
-                <dd>2020.05.26(tue)</dd>
-              </dl>
-            </div>
-          </div>
-        </a>
-      </article>
-      <article class="blog-article01-module">
-        <a
-          href="https://lh3.googleusercontent.com/JJTWr_dgKmsutwuB83T8EHpdWPc3VRShJZOJvBxXUy-cpBsO5ErZRjziYD0Xdxx_cAt1WwcfERnoI6H6-fRf-vJSklMcUPZ3HYIt=w0"
-        >
-          <figure class="blog-article01-module__figure">
-            <img
-              src="https://lh3.googleusercontent.com/JJTWr_dgKmsutwuB83T8EHpdWPc3VRShJZOJvBxXUy-cpBsO5ErZRjziYD0Xdxx_cAt1WwcfERnoI6H6-fRf-vJSklMcUPZ3HYIt=w0"
-              alt=""
-              data-src="https://spicato.com/wp/wp-content/uploads/2020/05/DSC09823-1-910x480.jpg"
-              class=""
-              style="opacity: 1;"
-            />
-          </figure>
-          <div class="blog-article01-module__content">
-            <h3 class="blog-article01-module__title">
-              くまとりエール飯Vol.2　焙煎と珈琲 織の花。（おりのはな）さん
-            </h3>
-            <p class="blog-article01-module__excerpt">
-              こんにちは、エンジニアのしんちゃんです。
-              前回のくまとりエール飯に引き続き、今回もくまとりエール飯シリーズです。飯とはいえど、ご飯だけじゃないんですよ。これが。お店一覧はこちら↓
-              ■熊取町内テイクアウト一覧（熊取町公式ペ...
-            </p>
-            <div class="blog-article01-module__dls">
-              <dl class="blog-article01-module__dl">
-                <dt>author</dt>
-                <dd>Koji Shintani</dd>
-              </dl>
-              <dl class="blog-article01-module__dl">
-                <dt>date</dt>
-                <dd>2020.05.14(thu)</dd>
-              </dl>
-            </div>
-          </div>
-        </a>
-      </article>
+      <?php endwhile; ?>
+<?php endif; ?>
     </div>
+
+
+
+
 <?php get_footer()?>
