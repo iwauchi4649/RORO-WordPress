@@ -49,11 +49,7 @@
       <article class="blog-article01-module">
         <a href="<?php the_permalink(); ?>">
           <figure class="blog-article01-module__figure">
-            <img
-              src="<?php the_post_thumbnail(); ?>"
-              class=""
-              style="opacity: 1;"
-            />
+          <?php the_post_thumbnail(array(350), array('class' => 'thumb')); ?>
           </figure>
           <div class="blog-article01-module__content">
             <h3 class="blog-article01-module__title">
