@@ -28,8 +28,7 @@ Template Name: works
     </div>
     <div class="wk-list-module">
       <article class="wk-list-module__item wk-list-item-module">
-        <a href="https://tenju.net
-        ">
+        <a href="<?php echo home_url('/works-details'); ?>">
           <div class="wk-list-item-module__figure">
             <div class="wk-cover-image wk-cover-image--absolute"></div>
             <!-- <img class="wk-cover-image wk-cover-image--absolute" src="image/RORO.jpg" alt="ROROサイトの画像"> -->
