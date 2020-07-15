@@ -8,6 +8,8 @@
     <meta name="author" content="fiber" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/index.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/creator.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/member.css" />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
     <link
@@ -27,6 +29,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
     />
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+    />
     <?php wp_head(); ?>
   </head>
   <body>
@@ -44,7 +50,7 @@
             <nav>
               <ul>
                 <li class="t-menu"><a href="#" class="t-link">works</a></li>
-                <li class="t-menu"><a href="#" class="t-link">creater</a></li>
+                <li class="t-menu"><a href="<?php echo get_page_link( $creator );?>" class="t-link">creater</a></li>
                 <li class="t-menu"><a href="#" class="t-link">blog</a></li>
                 <li class="t-menu"><a href="#" class="t-link">company</a></li>
                 <li class="t-menu"><a href="#" class="t-link">contact</a></li>

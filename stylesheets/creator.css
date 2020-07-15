@@ -1,0 +1,254 @@
+/* resetcss start */
+/*
+	TODO will need to remove settings on HTML since we can't namespace it.
+	TODO with the prefix, should I group by selector or property for weight savings?
+*/
+html {
+  color: #000;
+}
+/*
+	TODO remove settings on BODY since we can't namespace it.
+*/
+/*
+	TODO test putting a class on HEAD.
+		- Fails on FF.
+*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+/*
+	TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...
+*/
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+q:before,
+q:after {
+  content: "";
+}
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal;
+}
+/* to preserve line-height and selector appearance */
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: text-bottom;
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  *font-size: 100%; /*to enable resizing for IE*/
+}
+/*because legend doesn't inherit in IE */
+legend {
+  color: #000;
+}
+
+/* YUI CSS Detection Stamp */
+#yui3-css-stamp.cssreset {
+  display: none;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* resetcss　end */
+
+
+/* creator start */
+.creator__container__introduction{
+  padding: 0 5rem 2rem 5rem;
+}
+  .creator__container__introduction__title{
+    border-bottom: 5px dashed rgba(43, 104, 156, 1);
+    padding-top: 3rem;
+    text-align: center;
+  }
+    .creator__container__introduction__title__span{
+      /* フォントは後で統一する、統一後にコメントを消去 */
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  .creator__container__introduction__content{
+    margin-top: 3rem;
+    display: flex;
+  }
+    .creator__container__introduction__content__box{
+      margin-bottom: 2rem;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      width: 50%;
+    }
+      .creator__container__introduction__content__box__square{
+        position: relative;
+        margin: 0 1.5rem;
+        border-radius: 0;
+        border: solid 2px rgba(43, 104, 156, 1);
+        overflow: hidden;
+        width: 100%;
+      }
+        .square__text{
+          display:block;
+          padding-top: 100%;
+          color: #000;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all  0.3s ease;
+          transition: background-color 1s linear;
+        }
+        .square__text:hover{
+          color: #ffffff;
+          background-image: url(../images/menber-sample.jpeg);
+          background-size: cover;
+          transition: background-color 0.1s linear;
+          background-color: rgba(43, 104, 156, 1);
+        }
+          .square__text__span{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+          }
+
+/* creator max-width: 1023px start */
+@media screen and (max-width: 1023px) {
+  .creator__container__introduction{
+    padding: 0 3.5rem 2rem 3.5rem;
+  }
+    .creator__container__introduction__content__box{
+      margin-bottom: 1.5rem;
+    }
+      .creator__container__introduction__content__box__square{
+        margin: 0 1rem;
+      }
+}
+/* creator max-width: 1023px end */
+
+
+/* creator min-width: 1024px start */
+@media screen and (min-width: 1024px) {
+  .creator__container__introduction__content__box{
+    width: 50%;
+    display: flex;
+    margin-bottom: 2rem;
+  }
+}
+/* creator min-width: 1024px end */
+
+
+/* creator max-width: 639px start */
+@media screen and (max-width: 639px) {
+  .creator__container__introduction{
+    padding: 0 1.5rem 1rem 1.5rem;
+  }
+    .creator__container__introduction__title{
+      padding-top: 1.5rem;
+    }
+      .creator__container__introduction__title__span{
+        /* フォントは後で統一する、統一後にコメントを消去 */
+        font-size: 1.3rem;
+        font-weight: bold;
+      }
+    .creator__container__introduction__content{
+      margin-top: 1rem;
+    }
+}
+/* creator max-width: 639px end */
+
+
+/* creator max-width: 768px start */
+@media screen and (max-width: 768px) {
+  .creator__container__introduction__content__box{
+    display: block;
+    margin: 1.5rem;
+  }
+    .creator__container__introduction__content__box__square{
+      margin: 0 0 2rem 0;
+    }
+      /* タブレットではマウスホバーできないためにbackground-imageを常に表示 */
+      .square__text{
+        color: #ffffff;
+        background-image: url(../images/menber-sample.jpeg);
+        background-size: cover;
+      }
+}
+/* creator max-width: 768px end */
+
+
+/* creator　end */
