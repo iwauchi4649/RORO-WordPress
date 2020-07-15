@@ -45,7 +45,7 @@
           <div id="nav-content">
             <nav>
               <ul>
-                <li class="t-menu"><a href="#" class="t-link">works</a></li>
+                <li class="t-menu"><a href="<?php echo home_url('/works'); ?>">works</a></li>
                 <li class="t-menu"><a href="#" class="t-link">creater</a></li>
                 <li class="t-menu"><a href="#" class="t-link">blog</a></li>
                 <li class="t-menu"><a href="#" class="t-link">company</a></li>
