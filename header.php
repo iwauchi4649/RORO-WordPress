@@ -50,7 +50,7 @@
             <nav>
               <ul>
                 <li class="t-menu"><a href="#" class="t-link">works</a></li>
-                <li class="t-menu"><a href="<?php echo get_page_link( $creator );?>" class="t-link">creater</a></li>
+                <li class="t-menu"><a href="<?php echo home_url('/creator'); ?>" class="t-link">creator</a></li>
                 <li class="t-menu"><a href="#" class="t-link">blog</a></li>
                 <li class="t-menu"><a href="#" class="t-link">company</a></li>
                 <li class="t-menu"><a href="#" class="t-link">contact</a></li>

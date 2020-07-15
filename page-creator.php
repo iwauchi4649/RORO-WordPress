@@ -20,25 +20,25 @@ Template Name: creator
             <!-- liは1個100%が2個並び -->
             <li class="creator__container__introduction__content__box__square">
               <!-- aタグにpaddingを持たせるためdisplay:blockを付与 -->
-              <a href="#" class="square__text">
+              <a href="<?php echo home_url('/member'); ?>" class="square__text">
                 <!-- position:absoluteで中央寄せ -->
                 <span class="square__text__span">Syoma</span>
               </a>
             </li>
             <li class="creator__container__introduction__content__box__square">
-              <a href="#" class="square__text">
+              <a href="<?php echo home_url('/member'); ?>" class="square__text">
                 <span class="square__text__span">Takuro</span>
               </a>
             </li>
           </ul>
           <ul class="creator__container__introduction__content__box">
             <li class="creator__container__introduction__content__box__square">
-              <a href="#" class="square__text">
+              <a href="<?php echo home_url('/member'); ?>" class="square__text">
                 <span class="square__text__span">Takuma</span>
               </a>
             </li>
             <li class="creator__container__introduction__content__box__square">
-              <a href="#" class="square__text">
+              <a href="<?php echo home_url('/member'); ?>" class="square__text">
                 <span class="square__text__span">Hikaru</span>
               </a>
             </li>

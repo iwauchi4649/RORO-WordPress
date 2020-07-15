@@ -11,7 +11,7 @@ Template Name: member
         <div class="member__container__person__content">
           <!-- 右55% -->
           <div class="member__container__person__content__box right">
-            <img class="right__img" alt="Syoma" src="images/syoma.png">
+            <img class="right__img" alt="Syoma" src="<?php echo get_template_directory_uri()?>/images/syoma.png">
           </div>
           <!-- 左45% -->
           <div class="member__container__person__content__box left">
