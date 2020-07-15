@@ -37,7 +37,7 @@
   </div> 
      <header>
       <div class="logo">
-        <p><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="main_logo" /></p>
+        <p><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="main_logo" /></a></p>
         <div id="nav-drawer">
           <input id="nav-input" type="checkbox" class="nav-unshown" />
           <label id="nav-open" for="nav-input"><span></span></label>
