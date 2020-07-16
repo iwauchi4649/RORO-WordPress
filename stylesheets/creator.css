@@ -143,24 +143,20 @@ legend {
     }
   .creator__container__introduction__content{
     margin-top: 3rem;
-    display: flex;
   }
     .creator__container__introduction__content__box{
-      margin-bottom: 2rem;
       display: flex;
-      text-align: center;
-      justify-content: center;
-      width: 50%;
+      flex-wrap: wrap;
     }
       .creator__container__introduction__content__box__square{
         position: relative;
-        margin: 0 1.5rem;
-        border-radius: 0;
-        border: solid 2px rgba(43, 104, 156, 1);
-        overflow: hidden;
-        width: 100%;
+        padding: 1rem;
+        width: 25%;
       }
         .square__text{
+          border-radius: 0;
+          border: solid 2px rgba(43, 104, 156, 1);
+          overflow: hidden;
           display:block;
           padding-top: 100%;
           color: #000;
@@ -194,22 +190,8 @@ legend {
     .creator__container__introduction__content__box{
       margin-bottom: 1.5rem;
     }
-      .creator__container__introduction__content__box__square{
-        margin: 0 1rem;
-      }
 }
 /* creator max-width: 1023px end */
-
-
-/* creator min-width: 1024px start */
-@media screen and (min-width: 1024px) {
-  .creator__container__introduction__content__box{
-    width: 50%;
-    display: flex;
-    margin-bottom: 2rem;
-  }
-}
-/* creator min-width: 1024px end */
 
 
 /* creator max-width: 639px start */
@@ -234,19 +216,15 @@ legend {
 
 /* creator max-width: 768px start */
 @media screen and (max-width: 768px) {
-  .creator__container__introduction__content__box{
-    display: block;
-    margin: 1.5rem;
+  .creator__container__introduction__content__box__square{
+    width: 50%;
   }
-    .creator__container__introduction__content__box__square{
-      margin: 0 0 2rem 0;
+    /* タブレットではマウスホバーできないためにbackground-imageを常に表示 */
+    .square__text{
+      color: #ffffff;
+      background-image: url(../images/menber-sample.jpeg);
+      background-size: cover;
     }
-      /* タブレットではマウスホバーできないためにbackground-imageを常に表示 */
-      .square__text{
-        color: #ffffff;
-        background-image: url(../images/menber-sample.jpeg);
-        background-size: cover;
-      }
 }
 /* creator max-width: 768px end */
 
