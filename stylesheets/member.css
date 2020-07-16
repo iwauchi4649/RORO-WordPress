@@ -129,6 +129,7 @@ legend {
 /* member start */
 .member{
   background-color: rgb(251, 251, 251);
+  font-family: "TsukuBRdGothic-Regular", sans-serif;
 }
   .member__container__person{
     padding: 2rem 5rem 2rem 5rem;
@@ -151,27 +152,25 @@ legend {
             position: relative;
             border-left: solid 5px rgba(43, 104, 156, 1);
             font-weight: bold;
+            padding: 0.5rem 0 0.5rem 1rem;
           }
           .member__container__person__content__box__name__full{
             font-size: 2.5vw;
-            padding: 1rem 0 1rem 1rem;
             overflow-x: auto;
+            letter-spacing: 0.5vw;
           }
-            .occupation{
-              font-size:1vw;
-              vertical-align:middle;
-            }
           .member__container__person__content__box__name__romaji{
             color: rgba(43, 104, 156, 1);
             font-size: 1.5vw;
-            letter-spacing: 1vw;
-            padding-left: 1rem;
+            letter-spacing: 0.5vw;
+          }
+          .member__container__person__content__box__name__occupation{
+            font-size:1vw;
+            padding: 0.4rem 0;
           }
           .member__container__person__content__box__name__sns{
             display: flex;
-            padding: 0.5rem 0 0.2rem 1rem ;
-            /* position: absolute;
-            bottom: 0; */
+            font-size:2vw;
           }
             .sns-first-margin{
               padding-right: 0.5rem;
@@ -198,7 +197,6 @@ legend {
             word-break: break-all;
           }
             .member__container__person__content__box__sentence__text{
-              width: 100%;
               padding: 5%;
             }
           .member__container__person__content__box__skill{
@@ -212,7 +210,7 @@ legend {
               letter-spacing: 1px;
               font-weight: bold;
               word-break: break-all;
-              padding-bottom: 1rem;
+              padding-bottom: 0.5rem;
             }
             .member__container__person__content__box__skill__element{
               font-size: 1vw;
@@ -263,7 +261,6 @@ legend {
         margin-bottom: 1.5rem;
       }
         .member__container__person__content__box__name__full{
-          padding: 0.5rem 0 0.5rem 1rem;
           font-size: 1.5rem;
         }
 }

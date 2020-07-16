@@ -16,10 +16,9 @@ Template Name: member
           <!-- 左45% -->
           <div class="member__container__person__content__box left">
             <div class="member__container__person__content__box__name">
-              <h2 class="member__container__person__content__box__name__full">岩内 奨馬
-                <span class="occupation">アホアホプログラマー</span>
-              </h2>
+              <h2 class="member__container__person__content__box__name__full">岩内 奨馬</h2>
               <p class="member__container__person__content__box__name__romaji">Syoma Iwauchi</p>
+              <p class="member__container__person__content__box__name__occupation">アホアホプログラマー</p>
               <ul class="member__container__person__content__box__name__sns">
                 <!-- iタグのno-iを外すと水色に変化 -->
                 <li class="twitter"><a href="#" class="link-twitter sns-first-margin"><i class="fab fa-twitter no-i"></i></a></li>
