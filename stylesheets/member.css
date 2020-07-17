@@ -170,7 +170,7 @@ legend {
           }
           .member__container__person__content__box__name__sns{
             display: flex;
-            font-size:2vw;
+            font-size:1.5vw;
           }
             .sns-first-margin{
               padding-right: 0.5rem;
@@ -275,7 +275,8 @@ legend {
   .right{
     margin-left: 1%;
   }
-    .member__container__person__content__box__sentence__text , .member__container__person__content__box__skill{
+  
+    .member__container__person__content__box__sentence__text , .member__container__person__content__box__skill__element{
       padding-bottom: 0;
     }
 }
