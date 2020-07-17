@@ -2,7 +2,7 @@
     <main>
       <div class="t-top-content">
         <p>Webを味方に</p>
-        <p>ビジネスの幅を広げよう</p>
+        <p>ビジネスの幅を広げよぜ</p>
       </div>
       <p><img src="<?php echo get_template_directory_uri()?>/images/rose_img.jpg" alt="" /></p>
     </main>
