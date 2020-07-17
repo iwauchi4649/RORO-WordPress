@@ -16,8 +16,11 @@ Template Name: member
           <!-- 左45% -->
           <div class="member__container__person__content__box left">
             <div class="member__container__person__content__box__name">
+              <!-- 半角スペースを含む11文字以内 -->
               <h2 class="member__container__person__content__box__name__full">岩内 奨馬</h2>
+              <!-- 半角スペースを含む半角英数字24文字以内 -->
               <p class="member__container__person__content__box__name__romaji">Syoma Iwauchi</p>
+              <!-- 全角20文字以内 -->
               <p class="member__container__person__content__box__name__occupation">アホアホプログラマー</p>
               <ul class="member__container__person__content__box__name__sns">
                 <!-- iタグのno-iを外すと水色に変化 -->
@@ -41,16 +44,24 @@ Template Name: member
             <div class="member__container__person__content__box__skill">
               <h3 class="member__container__person__content__box__skill__title">スキルセット</h3>
               <ul class="member__container__person__content__box__skill__element">
+                <li class="skill">html css</li>
+                <li class="skill">JavaScript</li>
+                <li class="skill">WordPress</li>
+                <li class="skill">ruby</li>
+                <li class="skill">Rails</li>
+                <li class="skill">vba</li>
                 <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Adobe Xd</li>
+                <li class="skill">Illustrator</li>
+                <li class="skill">PhotoShop</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
+                <li class="skill">Github</li>
               </ul>
             </div>
           </div>
