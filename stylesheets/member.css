@@ -246,8 +246,8 @@ legend {
 /* member max-width: 1023px end */
 
 
-/* member max-width: 639px start */
-@media screen and (max-width: 639px) {
+/* member max-width: 768px start */
+@media screen and (max-width: 768px) {
   .member__container__person{
     padding: 1rem 1.5rem 1rem 1.5rem;
   }
@@ -264,11 +264,11 @@ legend {
           font-size: 1.5rem;
         }
 }
-/* member max-width: 639px end */
+/* member max-width: 768px end */
 
 
-/* member min-width: 640px start */
-@media screen and (min-width: 640px) {
+/* member min-width: 769px start */
+@media screen and (min-width: 769px) {
   .member__container__person__content{
     /* border: solid 2.5px #696969; */
   }
@@ -276,11 +276,11 @@ legend {
     margin-left: 1%;
   }
   
-    .member__container__person__content__box__sentence__text , .member__container__person__content__box__skill__element{
+    .member__container__person__content__box__sentence__text , .member__container__person__content__box__skill{
       padding-bottom: 0;
     }
 }
-/* member min-width: 640px end */
+/* member min-width: 769px end */
 
 
 /* member end */

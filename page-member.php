@@ -33,6 +33,7 @@ Template Name: member
               </ul>
             </div>
             <div class="member__container__person__content__box__sentence">
+              <!-- 文字数は250文字以内 -->
               <p class="member__container__person__content__box__sentence__text">
                 1993年生まれ、大阪育ち。
                 <br><br>
@@ -43,6 +44,7 @@ Template Name: member
             </div>
             <div class="member__container__person__content__box__skill">
               <h3 class="member__container__person__content__box__skill__title">スキルセット</h3>
+              <!-- スキルセットは15個以内 -->
               <ul class="member__container__person__content__box__skill__element">
                 <li class="skill">html css</li>
                 <li class="skill">JavaScript</li>
@@ -53,8 +55,6 @@ Template Name: member
                 <li class="skill">Adobe Xd</li>
                 <li class="skill">Illustrator</li>
                 <li class="skill">PhotoShop</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
                 <li class="skill">Github</li>
                 <li class="skill">Github</li>
                 <li class="skill">Github</li>
