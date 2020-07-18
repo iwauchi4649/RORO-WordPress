@@ -51,8 +51,8 @@
           <div id="nav-content">
             <nav>
               <ul>
-                <li class="t-menu"><a href="<?php echo home_url('/works'); ?>">works</a></li>
-                <li class="t-menu"><a href="<?php echo home_url('/creator'); ?>" class="t-link">creator</a></li>
+                <li class="t-menu"><a href="<?php echo home_url('/index.php/works'); ?>">works</a></li>
+                <li class="t-menu"><a href="<?php echo home_url('/index.php/creator'); ?>" class="t-link">creator</a></li>
                 <li class="t-menu"><a href="#" class="t-link">blog</a></li>
                 <li class="t-menu"><a href="#" class="t-link">company</a></li>
                 <li class="t-menu"><a href="#" class="t-link">contact</a></li>
