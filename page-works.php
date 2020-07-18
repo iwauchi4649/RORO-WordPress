@@ -31,7 +31,7 @@ Template Name: works
         <a href="<?php echo home_url('/works-details'); ?>">
           <div class="wk-list-item-module__figure">
             <div class="wk-cover-image wk-cover-image--absolute"></div>
-            <!-- <img class="wk-cover-image wk-cover-image--absolute" src="image/RORO.jpg" alt="ROROサイトの画像"> -->
+            <img class="wk-cover-image wk-cover-image--absolute" src="<?php echo get_template_directory_uri()?>/images/roro.jpg" alt="ROROサイトの画像">
           </div>
           <div class="wk-list-item-module__content">
             <div class="wk-list-item-module__categories">
