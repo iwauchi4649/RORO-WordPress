@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/index.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/creator.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/member.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
     <link
@@ -41,7 +43,7 @@
   </div> 
      <header>
       <div class="logo">
-        <p><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="main_logo" /></p>
+        <p><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="main_logo" /></a></p>
         <div id="nav-drawer">
           <input id="nav-input" type="checkbox" class="nav-unshown" />
           <label id="nav-open" for="nav-input"><span></span></label>
@@ -49,7 +51,7 @@
           <div id="nav-content">
             <nav>
               <ul>
-                <li class="t-menu"><a href="#" class="t-link">works</a></li>
+                <li class="t-menu"><a href="<?php echo home_url('/works'); ?>">works</a></li>
                 <li class="t-menu"><a href="<?php echo home_url('/creator'); ?>" class="t-link">creator</a></li>
                 <li class="t-menu"><a href="#" class="t-link">blog</a></li>
                 <li class="t-menu"><a href="#" class="t-link">company</a></li>
