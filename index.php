@@ -1,5 +1,5 @@
 <?php get_header()?>
-    <main>
+    <main class="index">
       <div class="t-top-content">
         <p>Webを味方に</p>
         <p>ビジネスの幅を広げよぜ</p>

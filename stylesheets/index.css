@@ -366,7 +366,7 @@ header li {
 /* header css end */
 
 /* top-content start */
-main {
+.index {
   font-family: "TsukuBRdGothic-Regular", sans-serif;
   font-size: 36px;
   line-height: 68px;
@@ -376,7 +376,7 @@ main {
   vertical-align: bottom;
   position: relative;
 }
-main img {
+.index img {
   width: 100%;
   height: 740px;
   margin: 0 auto;
@@ -552,7 +552,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   /* 480px以下に適用されるCSS（スマホ用） */
-  main {
+  .index {
     height: 400px;
     font-family: "TsukuBRdGothic-Regular", sans-serif;
     font-size: 36px;
@@ -562,7 +562,7 @@ img {
     vertical-align: bottom;
     position: relative;
   }
-  main img {
+  .index img {
     height: 400px;
     width: 100%;
     margin: 0 auto;
