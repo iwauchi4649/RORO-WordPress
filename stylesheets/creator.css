@@ -154,11 +154,9 @@ legend {
         width: 25%;
       }
         .square__text{
-          border-radius: 0;
           border: solid 2px rgba(43, 104, 156, 1);
-          overflow: hidden;
           display:block;
-          padding-top: 100%;
+          /* padding-top: 100%; */
           color: #000;
           -webkit-transition: all 0.3s ease;
           -moz-transition: all 0.3s ease;
@@ -168,11 +166,15 @@ legend {
         }
         .square__text:hover{
           color: #ffffff;
-          background-image: url(../images/menber-sample.jpeg);
-          background-size: cover;
           transition: background-color 0.1s linear;
           background-color: rgba(43, 104, 156, 1);
         }
+          .square__text__img{
+            opacity: 0;
+          }
+          .square__text__img:hover{
+            opacity: 1;
+          }
           .square__text__span{
             position: absolute;
             top: 50%;
