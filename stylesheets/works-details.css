@@ -94,7 +94,7 @@ a {
   display: flex;
   margin-top: 37px;
 }
-.wkd-data-module__comment {
+.wkd-data-module p {
   width: 480px;
   font-size: 13px;
   line-height: 2.15;
@@ -248,7 +248,7 @@ a {
     display: flex;
     margin-top: 37px;
   }
-  .wkd-data-module__comment {
+  .wkd-data-module p {
     width: 480px;
     font-size: 13px;
     line-height: 2.15;
@@ -401,7 +401,7 @@ a {
     display: block;
     margin-top: 20px;
   }
-  .wkd-data-module__comment {
+  .wkd-data-module p {
     width: 100%;
     font-size: 13px;
     line-height: 2.15;

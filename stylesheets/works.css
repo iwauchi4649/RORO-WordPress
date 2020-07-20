@@ -81,6 +81,7 @@ a {
 }
 .wk-list-item-module {
   position: relative;
+  margin-top: 100px;
 }
 .wk-list-item-module__figure {
   height: 600px;
@@ -114,7 +115,7 @@ a {
   margin-right: 10px;
   display: flex;
 }
-.wk-list-item-module__category {
+.wk-list-item-module__categories a {
   display: inline-block;
   padding: 0 10px;
   font-family: "Roboto Slab", serif;
