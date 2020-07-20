@@ -32,9 +32,9 @@
     <?php wp_head(); ?>
   </head>
   <body>
-    <div class="shutter">
+    <!-- <div class="shutter">
       <p class="text_clip">Welcom to<br/>fiber</p>
-  </div> 
+    </div>  -->
      <header>
       <div class="logo">
         <p><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="main_logo" /></a></p>
