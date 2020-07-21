@@ -22,9 +22,9 @@ Template Post Type: post
               <!-- 半角スペースを含む11文字以内 -->
               <h2 class="member__container__person__content__box__name__full"><?php the_title(); ?></h2>
               <!-- 半角スペースを含む半角英数字24文字以内 -->
-              <p class="member__container__person__content__box__name__romaji">Syoma Iwauchi</p>
+              <p class="member__container__person__content__box__name__romaji"><?php the_field('romaji'); ?></p>
               <!-- 全角20文字以内 -->
-              <p class="member__container__person__content__box__name__occupation">アホアホプログラマー</p>
+              <p class="member__container__person__content__box__name__occupation"><?php the_field('occupation'); ?></p>
               <ul class="member__container__person__content__box__name__sns">
                 <!-- iタグのno-iを外すと水色に変化 -->
                 <li class="twitter"><a href="#" class="link-twitter sns-first-margin"><i class="fab fa-twitter no-i"></i></a></li>
