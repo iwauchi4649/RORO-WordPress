@@ -1,0 +1,105 @@
+.content {
+  margin: 0 auto;
+  width: 100%;
+  /* 外枠の大きさ */
+  /* max-width: 1080px; */
+  /* border: 1px solid black; */
+  min-height: 600px;
+}
+
+/* 記事全ての枠の設定 */
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* 記事折り返し設定 */
+  margin: 70px auto 0 auto;
+}
+
+.article-item {
+  /* 記事アイテムの一つの大きさ */
+  width: 30%;
+  height: auto;
+  margin-bottom: 30px;
+}
+.article-item a {
+  color: #030303;
+  text-decoration: none;
+}
+.article-inside {
+  padding: 0 5%;
+}
+.article-dls {
+}
+.article-dls__dl {
+  display: flex;
+  padding: 2% 0;
+}
+.article-dls__dl dt,
+dd {
+  margin: auto;
+  font-size: 0.8rem;
+}
+.article-dls__dl dt {
+  font-weight: bold;
+}
+
+.article-item img {
+  /* 画像は親要素に対して100%にする */
+  width: 100%;
+  height: 100%;
+}
+
+.article-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 3% 0;
+  font-weight: 700;
+}
+.article-content p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/* ここからsingle-article */
+.single-article{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.single-article__author, .single-article__date{
+  font-size: 14px;
+}
+
+.single-article__title{
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.single-article__content {
+  margin: 18px auto;
+  padding: 0 20px;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 920px) {
+  /* 記事アイテムを大きくして二列にする */
+  .article-item {
+    width: 45%;
+  }
+  .article-item p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .article-item {
+    width: 85%;
+    /* margin-bottom: -100px; */
+  }
+}
