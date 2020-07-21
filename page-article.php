@@ -13,7 +13,7 @@ Template Name: article
       <article class="article-item box">
         <a href="#">
           <div class="article-inside">
-            <img src="<?php echo get_template_directory_uri()?>/images/cat.jpeg" alt="" />
+            <img src="<?php the_post_thumbnail_url(); ?>" alt="猫">
             <h3 class="article-title">
               <?php the_title(); ?>
             </h3>
