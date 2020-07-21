@@ -11,7 +11,7 @@ Template Name: article
       <?php $posts = get_posts('numberposts=10&category=13'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
       <article class="article-item box">
-        <a href="#">
+        <a href="<?php the_permalink() ?>">
           <div class="article-inside">
             <img src="<?php the_post_thumbnail_url(); ?>" alt="猫">
             <h3 class="article-title">
