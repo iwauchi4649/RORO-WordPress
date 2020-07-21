@@ -1,9 +1,12 @@
 <?php
 /*
 Template Name: member
+Template Post Type: post
 */
 ?>
+
 <?php get_header()?>
+<?php if(have_posts()): the_post(); ?>
   <main class="member">
     <!-- bootstrap等で幅を与えたい時のためにcontainerクラスを作成 -->
     <div class="member__container">
@@ -17,7 +20,7 @@ Template Name: member
           <div class="member__container__person__content__box left">
             <div class="member__container__person__content__box__name">
               <!-- 半角スペースを含む11文字以内 -->
-              <h2 class="member__container__person__content__box__name__full">岩内 奨馬</h2>
+              <h2 class="member__container__person__content__box__name__full"><?php the_title(); ?></h2>
               <!-- 半角スペースを含む半角英数字24文字以内 -->
               <p class="member__container__person__content__box__name__romaji">Syoma Iwauchi</p>
               <!-- 全角20文字以内 -->
@@ -34,13 +37,7 @@ Template Name: member
             </div>
             <div class="member__container__person__content__box__sentence">
               <!-- 文字数は250文字以内 -->
-              <p class="member__container__person__content__box__sentence__text">
-                1993年生まれ、大阪育ち。
-                <br><br>
-                大学を卒業後に営業職をこなしつつ、vbaを使用し業務を効率化しておりました。最初にvbaを使用した時は感動し、「プログラミングで便利なサービスを展開してみたい」と考え方が変わり未経験からエンジニアを目指すようになりました。
-                <br><br>
-                趣味は麻雀で天鳳でのレートは2065で、アクティブユーザーの上位2%以内をキープしております。いわゆるネトゲ廃人。最近は盆栽に手を出そうとしており、方向性が読めない多趣味でユニークなクリエイターです。キャンプも好きで、youtuberデビューを果たそうとソロキャンプを計画中。
-              </p>
+              <?php the_content(); ?>
             </div>
             <div class="member__container__person__content__box__skill">
               <h3 class="member__container__person__content__box__skill__title">スキルセット</h3>
@@ -69,4 +66,5 @@ Template Name: member
       </div>
     </div>
   </main>
+<?php endif; ?>
 <?php get_footer()?>

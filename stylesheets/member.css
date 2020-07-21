@@ -146,7 +146,6 @@ legend {
       }
         .left{
           width: 45%;
-          /* border: solid 2.5px #DDDDDD; */
         }
           .member__container__person__content__box__name{
             position: relative;
@@ -195,10 +194,8 @@ legend {
             letter-spacing: 1px;
             font-weight: bold;
             word-break: break-all;
+            padding: 5%;
           }
-            .member__container__person__content__box__sentence__text{
-              padding: 5%;
-            }
           .member__container__person__content__box__skill{
             height: 30%;
             padding: 5%;
@@ -276,7 +273,7 @@ legend {
     margin-left: 1%;
   }
   
-    .member__container__person__content__box__sentence__text , .member__container__person__content__box__skill{
+    .member__container__person__content__box__sentence , .member__container__person__content__box__skill{
       padding-bottom: 0;
     }
 }
