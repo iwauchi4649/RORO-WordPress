@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/member.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
     <link
@@ -53,7 +54,7 @@
               <ul>
                 <li class="t-menu"><a href="<?php echo home_url('/index.php/works'); ?>">works</a></li>
                 <li class="t-menu"><a href="<?php echo home_url('/index.php/creator'); ?>" class="t-link">creator</a></li>
-                <li class="t-menu"><a href="#" class="t-link">blog</a></li>
+                <li class="t-menu"><a href="<?php echo home_url('/index.php/article'); ?>" class="t-link">blog</a></li>
                 <li class="t-menu"><a href="#" class="t-link">company</a></li>
                 <li class="t-menu"><a href="#" class="t-link">contact</a></li>
               </ul>
