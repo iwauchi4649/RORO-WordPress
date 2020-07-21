@@ -56,7 +56,7 @@
             <?php echo mb_substr(the_title(), 0, 15, 'UTF-8'); ?>	
             </h3>
             <p class="blog-article01-module__excerpt">
-            <?php echo mb_substr(get_the_excerpt(), 0, 30, 'UTF-8');?>
+            <?php echo mb_substr(get_the_excerpt(), 0, 90, 'UTF-8');?>
             </p>
             <div class="blog-article01-module__dls">
               <dl class="blog-article01-module__dl">
