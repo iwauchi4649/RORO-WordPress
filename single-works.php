@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: works-details
+Template Name: works
 Template Post Type: post
 */
 ?>
