@@ -7,6 +7,7 @@ Template Post Type: post
 
 <?php get_header(); ?>
 <body>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="wkd-page-header wkd-page-header--works wkd-page-header--works-detail">
     <div class="wkd-page-header__inner">
       <p class="wkd-page-header__heading">
@@ -28,9 +29,7 @@ Template Post Type: post
       <a href="<?php the_field('link'); ?>" target="_blank" class="wkd-info-module__link"><?php the_field('link'); ?></a>
     </div>
     <div class="wkd-data-module">
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <?php the_content(); ?>
-      <?php endwhile; endif; ?>
+      <?php the_content(); ?>
       <div class="wkd-data-module__members wkd-project-members-module">
         <h2 class="wkd-project-members-module__heading">project member</h2>
         <ul class="wkd-project-members-module__list">
@@ -74,5 +73,6 @@ Template Post Type: post
       </div>
     </div>
   </article>
+<?php endwhile; endif; ?>
 </body>
 <?php get_footer(); ?>
