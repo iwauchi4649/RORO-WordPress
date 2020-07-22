@@ -27,12 +27,12 @@ Template Post Type: post
               <p class="member__container__person__content__box__name__occupation"><?php the_field('occupation'); ?></p>
               <ul class="member__container__person__content__box__name__sns">
                 <!-- iタグのno-iを外すと水色に変化 -->
-                <li class="twitter"><a href=<?php the_field('twitter'); ?> class="link-twitter sns-first-margin"><i class="fab fa-twitter no-i"></i></a></li>
-                <li class="instagram"><a href="#" class="sns-link sns-middle-margin"><i class="fab fa-instagram no-i"></i></a></li>
-                <li class="youtube"><a href="#" class="sns-link sns-middle-margin"><i class="fab fa-youtube no-i"></i></a></li>
-                <li class="qiita"><a href="#" class="sns-link sns-middle-margin"><i class="fas fa-search no-i"></i></a></li>
-                <li class="github"><a href="#" class="sns-link sns-middle-margin"><i class="fab fa-github no-i"></i></a></li>
-                <li class="link"><a href="#" class="sns-link sns-last-margin"><i class="fas fa-link no-i"></i></a></li>
+                <li class="twitter sns-first-margin"><a href=<?php the_field('twitter'); ?> class="link-link"><i class="fab fa-twitter"></i></a></li>
+                <li class="instagram sns-middle-margin"><a href=<?php the_field('instagram'); ?> class="sns-link"><i class="fab fa-instagram"></i></a></li>
+                <li class="youtube sns-middle-margin"><a href=<?php the_field('youtube'); ?> class="sns-link"><i class="fab fa-youtube no-i"></i></a></li>
+                <li class="qiita sns-middle-margin"><a href=<?php the_field('qiita'); ?> class="sns-link"><i class="fas fa-search"></i></a></li>
+                <li class="github sns-middle-margin"><a href=<?php the_field('github'); ?> class="sns-link"><i class="fab fa-github"></i></a></li>
+                <li class="personal sns-last-margin"><a href=<?php the_field('personal'); ?> class="sns-link"><i class="fas fa-link"></i></a></li>
               </ul>
             </div>
             <div class="member__container__person__content__box__sentence">
@@ -43,22 +43,7 @@ Template Post Type: post
               <h3 class="member__container__person__content__box__skill__title">スキルセット</h3>
               <!-- スキルセットは15個以内 -->
               <ul class="member__container__person__content__box__skill__element">
-                <li class="skill">html css</li>
-                <li class="skill">JavaScript</li>
-                <li class="skill">WordPress</li>
-                <li class="skill">ruby</li>
-                <li class="skill">Rails</li>
-                <li class="skill">vba</li>
-                <li class="skill">Adobe Xd</li>
-                <li class="skill">Illustrator</li>
-                <li class="skill">PhotoShop</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
-                <li class="skill">Github</li>
+                <?php the_tags('<li class="skill">', '</li><li class="skill">', '</li>') ?>
               </ul>
             </div>
           </div>
