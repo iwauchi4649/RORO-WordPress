@@ -1,11 +1,13 @@
 <?php
 /*
-Template Name: works-details
+Template Name: works
+Template Post Type: post
 */
 ?>
- 
+
 <?php get_header(); ?>
 <body>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <div class="wkd-page-header wkd-page-header--works wkd-page-header--works-detail">
     <div class="wkd-page-header__inner">
       <p class="wkd-page-header__heading">
@@ -14,25 +16,20 @@ Template Name: works-details
     </div>
   </div>
   <article class="wkd-article">
-    <h1 class="wkd-article__title">株式会社RORO Official site</h1>
+    <h1 class="wkd-article__title"><?php the_title(); ?></h1>
     <div class="wkd-info-module">
       <div class="wkd-info-module__content">
-        <p class="wkd-info-module__client">株式会社RORO</p>
+        <p class="wkd-info-module__client"><?php the_title(); ?></p>
         <div class="wkd-info-module__texts">
-          <div>
-            <span class="wkd-info-module__category">web</span>
-            <span class="wkd-info-module__category">official</span>
+          <div class="wk-list-item-module__categories">
+            <?php the_tags('', '', '') ?>
           </div>
-          <p class="wkd-info-module__technology">Responsive / Ruby on Rails</p>
         </div>
       </div>
-      <a href="https://roro-or.com/" class="wkd-info-module__link">https://roro-or.com</a>
+      <a href="<?php the_field('link'); ?>" target="_blank" class="wkd-info-module__link"><?php the_field('link'); ?></a>
     </div>
     <div class="wkd-data-module">
-      <p class="wkd-data-module__comment">
-        大阪府羽曳野市にある「わかば保育園」さまのWebサイトを制作させていただきました。同じ建物内に同グループが運営するデイサービスがあり、<br>高齢者の方と子どもたちの交流もあるアットホームな保育園です。
-        <br>オリジナルのキャラクターやイラストを取り入れて、わかば保育園の楽しい雰囲気が伝わるように制作させていただきました。
-      </p>
+      <?php the_content(); ?>
       <div class="wkd-data-module__members wkd-project-members-module">
         <h2 class="wkd-project-members-module__heading">project member</h2>
         <ul class="wkd-project-members-module__list">
@@ -76,5 +73,6 @@ Template Name: works-details
       </div>
     </div>
   </article>
+<?php endwhile; endif; ?>
 </body>
 <?php get_footer(); ?>
