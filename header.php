@@ -44,13 +44,14 @@
           <label class="nav-unshown" id="nav-close" for="nav-input"></label>
           <div id="nav-content">
             <nav>
-              <ul>
-                <li class="t-menu"><a href="<?php echo home_url('/works'); ?>">works</a></li>
-                <li class="t-menu"><a href="#" class="t-link">creater</a></li>
-                <li class="t-menu"><a href="#" class="t-link">blog</a></li>
-                <li class="t-menu"><a href="#" class="t-link">company</a></li>
-                <li class="t-menu"><a href="#" class="t-link">contact</a></li>
-              </ul>
+              <?php
+              $args = array(
+                'menu' => "grobal-navigation",//管理画面で作成したメニュー
+                "menu_class" =>"",//メニューを構成するulタグのクラス
+                "contaier" => false, //<ul>タグを囲んでいる<div>タグを削除
+              );
+              wp_nav_menu($args);
+              ?>
             </nav>
             <figure>
               <audio controls src="mp3/Family_Happiness.mp3" loop>
