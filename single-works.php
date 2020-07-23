@@ -32,44 +32,23 @@ Template Post Type: post
       <?php the_content(); ?>
       <div class="wkd-data-module__members wkd-project-members-module">
         <h2 class="wkd-project-members-module__heading">project member</h2>
+        <?php $acf_post_objects = get_field('creator'); if( $acf_post_objects ): ?>
         <ul class="wkd-project-members-module__list">
+        <?php foreach( $acf_post_objects as $post): ?>
+        <?php setup_postdata($post); ?>
           <li class="wkd-project-members-module__item">
-            <a href="#" class="wkd-project-member-module">
+            <a href="<?php the_permalink(); ?>" class="wkd-project-member-module">
               <div class="wkd-project-member-module__inner">
-                <img src="<?php echo get_template_directory_uri()?>/images/member-sample.jpeg" alt="" class="wkd-project-member-module__image">
-                <p class="wkd-project-member-module__role">ArtDirection</p>
-                <p class="wkd-project-member-module__name">Syoma Iwauchi</p>
+                <img src="<?php the_field('right-image'); ?>" alt="" class="wkd-project-member-module__image">
+                <p class="wkd-project-member-module__role"><?php the_field('occupation'); ?></p>
+                <p class="wkd-project-member-module__name"><?php the_title(); ?></p>
               </div>
             </a>
           </li>
-          <li class="wkd-project-members-module__item">
-            <a href="#" class="wkd-project-member-module">
-              <div class="wkd-project-member-module__inner">
-                <img src="<?php echo get_template_directory_uri()?>/images/member-sample.jpeg" alt="" class="wkd-project-member-module__image">
-                <p class="wkd-project-member-module__role">ArtDirection</p>
-                <p class="wkd-project-member-module__name">Syoma Iwauchi</p>
-              </div>
-            </a>
-          </li>
-          <li class="wkd-project-members-module__item">
-            <a href="#" class="wkd-project-member-module">
-              <div class="wkd-project-member-module__inner">
-                <img src="<?php echo get_template_directory_uri()?>/images/member-sample.jpeg" alt="" class="wkd-project-member-module__image">
-                <p class="wkd-project-member-module__role">ArtDirection</p>
-                <p class="wkd-project-member-module__name">Syoma Iwauchi</p>
-              </div>
-            </a>
-          </li>
-          <li class="wkd-project-members-module__item">
-            <a href="#" class="wkd-project-member-module">
-              <div class="wkd-project-member-module__inner">
-                <img src="<?php echo get_template_directory_uri()?>/images/member-sample.jpeg" alt="" class="wkd-project-member-module__image">
-                <p class="wkd-project-member-module__role">ArtDirection</p>
-                <p class="wkd-project-member-module__name">Syoma Iwauchi</p>
-              </div>
-            </a>
-          </li>
+        <?php endforeach; ?>
         </ul>
+        <?php wp_reset_postdata(); ?>
+        <?php endif; ?>
       </div>
     </div>
   </article>
