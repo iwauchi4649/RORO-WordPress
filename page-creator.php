@@ -19,7 +19,7 @@ Template Name: creator
             <!-- liは1個25%が4個並び、レスポンシブ時は1個50%が2個並び -->
             <li class="creator__container__introduction__content__box__square">
               <!-- aタグにpaddingを持たせるためdisplay:blockを付与 -->
-              <a href="<?php echo home_url('/member'); ?>" class="square__text">
+              <a href="<?php the_permalink() ?>" class="square__text">
                 <!-- 投稿する時は正方形の画像に注意 -->
                 <img class="square__text__img" alt="Syoma" src="<?php echo get_template_directory_uri()?>/images/syoma.png">
                 <!-- position:absoluteで中央寄せ -->
