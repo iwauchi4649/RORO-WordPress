@@ -13,6 +13,8 @@ Template Name: creator
             所属クリエイター
           </span>
         </div>
+        <?php $posts = get_posts('numberposts=10&category=4'); global $post; ?>
+        <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
         <!-- box4個の全体 -->
         <div class="creator__container__introduction__content">
           <ul class="creator__container__introduction__content__box">
@@ -21,13 +23,14 @@ Template Name: creator
               <!-- aタグにpaddingを持たせるためdisplay:blockを付与 -->
               <a href="<?php the_permalink() ?>" class="square__text">
                 <!-- 投稿する時は正方形の画像に注意 -->
-                <img class="square__text__img" alt="Syoma" src="<?php echo get_template_directory_uri()?>/images/syoma.png">
+                <img class="square__text__img" alt="Syoma" src="<?php the_field('right-image'); ?>">
                 <!-- position:absoluteで中央寄せ -->
-                <span class="square__text__span">Syoma</span>
+                <span class="square__text__span"><?php the_title(); ?></span>
               </a>
             </li>
           </ul>
         </div>
+        <?php endforeach; endif; ?>
       </div>
     </div>
   </main>
