@@ -171,14 +171,14 @@ legend {
             display: flex;
             font-size:1.5vw;
           }
-            .sns-first-margin{
-              padding-right: 0.5rem;
+            .sns-margin:first-of-type{
+              padding-left: 0;
             }
-            .sns-middle-margin{
+            .sns-margin{
               padding: 0 0.5rem;
             }
-            .sns-last-margin{
-              padding-left: 0.5rem;
+            .sns-margin:last-of-type{
+              padding-right: 0;
             }
               i{
                 color: #00A4BB;

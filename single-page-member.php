@@ -26,13 +26,33 @@ Template Post Type: post
               <!-- 全角20文字以内 -->
               <p class="member__container__person__content__box__name__occupation"><?php the_field('occupation'); ?></p>
               <ul class="member__container__person__content__box__name__sns">
-                <!-- iタグのno-iを外すと水色に変化 -->
-                <li class="twitter sns-first-margin"><a href=<?php the_field('twitter'); ?> class="link-link"><i class="fab fa-twitter"></i></a></li>
-                <li class="instagram sns-middle-margin"><a href=<?php the_field('instagram'); ?> class="sns-link"><i class="fab fa-instagram"></i></a></li>
-                <li class="youtube sns-middle-margin"><a href=<?php the_field('youtube'); ?> class="sns-link"><i class="fab fa-youtube no-i"></i></a></li>
-                <li class="qiita sns-middle-margin"><a href=<?php the_field('qiita'); ?> class="sns-link"><i class="fas fa-search"></i></a></li>
-                <li class="github sns-middle-margin"><a href=<?php the_field('github'); ?> class="sns-link"><i class="fab fa-github"></i></a></li>
-                <li class="personal sns-last-margin"><a href=<?php the_field('personal'); ?> class="sns-link"><i class="fas fa-link"></i></a></li>
+                <?php
+                  $twitter = get_post_meta($post->ID, 'twitter', true);
+                  $instagram = get_post_meta($post->ID, 'instagram', true);
+                  $youtube = get_post_meta($post->ID, 'youtube', true);
+                  $qiita = get_post_meta($post->ID, 'qiita', true);
+                  $personal = get_post_meta($post->ID, 'personal', true);
+                  // empty関数は引数に与えた変数や配列の中身が空かどうか確認する関数
+                  // 変数の値が0あるいは空、NULLである場合はTRUEを、それ以外である場合はFALSE
+                  // 「!」は==FALSEを意味する
+                  /* if ここから */
+                  if(!empty($twitter) || !empty($instagram) || !empty($youtube) || !empty($qiita) || !empty($personal)  ){?>
+                    <?php if(!empty($twitter)):?>
+                      <li class="twitter sns-margin"><a href=<?php the_field('twitter'); ?> class="link-link"><i class="fab fa-twitter"></i></a></li>
+                    <?php endif;?>
+                    <?php if(!empty($instagram)):?>
+                      <li class="instagram sns-margin"><a href=<?php the_field('instagram'); ?> class="sns-link"><i class="fab fa-instagram"></i></a></li>
+                    <?php endif;?>
+                    <?php if(!empty($youtube)):?>
+                      <li class="youtube sns-margin"><a href=<?php the_field('youtube'); ?> class="sns-link"><i class="fab fa-youtube"></i></a></li>
+                    <?php endif;?>
+                    <?php if(!empty($qiita)):?>
+                      <li class="qiita sns-margin"><a href=<?php the_field('qiita'); ?> class="sns-link"><i class="fas fa-search"></i></a></li>
+                    <?php endif;?>
+                    <?php if(!empty($personal)):?>
+                      <li class="personal sns-margin"><a href=<?php the_field('personal'); ?> class="sns-link"><i class="fas fa-link"></i></a></li>
+                    <?php endif;?>
+                <?php } /** if ここまで */ ?>
               </ul>
             </div>
             <div class="member__container__person__content__box__sentence">
