@@ -221,12 +221,6 @@ legend {
   .creator__container__introduction__content__box__square{
     width: 50%;
   }
-    /* タブレットではマウスホバーできないためにbackground-imageを常に表示 */
-    .square__text{
-      color: #ffffff;
-      background-image: url(../images/menber-sample.jpeg);
-      background-size: cover;
-    }
 }
 /* creator max-width: 768px end */
 
