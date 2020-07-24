@@ -169,7 +169,6 @@ legend {
           }
           .member__container__person__content__box__name__sns{
             display: flex;
-            font-size:1.5vw;
           }
             .sns-margin:first-of-type{
               padding-left: 0;
@@ -180,12 +179,44 @@ legend {
             .sns-margin:last-of-type{
               padding-right: 0;
             }
-              i{
-                color: #00A4BB;
+              .sns-link{
+                display: block;
+                width: 2.5vw;
+                line-height: 2.4vw;
+                height: 2.5vw;
+                font-size: 1.5vw;
+                text-align: center;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                border-radius: 50%;
+                border: 1px solid #000000;
+                transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
               }
-              .no-i{
-                color: #9DA0A4;
+              .sns-link:hover{
+                border: 1px solid transparent;
+                transform: rotate(360deg);
+                -webkit-transform: rotate(360deg);
+                color: #ffffff;
               }
+              .twitter:hover{
+                background-color: #00A4BB;
+              }
+              .instagram:hover{
+                background-color: #742ed2;
+                background-image: linear-gradient(to right bottom, #742ed2 0%, #e84993 25%, #e84993 25%, #ff3437 50%, #ff3437 50%, #fe6b2d 75%, #ffb140 100%);
+              }
+              .youtube:hover{
+                background-color: red;
+              }
+              .qiita:hover{
+                background-color: #55c500;
+              }
+              .personal:hover{
+                background-color: #000000;
+              }
+              
           .member__container__person__content__box__sentence{
             height: 40%;
             overflow:auto;
@@ -263,15 +294,21 @@ legend {
         .member__container__person__content__box__skill{
             padding-top: 0;
         }
+          .sns-link{
+            width: 1.5rem;
+            line-height: 1.44rem;
+            height: 1.5rem;
+            font-size: 0.9rem;
+          }
+          .sns-margin {
+            padding: 0 0.3rem;
+          }
 }
 /* member max-width: 768px end */
 
 
 /* member min-width: 769px start */
 @media screen and (min-width: 769px) {
-  .member__container__person__content{
-    /* border: solid 2.5px #696969; */
-  }
   .right{
     margin-left: 1%;
   }
