@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
     <meta name="robots" content="noindex,nofollow" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <link rel="canonical" href="https://lopan.jp/css-animation" />
     <link
       rel="stylesheet"
@@ -23,22 +24,14 @@
     <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/javascript/music.js"></script>
     <link
       rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-    />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <link
-      rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
     <?php wp_head(); ?>
   </head>
   <body>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
     <!-- <div class="shutter">
       <p class="text_clip">Welcom to<br/>fiber</p>
     </div>  -->
