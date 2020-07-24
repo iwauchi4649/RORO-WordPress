@@ -19,8 +19,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css"
     />
-    <script type="text/javascript" src="javascript/fuwa.js"></script>
-    <script type="text/javascript" src="javascript/music.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/javascript/fuwa.js"></script>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/javascript/music.js"></script>
     <link
       rel="stylesheet"
       type="text/css"

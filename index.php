@@ -18,6 +18,7 @@
           <p class="element js-fadein">シームレスに行うことが可能となり、依頼主とクリエイターが</p>
           <p class="element js-fadein">ダイレクトに繋がることで従来のWeb開発会社よりも</p>
           <p class="element js-fadein">圧倒的な低コストで制作することができます。</p>
+      </div>
     </section>
     <!-- <section class="t-creater">
       <p>作品をスライダーで並べる。</p>
