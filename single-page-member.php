@@ -38,19 +38,19 @@ Template Post Type: post
                   /* if ここから */
                   if(!empty($twitter) || !empty($instagram) || !empty($youtube) || !empty($qiita) || !empty($personal)  ){?>
                     <?php if(!empty($twitter)):?>
-                      <li class="twitter sns-margin"><a href=<?php the_field('twitter'); ?> class="link-link"><i class="fab fa-twitter"></i></a></li>
+                      <li class="sns-margin"><a href=<?php the_field('twitter'); ?> class="sns-link twitter"><i class="fab fa-twitter"></i></a></li>
                     <?php endif;?>
                     <?php if(!empty($instagram)):?>
-                      <li class="instagram sns-margin"><a href=<?php the_field('instagram'); ?> class="sns-link"><i class="fab fa-instagram"></i></a></li>
+                      <li class="sns-margin"><a href=<?php the_field('instagram'); ?> class="sns-link instagram"><i class="fab fa-instagram"></i></a></li>
                     <?php endif;?>
                     <?php if(!empty($youtube)):?>
-                      <li class="youtube sns-margin"><a href=<?php the_field('youtube'); ?> class="sns-link"><i class="fab fa-youtube"></i></a></li>
+                      <li class="sns-margin"><a href=<?php the_field('youtube'); ?> class="sns-link youtube"><i class="fab fa-youtube"></i></a></li>
                     <?php endif;?>
                     <?php if(!empty($qiita)):?>
-                      <li class="qiita sns-margin"><a href=<?php the_field('qiita'); ?> class="sns-link"><i class="fas fa-search"></i></a></li>
+                      <li class="sns-margin"><a href=<?php the_field('qiita'); ?> class="sns-link qiita"><i class="fas fa-search"></i></a></li>
                     <?php endif;?>
                     <?php if(!empty($personal)):?>
-                      <li class="personal sns-margin"><a href=<?php the_field('personal'); ?> class="sns-link"><i class="fas fa-link"></i></a></li>
+                      <li class="sns-margin"><a href=<?php the_field('personal'); ?> class="sns-link personal"><i class="fas fa-link"></i></a></li>
                     <?php endif;?>
                 <?php } /** if ここまで */ ?>
               </ul>
