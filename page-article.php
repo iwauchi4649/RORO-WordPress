@@ -8,7 +8,7 @@ Template Name: article
 <body>
   <div class="content">
     <div class="container">
-      <?php $posts = get_posts('numberposts=10&category=9'); global $post; ?>
+      <?php $posts = get_posts('numberposts=10&category_name=article'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
       <article class="article-item box">
         <a href="<?php the_permalink() ?>">
