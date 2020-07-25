@@ -27,7 +27,7 @@
     <!-- bootstrap等で幅を与えたい時のためにcontainerクラスを作成 -->
     <div class="member__container">
       <div class="member__container__person">
-      <?php $posts = get_posts('numberposts=1&category_name=blog'); global $post; ?>
+      <?php $posts = get_posts('numberposts=1&category_name=creater'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
         <div class="member__container__person__content">
           <!-- 右55% -->
