@@ -112,7 +112,7 @@
       </div>
     </div>
     <div class="wk-list-module">
-      <?php $posts = get_posts('numberposts=1&category=3'); global $post; ?>
+      <?php $posts = get_posts('numberposts=1&category_name=works'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
       <article class="wk-list-module__item wk-list-item-module">
         <a href="<?php the_permalink() ?>">
