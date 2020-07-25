@@ -1,11 +1,14 @@
 <?php get_header()?>
-    <main class="index">
-      <div class="t-top-content">
-        <p>Webを味方に</p>
-        <p>ビジネスの幅を広げよぜ</p>
-      </div>
-      <p><img src="<?php echo get_template_directory_uri()?>/images/rose_img.jpg" alt="" /></p>
-    </main>
+  <div class="swiper-container">
+	<!-- メイン表示部分 -->
+	<div class="swiper-wrapper">
+		<!-- 各スライド -->
+		<div class="swiper-slide">Slide 1</div>
+		<div class="swiper-slide">Slide 2</div>
+		<div class="swiper-slide">Slide 3</div>
+		<div class="swiper-slide">Slide 4</div>
+	</div>
+</div>
      <section class="t-fiber-about">
       <div class="t-fiber-about__title">
         <p></p>
@@ -27,8 +30,9 @@
     <div class="category-nav">
       <p class="t-section-name">works</p>
       <div class="t-works__tag">
-      <p>category</p>
-      <p id="t-category-view">all view</p>
+        <p>category</p>
+        <p id="t-category-view">all view</p>
+      </div>
     </div>
     <div class="t-works__box__discription">
       <div class="t-works__box__left">
@@ -38,45 +42,41 @@
           <p class="t-site-name-ja">たぬき商店</p>
         </div>
       </div>
-    <div class="t-works__box__right">
-      <p><img src="images/momizi_img.jpg" alt=""></p>
+      <div class="t-works__box__right">
+        <p><img src="<?php echo get_template_directory_uri()?>/images/momizi_img.jpg" alt=""></p>
+      </div>
     </div>
-
   </section>
-  <?php query_posts('posts_per_page=3'); ?>
+    <?php query_posts('posts_per_page=3'); ?>
   <?php if(have_posts()): ?>
- <?php while(have_posts()): the_post(); ?>
-    <div class="top-blog-section-module__articles blog-articles01-module blog-articles01-module--row">
-      <article class="blog-article01-module">
-        <a href="<?php the_permalink(); ?>">
-          <figure class="blog-article01-module__figure">
-          <?php the_post_thumbnail(array(350), array('class' => 'thumb')); ?>
-          </figure>
-          <div class="blog-article01-module__content">
-            <h3 class="blog-article01-module__title">
-            <?php echo mb_substr(the_title(), 0, 15, 'UTF-8'); ?>	
-            </h3>
-            <p class="blog-article01-module__excerpt">
-            <?php echo mb_substr(get_the_excerpt(), 0, 90, 'UTF-8');?>
-            </p>
-            <div class="blog-article01-module__dls">
-              <dl class="blog-article01-module__dl">
-                <dt>author</dt>
-                <dd><?php the_author(); ?></dd>
-              </dl>
-              <dl class="blog-article01-module__dl">
-                <dt>date</dt>
-                <dd><?php echo get_the_date( $format, $post ); ?></dd>
-              </dl>
+    <div class="content">
+      <div class="container">
+      <?php while(have_posts()): the_post(); ?>
+        <article class="article-item box">
+          <a href="<?php the_permalink(); ?>">
+            <div class="article-inside">
+              <?php the_post_thumbnail(array(350), array('class' => 'thumb')); ?>
+              <h3 class="article-title">
+              <?php echo mb_substr(the_title(), 0, 15, 'UTF-8'); ?>	
+              </h3>
+              <p class="article-content">
+              <?php echo mb_substr(get_the_excerpt(), 0, 90, 'UTF-8');?>
+              </p>
+              <div class="article-dls">
+                <dl class="article-dls__dl">
+                  <dt>author</dt>
+                  <dd><?php the_author(); ?></dd>
+                </dl>
+                <dl class="article-dls__dl">
+                  <dt>date</dt>
+                  <dd><?php echo get_the_date( $format, $post ); ?></dd>
+                </dl>
+              </div>
             </div>
-          </div>
-        </a>
-      </article>
-      <?php endwhile; ?>
+          </a>
+        </article>      
+        <?php endwhile; ?>
 <?php endif; ?>
+      </div>
     </div>
-
-
-
-
 <?php get_footer()?>
