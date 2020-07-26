@@ -1,7 +1,8 @@
-var mySwiper = new Swiper(".swiper-container", {
-  speed: 3000,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+alert("hello");
+jquery(function foo() {
+  console.log("動作しました。");
 });
+foo();
+// $(document).ready(function () {
+//   $(".bxslider").bxSlider();
+// });

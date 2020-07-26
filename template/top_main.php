@@ -1,13 +1,8 @@
-<div class="swiper-container">
-	<!-- メイン表示部分 -->
-	<div class="swiper-wrapper">
-		<!-- 各スライド -->
-		<div class="swiper-slide">Slide 1</div>
-		<div class="swiper-slide">Slide 2</div>
-		<div class="swiper-slide">Slide 3</div>
-		<div class="swiper-slide">Slide 4</div>
-	</div>
-</div>
+<ul class="bxslider">
+<li><img src="<?php echo get_template_directory_uri()?>/images/cat.jpeg"></li>
+<li><img src="<?php echo get_template_directory_uri()?>/images/cat.jpeg"></li>
+<li><img src="<?php echo get_template_directory_uri()?>/images/cat.jpeg"></li>
+</ul>
 <section class="t-fiber-about">
 <div class="t-fiber-about__title">
   <p></p>
