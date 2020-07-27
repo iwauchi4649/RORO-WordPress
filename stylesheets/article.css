@@ -31,6 +31,7 @@
 }
 
 .article__container__item__down-box{
+  position: relative;
   background-color: #ffffff;
   height: 150px;
   border-radius: 0 0 10px 10px;
@@ -46,4 +47,13 @@
   margin-top: 10px;
   font-weight: bold;
   color: #454545;
+}
+
+.article__container__item__down-box img{
+  width: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  border: solid 2px #2b689c;
 }

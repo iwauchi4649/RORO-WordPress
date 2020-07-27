@@ -17,12 +17,11 @@ Template Name: article
         </div>
         <div class="article__container__item__down-box">
           <span><?php the_time('Y年m月d日'); ?></span>
+          <h3><?php the_title(); ?></h3>
           <?php foreach( $acf_post_objects as $post): ?>
-          <?php setup_postdata($post); ?>
           <img src="<?php the_field('right-image'); ?>" >
           <?php endforeach; ?>
           <?php wp_reset_postdata(); ?>
-          <h3><?php the_title(); ?></h3>
         </div>
       </a>
     </div>
