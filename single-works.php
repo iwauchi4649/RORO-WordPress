@@ -39,7 +39,7 @@ Template Post Type: post
           <li class="wkd-project-members-module__item">
             <a href="<?php the_permalink(); ?>" class="wkd-project-member-module">
               <div class="wkd-project-member-module__inner">
-                <img src="<?php the_field('right-image'); ?>" alt="" class="wkd-project-member-module__image">
+                <img src="<?php the_field('right-image'); ?>" class="wkd-project-member-module__image">
                 <p class="wkd-project-member-module__role"><?php the_field('occupation'); ?></p>
                 <p class="wkd-project-member-module__name"><?php the_title(); ?></p>
               </div>

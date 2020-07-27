@@ -23,7 +23,7 @@ Template Name: creator
                 <!-- aタグにpaddingを持たせるためdisplay:blockを付与 -->
                 <a href="<?php the_permalink() ?>" class="square__text">
                   <!-- 投稿する時は正方形の画像に注意 -->
-                  <img class="square__text__img" alt="Syoma" src="<?php the_field('right-image'); ?>">
+                  <img class="square__text__img" src="<?php the_field('right-image'); ?>">
                   <!-- position:absoluteで中央寄せ -->
                   <span class="square__text__span"><?php the_title(); ?></span>
                 </a>

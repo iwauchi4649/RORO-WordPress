@@ -1,105 +1,49 @@
-.content {
-  margin: 0 auto;
-  width: 100%;
-  /* 外枠の大きさ */
-  /* max-width: 1080px; */
-  /* border: 1px solid black; */
-  min-height: 600px;
+.article{
+  background-color: #f2f2f2;
 }
 
-/* 記事全ての枠の設定 */
-.container {
+.article__container{
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  /* 記事折り返し設定 */
-  margin: 70px auto 0 auto;
+  padding: 0 30px;
 }
 
-.article-item {
-  /* 記事アイテムの一つの大きさ */
+.article__container__item{
   width: 30%;
-  height: auto;
-  margin-bottom: 30px;
-}
-.article-item a {
-  color: #030303;
-  text-decoration: none;
-}
-.article-inside {
-  padding: 0 5%;
-}
-.article-dls {
-}
-.article-dls__dl {
-  display: flex;
-  padding: 2% 0;
-}
-.article-dls__dl dt,
-dd {
-  margin: auto;
-  font-size: 0.8rem;
-}
-.article-dls__dl dt {
-  font-weight: bold;
 }
 
-.article-item img {
-  /* 画像は親要素に対して100%にする */
+.article__container__item__up-box{
+  position: relative;
+  overflow: hidden;
+  padding-top: 65%;
+}
+
+.article__container__item__up-box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
-.article-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 3% 0;
-  font-weight: 700;
-}
-.article-content p {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
+.article__container__item__down-box{
+  background-color: #ffffff;
+  height: 150px;
+  border-radius: 0 0 10px 10px;
+  padding: 20px 15px;
 }
 
-/* ここからsingle-article */
-.single-article{
-  text-align: center;
-  margin-top: 50px;
-}
-
-.single-article__author, .single-article__date{
+.article__container__item__down-box span{
   font-size: 14px;
+  color: #757575;
 }
 
-.single-article__title{
-  display: block;
-  font-size: 24px;
+.article__container__item__down-box h3{
+  margin-top: 10px;
   font-weight: bold;
-}
-
-.single-article__content {
-  margin: 18px auto;
-  padding: 0 20px;
-  max-width: 600px;
-}
-
-@media screen and (max-width: 920px) {
-  /* 記事アイテムを大きくして二列にする */
-  .article-item {
-    width: 45%;
-  }
-  .article-item p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .article-item {
-    width: 85%;
-    /* margin-bottom: -100px; */
-  }
+  color: #454545;
 }
