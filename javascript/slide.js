@@ -1,8 +1,3 @@
-alert("hello");
-jquery(function foo() {
+jQuery(function () {
   console.log("動作しました。");
 });
-foo();
-// $(document).ready(function () {
-//   $(".bxslider").bxSlider();
-// });

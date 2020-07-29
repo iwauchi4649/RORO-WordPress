@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <?php wp_head(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <title>fiber</title>
@@ -24,8 +25,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
     />
-    <script src="<?php echo get_template_directory_uri()?>/javascript/slide.js"></script>
-    <?php wp_head(); ?>
+    
   </head>
   <body>
   
