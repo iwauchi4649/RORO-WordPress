@@ -93,7 +93,7 @@ a {
   transform: scale(0.9);
 }
 .wk-cover-image {
-  height: 100%;
+  height: auto;
   width: 100%;
   background: no-repeat center;
   background-size: contain;
@@ -224,7 +224,7 @@ a {
     transform: scale(0.9);
   }
   .wk-cover-image {
-    height: 100%;
+    height: auto;
     width: 100%;
     background-size: contain;
   }
@@ -271,7 +271,7 @@ a {
 }
 
 /* ここからタブレット */
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   .wk-page-header {
     margin-top: 100px;
     text-align: center;
@@ -348,9 +348,10 @@ a {
   }
   .wk-list-item-module {
     position: relative;
+    margin-top: 30px;
   }
   .wk-list-item-module__figure {
-    height: 350px;
+    height: 200px;
     overflow: hidden;
     transform: scale(1);
     transition: .5s ease-in-out;
@@ -359,7 +360,7 @@ a {
     transform: scale(0.9);
   }
   .wk-cover-image {
-    height: 100%;
+    height: auto;
     width: 100%;
     background-size: contain;
   }
