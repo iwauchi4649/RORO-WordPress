@@ -2,33 +2,15 @@ jQuery(function () {
   console.log("動作しました。");
 });
 
-jQuery(function () {
-  var jQuerysetElm = jQuery(".viewer"),
-    fadeSpeed = 1500,
-    switchDelay = 5000;
-
-  jQuerysetElm.each(function () {
-    var targetObj = jQuery(this);
-    var findUl = targetObj.find("ul");
-    var findLi = targetObj.find("li");
-    var findLiFirst = targetObj.find("li:first");
-
-    findLi.css({ display: "block", opacity: "0", zIndex: "99" });
-    findLiFirst
-      .css({ zIndex: "100" })
-      .stop()
-      .animate({ opacity: "1" }, fadeSpeed);
-
-    setInterval(function () {
-      findUl
-        .find("li:first-child")
-        .animate({ opacity: "0" }, fadeSpeed)
-        .next("li")
-        .css({ zIndex: "100" })
-        .animate({ opacity: "1" }, fadeSpeed)
-        .end()
-        .appendTo(findUl)
-        .css({ zIndex: "99" });
-    }, switchDelay);
+jQuery(function() {
+  jQuery('.your-class').slick({
+  autoplay: true, // 自動再生
+  autoplaySpeed: 3000, // 自動再生で切り替えをする時間
+  speed: 800, // 自動再生でスライドさせるスピード
+  infinite: true, // 無限スクロール
+  slidesToShow: 1, // スライドのエリアに画像がいくつ表示されるかを指定
+  slidesToScroll: 1, // 一度にスライドする数
+  arrows: true, // 左右の次へ、前へボタンを表示
+  dots: true, // 画像下のドット（ページ送り）を表示
   });
 });

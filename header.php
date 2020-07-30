@@ -14,18 +14,12 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css" media="screen" />
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-    />
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
   </head>
   <body>
   

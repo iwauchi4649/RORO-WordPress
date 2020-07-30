@@ -1,29 +1,10 @@
-
-<div class="viewer">
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-<li>4</li>
-<li>5</li>
+<ul class="your-class">
+  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg" alt="sample"></a></li>
+  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto02.jpg" alt="sample"></a></li>
+  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto03.jpg" alt="sample"></a></li>
+  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto04.jpg" alt="sample"></a></li>
 </ul>
-</div><!--/.viewer-->
 
-
-<div class="section">
-
-  <div class="sliderArea">
-    <div class="regular slider">
-      <div><img src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg" alt="125naroom"></div>
-      <div><img src="https://125naroom.com/demo/img/itukanokotonokoto02.jpg" alt="125naroom"></div>
-      <div><img src="https://125naroom.com/demo/img/itukanokotonokoto03.jpg" alt="125naroom"></div>
-      <div><img src="https://125naroom.com/demo/img/itukanokotonokoto04.jpg" alt="125naroom"></div>
-      <div><img src="https://125naroom.com/demo/img/itukanokotonokoto05.jpg" alt="125naroom"></div>
-    </div>
-  </div>
-
-  <p class="_a"><a href="https://125naroom.com/demo/slick.html#s_01" target="_blank" class="link">View the note</a></p>
-</div>
 <section class="t-fiber-about">
 <div class="t-fiber-about__title">
   <p></p>

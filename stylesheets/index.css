@@ -729,3 +729,12 @@ dd {
   display: none;
   position: absolute;
 } */
+
+.your-class img{
+  width: 100%;
+}
+button{
+  width: 5%;
+  height: 100%;
+  background-color: red;
+}
