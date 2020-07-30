@@ -156,3 +156,36 @@
   font-weight: bold;
   line-height: 32px;
 }
+
+@media screen and (max-width:639px) {
+  .single-article__content p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .single-article h1{
+    font-size: 24px;
+  }
+
+  .single-article__content h2{
+    font-size: 20px;
+  }
+  
+  .single-article__content h3{
+    font-size: 18px;
+  }
+  
+  .single-article__content ul{
+    padding: 15px 20px;
+  }
+  
+  .single-article__content ul li{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .single-article__content ul li :last-child{
+    margin: 0;
+  }
+}
