@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
     <link

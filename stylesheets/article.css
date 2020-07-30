@@ -1,3 +1,4 @@
+/* page-article */
 .article{
   background-color: #f2f2f2;
 }
@@ -36,6 +37,7 @@
   height: 150px;
   border-radius: 0 0 10px 10px;
   padding: 20px 15px;
+  overflow-y: scroll;
 }
 
 .article__container__item__down-box span{
@@ -44,16 +46,113 @@
 }
 
 .article__container__item__down-box h3{
-  margin-top: 10px;
+  margin-top: 15px;
   font-weight: bold;
   color: #454545;
 }
 
-.article__container__item__down-box img{
-  width: 20%;
-  position: absolute;
-  top: 0;
-  right: 0;
+@media screen and (max-width: 767px) {
+  .article__container{
+    display: block;
+  }
+  .article__container__item{
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* single-article */
+.single-article{
+  padding: 0 30px;
+  max-width: 800px;
+  margin: 50px auto 0 auto;
+}
+
+.single-article__title{
+  color: #545454;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.single-article__info-box{
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.single-article__info-box span{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.single-article__info-box__date{
+  font-size: 14px;
+  color: #454545;
+  margin-right: 15px;
+}
+
+.single-article__info-box__img{
+  width: 35px;
   border-radius: 50%;
   border: solid 2px #2b689c;
+}
+
+.single-article__info-box__author{
+  color: #2b689c;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.single-article__thumbnail{
+  margin-top: 45px;
+}
+
+.single-article__thumbnail img{
+  width: 100%;
+}
+
+.single-article__content{
+  margin-top: 30px;
+}
+
+.single-article__content p{
+  font-family: 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #555555;
+}
+
+.single-article__content img{
+  width: 100%;
+}
+
+.single-article__content h2{
+  font-size: 28px;
+  padding: 15px 20px;
+  margin: 78px 0 25px 0;
+  font-weight: bold;
+  color: #2b689c;
+  border-left: 8px solid #545454;
+  background-color: #eeeeee;
+}
+
+.single-article__content h3{
+  margin: 50px 0 30px 0;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 2px solid #6f8eaa;
+  color: #545454;
+}
+
+.single-article__content ul{
+  border: solid 3px #6f8eaa;
+  padding: 25px 30px;
+  margin: 20px 0;
+}
+
+.single-article__content ul li{
+  list-style: inside;
+  color: #545454;
+  font-weight: bold;
+  line-height: 32px;
 }
