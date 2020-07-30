@@ -9,7 +9,7 @@ Template Name: works
   <div class="wk-page-header wk-page-header--works wk-page-header--works-index">
     <div class="wk-page-header__inner">
       <h1 class="wk-page-header__heading">
-        <span>worksだよ</span>
+        <span>works</span>
       </h1>
     </div>
   </div>
