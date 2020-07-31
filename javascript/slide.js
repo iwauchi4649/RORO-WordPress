@@ -1,7 +1,6 @@
-jQuery(function () {
-  console.log("動作しました。");
-});
-
+// jQuery(function () {
+//   console.log("動作しました。");
+// });
 jQuery(function() {
   jQuery('.your-class').slick({
   autoplay: true, // 自動再生
