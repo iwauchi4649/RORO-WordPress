@@ -93,7 +93,7 @@ a {
   transform: scale(0.9);
 }
 .wk-cover-image {
-  height: 100%;
+  height: auto;
   width: 100%;
   background: no-repeat center;
   background-size: contain;
@@ -141,204 +141,15 @@ a {
 /* wk-list-module end */
 /* ここまでPC版 */
 
-/* ここからスマホ */
-@media screen and (max-width: 480px) {
-  .wk-page-header__inner {
-    display: inline-block;
-    position: relative;
-  }
-  .wk-page-header__heading {
-    padding-left: .8em;
-    letter-spacing: .8em;
-    font-size: 30px;
-    display: inline-block;
-    padding-left: .3em;
-    font-family: "Roboto Slab", serif;
-    font-weight: bold;
-    overflow: hidden;
-  }
-  .wk-index-module {
-    margin: 0 auto 100px;
-    width: 100%;
-  }
-  .wk-toolbar-module--works-index {
-    margin: 50px auto 0;
-  }
-  .wk-toolbar-module {
-    display: flex;
-    align-items: center;
-  }
-  .wk-toolbar-section-module {
-    display: flex;
-    align-items: center;
-  }
-  .wk-toolbar-section-module__heading {
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: .05em;
-  }
-  .wk-toolbar-section-module__content {
-    margin: 0 0 0 17px;
-  }
-  .wk-toolbar-section-module__list {
-    display: flex;
-    align-items: center;
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    letter-spacing: .05em;
-  }
-  .wk-toolbar-section-module__list-item {
-    position: relative;
-    display: inline-block;
-    padding-top: 1px;
-    height: 28px;
-  }
-  .wk-toolbar-section-module__list-item::after {
-    bottom: -1px;
-    content: "";
-    height: 4px;
-    background: black;
-    background-size: 124px 4px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: .05em;
-  }
-  /* wk-page-header end */
-  
-  /* wk-list-module start */
-  .wk-list-module {
-    margin-top: 30px;
-  }
-  .wk-list-item-module {
-    position: relative;
-  }
-  .wk-list-item-module__figure {
-    height: 200px;
-    overflow: hidden;
-    transform: scale(1);
-    transition: .5s ease-in-out;
-  }
-  .wk-list-item-module__figure:hover {
-    transform: scale(0.9);
-  }
-  .wk-cover-image {
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-  }
 
-  .wk-cover-image--absolute {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-  .wk-list-item-module__content {
-    display: flex;
-    align-items: baseline;
-    padding: 10px 0 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
-  }
-  .wk-list-item-module__categories {
-    margin-right: 5px;
-    display: flex;
-  }
-  .wk-list-item-module__category {
-    display: inline-block;
-    padding: 0 5px;
-    font-family: "Roboto Slab", serif;
-    font-size: 5px;
-    font-weight: bold;
-    line-height: 15px;
-    letter-spacing: .05em;
-    background: #f3f3f3;
-  }
-  .wk-list-item-module__title {
-    font-size: 5px;
-    margin-right: 5px;
-    font-family: YakuHanJPs, "Roboto Slab", "Midashi Go MB31", sans-serif;
-    font-weight: bold;
-    letter-spacing: .05em;
-  }
-  .wk-list-item-module__client {
-    font-size: 10px;
-    line-height: 1.9;
-    letter-spacing: 0;
-  }
-}
 
 /* ここからタブレット */
-@media screen and (max-width: 769px) {
+@media (max-width: 768px){
   .wk-page-header {
     margin-top: 100px;
-    text-align: center;
-    z-index: 8;
-    position: relative;
-  }
-  .wk-page-header__inner {
-    display: inline-block;
-    position: relative;
-  }
-  .wk-page-header__heading {
-    padding-left: .8em;
-    letter-spacing: .8em;
-    font-size: 30px;
-    display: inline-block;
-    padding-left: .3em;
-    font-family: "Roboto Slab", serif;
-    font-weight: bold;
-    overflow: hidden;
-  }
-  .wk-index-module {
-    margin: 0 auto 100px;
-    width: 100%;
   }
   .wk-toolbar-module--works-index {
     margin: 50px auto 0;
-  }
-  .wk-toolbar-module {
-    display: flex;
-    align-items: center;
-  }
-  .wk-toolbar-section-module {
-    display: flex;
-    align-items: center;
-  }
-  .wk-toolbar-section-module__heading {
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: .05em;
-  }
-  .wk-toolbar-section-module__content {
-    margin: 0 0 0 17px;
-  }
-  .wk-toolbar-section-module__list {
-    display: flex;
-    align-items: center;
-    font-family: "Roboto Slab", serif;
-    font-size: 16px;
-    letter-spacing: .05em;
-  }
-  .wk-toolbar-section-module__list-item {
-    position: relative;
-    display: inline-block;
-    padding-top: 1px;
-    height: 28px;
-  }
-  .wk-toolbar-section-module__list-item::after {
-    bottom: -1px;
-    content: "";
-    height: 4px;
-    background: black;
-    background-size: 124px 4px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: .05em;
   }
   /* wk-page-header end */
   
@@ -347,66 +158,69 @@ a {
     margin-top: 30px;
   }
   .wk-list-item-module {
-    position: relative;
+    margin-top: 30px;
   }
   .wk-list-item-module__figure {
-    height: 350px;
-    overflow: hidden;
-    transform: scale(1);
-    transition: .5s ease-in-out;
-  }
-  .wk-list-item-module__figure:hover {
-    transform: scale(0.9);
-  }
-  .wk-cover-image {
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-  }
-  .wk-cover-image--absolute {
-    position: absolute;
-    top: 0;
-    left: 0;
+    height: 330px;
   }
   .wk-list-item-module__content {
-    display: flex;
-    align-items: baseline;
     padding: 10px 0 0;
-    position: absolute;
-    top: 100%;
-    left: 0;
   }
   .wk-list-item-module__categories {
     margin-right: 5px;
-    display: flex;
   }
-  .wk-list-item-module__category {
-    display: inline-block;
+  .wk-list-item-module__categories a {
     padding: 0 5px;
-    font-family: "Roboto Slab", serif;
     font-size: 5px;
-    font-weight: bold;
-    line-height: 15px;
-    letter-spacing: .05em;
-    background: #f3f3f3;
   }
   .wk-list-item-module__title {
     font-size: 5px;
     margin-right: 5px;
-    font-family: YakuHanJPs, "Roboto Slab", "Midashi Go MB31", sans-serif;
-    font-weight: bold;
-    letter-spacing: .05em;
   }
   .wk-list-item-module__client {
     font-size: 10px;
-    line-height: 1.9;
-    letter-spacing: 0;
   }
 }
 
-@media screen and (min-width: 769px) {
+/* ここからスマホ */
+@media screen and (max-width: 767px) {
+
+  .wk-page-header {
+    margin-top: 30px;
+  }
+  .wk-page-header__heading {
+    font-size: 30px;
+  }
+  .wk-toolbar-module--works-index {
+    margin: 30px auto 0;
+  }
+  /* wk-page-header end */
+  
+  /* wk-list-module start */
   .wk-list-module {
     margin-top: 30px;
   }
-
+  .wk-list-item-module {
+    margin-top: 30px;
+  }
+  .wk-list-item-module__figure {
+    height: 165px;
+  }
+  .wk-list-item-module__content {
+    padding: 10px 0 0;
+  }
+  .wk-list-item-module__categories {
+    margin-right: 5px;
+  }
+  .wk-list-item-module__categories a {
+    padding: 0 5px;
+    font-size: 5px;
+  }
+  .wk-list-item-module__title {
+    font-size: 5px;
+    margin-right: 5px;
+  }
+  .wk-list-item-module__client {
+    font-size: 10px;
+  }
 }
