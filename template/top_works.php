@@ -19,6 +19,7 @@
       </div>
     </div>
     <div class="wk-list-module">
+      <!-- 昇順で上から5個とってきたいです。 -->
       <?php $posts = get_posts('numberposts=1&category_name=works'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
       <article class="wk-list-module__item wk-list-item-module">
