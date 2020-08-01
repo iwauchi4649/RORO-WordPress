@@ -68,3 +68,37 @@ input.btn:hover {
   background: #fff;
   color: #2c649c;
 }
+.select-wrap {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+}
+
+.select-wrap:before {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%) translateX(0);
+  content: "";
+  width: 15px;
+  height: 15px;
+  background-image: url(../images/down_select.png) no-repeat;
+  background-size: contain;
+}
+
+.select-wrap select {
+  width: 100%;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.select-wrap select::-ms-expand {
+  display: none;
+}
