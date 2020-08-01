@@ -1,0 +1,70 @@
+/*  リファクタリングでindex.cssに統合する予定  */
+.pageTitle {
+  text-align: center;
+  font-size: 2em;
+  font-family: serif;
+  padding-top: 2em;
+  color: #2c649c;
+}
+.pageTitle span {
+  display: none;
+}
+
+.main {
+  display: flex;
+}
+
+.form_row {
+  padding: 0.5em;
+  text-align: center;
+}
+.form_label {
+  font-family: "TsukuBRdGothic-Regular", sans-serif;
+}
+.form_label span {
+  background: #ff1a00;
+  font-family: "TsukuBRdGothic-Regular", sans-serif;
+  margin-left: 1em;
+}
+span {
+  color: #fff;
+  border-radius: 3px;
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  letter-spacing: 0.2em;
+  font-family: serif;
+}
+.form_content {
+  padding: 1em 0;
+}
+.form_row-center {
+  text-align: center;
+}
+input[type="text"] {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* 送信ボタン */
+input.btn {
+  width: 300px;
+  height: 60px;
+  background: #2c649c;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  border: 1px solid #2c649c;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* 送信ボタンホバー */
+input.btn:hover {
+  background: #fff;
+  color: #2c649c;
+}
