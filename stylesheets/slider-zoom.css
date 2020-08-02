@@ -12,6 +12,9 @@
   transition: opacity 2s linear, transform 7.5s linear;
   position: relative;
 }
+.slide_item li {
+  width: 100%;
+}
 #slide_wrap .slide_item:not(:first-child) {
   position: absolute;
   top: 0;
@@ -24,5 +27,6 @@
   transform: scale(1.1);
 }
 #slide_wrap .slide_item img {
+  width: 100%;
   display: block;
 }
