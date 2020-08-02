@@ -143,7 +143,6 @@ legend {
 .slick-slide {
   text-align: center;
   color: #419be0;
-  background: pink;
 }
 
 /* opening start*/
@@ -697,10 +696,15 @@ dd {
   }
 }
 
-.your-class{
+.your-class , .img-area{
   margin: 3rem;
 }
 
 .your-class img{
   width: 100%;
+}
+
+.circle-img{
+  border-radius: 50%;/*角丸*/
+  border: solid 5px rgba(43, 104, 156, 1);
 }
