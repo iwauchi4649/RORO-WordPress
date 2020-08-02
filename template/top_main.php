@@ -1,9 +1,9 @@
-<!-- <ul class="your-class">
+<ul class="your-class">
   <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg" alt="sample"></a></li>
   <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto02.jpg" alt="sample"></a></li>
   <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto03.jpg" alt="sample"></a></li>
   <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto04.jpg" alt="sample"></a></li>
-</ul> -->
+</ul>
 
 <div class="wrap">
   <ul id="slide_wrap">
