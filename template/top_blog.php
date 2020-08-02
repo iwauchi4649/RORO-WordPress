@@ -1,4 +1,12 @@
-  <div class="content">
+<div class="wk-page-header wk-page-header--works wk-page-header--works-index">
+  <div class="wk-page-header__inner">
+    <h1 class="wk-page-header__heading">
+      <span>blog</span>
+    </h1>
+  </div>
+</div>
+
+    <div class="content">
       <div class="container">
       <?php $posts = get_posts('numberposts=3&category_name=article'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
