@@ -1,0 +1,28 @@
+.wrap {
+  padding: 16px;
+}
+
+#slide_wrap {
+  position: relative;
+  overflow: hidden;
+}
+#slide_wrap .slide_item {
+  opacity: 0;
+  transform: scale(1);
+  transition: opacity 2s linear, transform 7.5s linear;
+  position: relative;
+}
+#slide_wrap .slide_item:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#slide_wrap .slide_item.show_ {
+  opacity: 1;
+}
+#slide_wrap .slide_item.zoom_ {
+  transform: scale(1.1);
+}
+#slide_wrap .slide_item img {
+  display: block;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <?php wp_head(); ?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta charset="utf-8" />
     <title>fiber</title>
@@ -15,33 +16,16 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/page.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/slider-zoom.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/company.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css" media="screen" />
+
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
-  <script type="text/javascript" src="<?php echo get_template_directory_uri()?>/javascript/slide.js"></script>
-  <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-    />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <?php wp_head(); ?>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.3.1/dist/css/yakuhanjp.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
   </head>
   <body>
   
