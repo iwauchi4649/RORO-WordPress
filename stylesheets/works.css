@@ -2,8 +2,6 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-
-
 .wk-page-header {
   margin-top: 147px;
   text-align: center;
@@ -20,7 +18,7 @@ a {
   font-size: 60px;
   display: inline-block;
   padding-left: .3em;
-  font-family: "Roboto Slab", serif;
+  font-family: “Roboto Slab”, serif;
   font-weight: bold;
   overflow: hidden;
 }
@@ -41,7 +39,7 @@ a {
   align-items: center;
 }
 .wk-toolbar-section-module__heading {
-  font-family: "Roboto Slab", serif;
+  font-family: “Roboto Slab”, serif;
   font-size: 16px;
   font-weight: bold;
   letter-spacing: .05em;
@@ -52,7 +50,7 @@ a {
 .wk-toolbar-section-module__list {
   display: flex;
   align-items: center;
-  font-family: "Roboto Slab", serif;
+  font-family: “Roboto Slab”, serif;
   font-size: 16px;
   letter-spacing: .05em;
 }
@@ -64,7 +62,7 @@ a {
 }
 .wk-toolbar-section-module__list-item::after {
   bottom: -1px;
-  content: "";
+  content: “”;
   height: 4px;
   background: black;
   background-size: 124px 4px;
@@ -74,7 +72,6 @@ a {
   right: .05em;
 }
 /* wk-page-header end */
-
 /* wk-list-module start */
 .wk-list-module {
   margin-top: 70px;
@@ -118,17 +115,17 @@ a {
 .wk-list-item-module__categories a {
   display: inline-block;
   padding: 0 10px;
-  font-family: "Roboto Slab", serif;
+  font-family: “Roboto Slab”, serif;
   font-size: 11px;
   font-weight: bold;
   line-height: 15px;
   letter-spacing: .05em;
-  background: #f3f3f3;
+  background: #F3F3F3;
 }
 .wk-list-item-module__title {
   font-size: 12px;
   margin-right: 16px;
-  font-family: YakuHanJPs, "Roboto Slab", "Midashi Go MB31", sans-serif;
+  font-family: YakuHanJPs, “Roboto Slab”, “Midashi Go MB31”, sans-serif;
   font-weight: bold;
   letter-spacing: .05em;
 }
@@ -137,11 +134,8 @@ a {
   line-height: 1.9;
   letter-spacing: 0;
 }
-
 /* wk-list-module end */
 /* ここまでPC版 */
-
-
 
 /* ここからタブレット */
 @media (max-width: 768px){
@@ -152,7 +146,6 @@ a {
     margin: 50px auto 0;
   }
   /* wk-page-header end */
-  
   /* wk-list-module start */
   .wk-list-module {
     margin-top: 30px;
@@ -195,7 +188,6 @@ a {
     margin: 30px auto 0;
   }
   /* wk-page-header end */
-  
   /* wk-list-module start */
   .wk-list-module {
     margin-top: 30px;
