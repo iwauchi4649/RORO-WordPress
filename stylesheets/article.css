@@ -1,105 +1,194 @@
-.content {
-  margin: 0 auto;
+/* page-article */
+.article{
+  background-color: #f2f2f2;
+}
+
+.article__container{
   width: 100%;
-  /* 外枠の大きさ */
-  /* max-width: 1080px; */
-  /* border: 1px solid black; */
-  min-height: 600px;
-}
-
-/* 記事全ての枠の設定 */
-.container {
+  margin-top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  /* 記事折り返し設定 */
-  margin: 70px auto 0 auto;
+  padding: 0 30px;
 }
 
-.article-item {
-  /* 記事アイテムの一つの大きさ */
+.article__container__item{
   width: 30%;
-  height: auto;
-  margin-bottom: 30px;
-}
-.article-item a {
-  color: #030303;
-  text-decoration: none;
-}
-.article-inside {
-  padding: 0 5%;
-}
-.article-dls {
-}
-.article-dls__dl {
-  display: flex;
-  padding: 2% 0;
-}
-.article-dls__dl dt,
-dd {
-  margin: auto;
-  font-size: 0.8rem;
-}
-.article-dls__dl dt {
-  font-weight: bold;
+  margin-bottom:35px;
 }
 
-.article-item img {
-  /* 画像は親要素に対して100%にする */
+.article__container__item__up-box{
+  position: relative;
+  overflow: hidden;
+  padding-top: 65%;
+}
+
+.article__container__item__up-box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
-.article-title {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding: 3% 0;
-  font-weight: 700;
-}
-.article-content p {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
+.article__container__item__down-box{
+  position: relative;
+  background-color: #ffffff;
+  height: 150px;
+  border-radius: 0 0 10px 10px;
+  padding: 20px 15px;
+  overflow-y: scroll;
 }
 
-/* ここからsingle-article */
-.single-article{
-  text-align: center;
-  margin-top: 50px;
-}
-
-.single-article__author, .single-article__date{
+.article__container__item__down-box span{
   font-size: 14px;
+  color: #757575;
+}
+
+.article__container__item__down-box h3{
+  margin-top: 15px;
+  font-weight: bold;
+  color: #454545;
+}
+
+@media screen and (max-width: 767px) {
+  .article__container{
+    display: block;
+  }
+  .article__container__item{
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+/* single-article */
+.single-article{
+  padding: 0 30px;
+  max-width: 800px;
+  margin: 50px auto 0 auto;
 }
 
 .single-article__title{
-  display: block;
+  color: #545454;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.single-article__info-box{
+  margin-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.single-article__info-box span{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.single-article__info-box__date{
+  font-size: 14px;
+  color: #454545;
+  margin-right: 15px;
+}
+
+.single-article__info-box__img{
+  width: 35px;
+  border-radius: 50%;
+  border: solid 2px #2b689c;
+}
+
+.single-article__info-box__author{
+  color: #2b689c;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.single-article__thumbnail{
+  margin-top: 45px;
+}
+
+.single-article__thumbnail img{
+  width: 100%;
+}
+
+.single-article__content{
+  margin-top: 30px;
+}
+
+.single-article__content p{
+  font-family: 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: #555555;
+}
+
+.single-article__content img{
+  width: 100%;
+}
+
+.single-article__content h2{
+  font-size: 28px;
+  padding: 15px 20px;
+  margin: 78px 0 25px 0;
+  font-weight: bold;
+  color: #2b689c;
+  border-left: 8px solid #545454;
+  background-color: #eeeeee;
+}
+
+.single-article__content h3{
+  margin: 50px 0 30px 0;
   font-size: 24px;
   font-weight: bold;
+  border-bottom: 2px solid #6f8eaa;
+  color: #545454;
 }
 
-.single-article__content {
-  margin: 18px auto;
-  padding: 0 20px;
-  max-width: 600px;
+.single-article__content ul{
+  border: solid 3px #6f8eaa;
+  padding: 25px 30px;
+  margin: 20px 0;
 }
 
-@media screen and (max-width: 920px) {
-  /* 記事アイテムを大きくして二列にする */
-  .article-item {
-    width: 45%;
+.single-article__content ul li{
+  list-style: inside;
+  color: #545454;
+  font-weight: bold;
+  line-height: 32px;
+}
+
+@media screen and (max-width:639px) {
+  .single-article__content p{
+    font-size: 16px;
+    line-height: 28px;
   }
-  .article-item p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
 
-@media screen and (max-width: 620px) {
-  .article-item {
-    width: 85%;
-    /* margin-bottom: -100px; */
+  .single-article h1{
+    font-size: 24px;
+  }
+
+  .single-article__content h2{
+    font-size: 20px;
+  }
+  
+  .single-article__content h3{
+    font-size: 18px;
+  }
+  
+  .single-article__content ul{
+    padding: 15px 20px;
+  }
+  
+  .single-article__content ul li{
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+
+  .single-article__content ul li :last-child{
+    margin: 0;
   }
 }

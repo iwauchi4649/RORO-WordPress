@@ -32,7 +32,6 @@ Template Name: works
       <article class="wk-list-module__item wk-list-item-module">
         <a href="<?php the_permalink() ?>">
           <div class="wk-list-item-module__figure">
-            <div class="wk-cover-image wk-cover-image--absolute"></div>
             <img class="wk-cover-image wk-cover-image--absolute" src="<?php the_field('image'); ?>" alt="ROROサイトの画像">
           </div>
           <div class="wk-list-item-module__content">

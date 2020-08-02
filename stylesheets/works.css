@@ -136,6 +136,7 @@ a {
 }
 /* wk-list-module end */
 /* ここまでPC版 */
+
 /* ここからタブレット */
 @media (max-width: 768px){
   .wk-page-header {
@@ -173,8 +174,10 @@ a {
     font-size: 10px;
   }
 }
+
 /* ここからスマホ */
 @media screen and (max-width: 767px) {
+
   .wk-page-header {
     margin-top: 30px;
   }
