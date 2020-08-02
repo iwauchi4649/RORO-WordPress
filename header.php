@@ -8,16 +8,19 @@
     <meta name="description" content="" />
     <meta name="author" content="fiber" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/index.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/creator.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/member.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/page.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/slider-zoom.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/company.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css" media="screen" />
+
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <meta name="robots" content="noindex,nofollow" />
     <link rel="canonical" href="https://lopan.jp/css-animation" />
