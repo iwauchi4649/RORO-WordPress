@@ -9,6 +9,7 @@
     <meta name="author" content="fiber" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/reset.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/header.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/index.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/creator.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/member.css" />
@@ -28,31 +29,45 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"/>
   </head>
   <body>
-     <header>
-      <div class="logo">
-        <p><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="main_logo" /></a></p>
-        <div id="nav-drawer">
-          <input id="nav-input" type="checkbox" class="nav-unshown" />
-          <label id="nav-open" for="nav-input"><span></span></label>
-          <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-          <div id="nav-content">
-            <nav>
-              <?php
-              $args = array(
-                'menu' => "grobal-navigation",//管理画面で作成したメニュー
-                "menu_class" =>"",//メニューを構成するulタグのクラス
-                "contaier" => false, //<ul>タグを囲んでいる<div>タグを削除
-              );
-              wp_nav_menu($args);
-              ?>
-            </nav>
-            <figure>
-              <audio controls src="<?php echo get_template_directory_uri()?>/mp3/Family_Happiness.mp3" loop>
-                Your browser does not support the
-                <code>audio</code> element.
-              </audio>
-            </figure>
-          </div>
+    <header class="header">
+    <div class="header__left">
+      <a href="<?php echo home_url(); ?>" class="header__left__logo"><img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="ロゴ"></a>
+    </div>
+    <div class="header__right">
+      <?php
+      $args = array(
+        'menu' => "grobal-navigation",//管理画面で作成したメニュー
+        "menu_class" =>"header__right__list",//メニューを構成するulタグのクラス
+        "contaier" => false, //<ul>タグを囲んでいる<div>タグを削除
+      );
+      wp_nav_menu($args);
+      ?>
+    </div>
+  </header>
+  <nav class="navi">
+    <?php
+    $args = array(
+      'menu' => "grobal-navigation",//管理画面で作成したメニュー
+      "menu_class" =>"",//メニューを構成するulタグのクラス
+      "contaier" => false, //<ul>タグを囲んでいる<div>タグを削除
+    );
+    wp_nav_menu($args);
+    ?>
+  </nav>
+  <div class="header-responsive">
+    <div class="header-responsive__left">
+      <a href="<?php echo home_url(); ?>">
+        <div class="logo">
+          <img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png" alt="ロゴ">
         </div>
+      </a>
+    </div>
+    <div class="header-responsive__right">
+      <div class="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </header> 
+    </div>
+  </div>
+</body>

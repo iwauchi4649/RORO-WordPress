@@ -5,6 +5,7 @@
 */
 html {
   color: #000;
+  margin-top: 80px;
 }
 /*
 	TODO remove settings on BODY since we can't namespace it.
