@@ -11,6 +11,11 @@ jQuery(function() {
   dots: true, // 画像下のドット（ページ送り）を表示
   });
 
+  jQuery(document).on('click', '.toggle', function(){
+    jQuery('.toggle').toggleClass('active');
+    jQuery('.navi').toggleClass('active');
+  });
+
   jQuery('.img-area').slick({
     autoplay: true, // 自動再生
     autoplaySpeed: 3000, // 自動再生で切り替えをする時間
