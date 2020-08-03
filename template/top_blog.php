@@ -13,7 +13,11 @@
         <article class="article-item box">
           <a href="<?php the_permalink(); ?>">
             <div class="article-inside">
+            <?php if(has_post_thumbnail()): ?>
               <?php the_post_thumbnail(array(350), array('class' => 'thumb')); ?>
+            <?php else: ?>
+              <img src="<?php echo get_template_directory_uri()?>/images/fiber_web.png">
+            <?php endif; ?>
               <h3 class="article-title">
               <?php echo mb_substr(the_title(), 0, 15, 'UTF-8'); ?>	
               </h3>

@@ -1,11 +1,6 @@
-<!-- slick.jsのテンプレート用 -->
-<!-- <ul class="your-class">
-  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto01.jpg" alt="sample"></a></li>
-  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto02.jpg" alt="sample"></a></li>
-  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto03.jpg" alt="sample"></a></li>
-  <li><a href="#"><img src="https://125naroom.com/demo/img/itukanokotonokoto04.jpg" alt="sample"></a></li>
-</ul> -->
-
+<div class="shutter">
+  <p class="text_clip">Welcom to<br/>fiber</p>
+</div> 
 <!-- slick.jsではないスライド -->
 <div class="wrap">
   <ul id="slide_wrap">
@@ -22,8 +17,7 @@
 </div>
 
 <section class="t-fiber-about">
-<div class="t-fiber-about__title">
-  <p></p>
+  <div class="t-fiber-about__title">
 </div>
 <div class="t-fiber-about__content">
     <p class="element js-fadein">fiberは、デザイナーやエンジニア・マーケター等、</p>
