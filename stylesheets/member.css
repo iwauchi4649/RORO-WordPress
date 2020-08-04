@@ -115,7 +115,6 @@
 }
 .member__container__person__content__box__skill__title {
   font-size: 1.5vw;
-  /* color: rgb(128, 133, 135); */
   letter-spacing: 1px;
   font-weight: bold;
   word-break: break-all;
@@ -170,6 +169,14 @@
   }
   .member__container__person__content__box__name__full {
     font-size: 1.5rem;
+  }
+  .member__container__person__content__box__name__romaji ,.member__container__person__content__box__skill__title{
+    font-size: 1.2rem;
+  }
+  .member__container__person__content__box__name__occupation,
+  .member__container__person__content__box__sentence,
+  .member__container__person__content__box__skill__element{
+    font-size: 0.8rem;
   }
   .member__container__person__content__box__skill {
     padding-top: 0;
