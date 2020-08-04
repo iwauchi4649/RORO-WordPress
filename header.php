@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/works-details.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/article.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/page.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/contact.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/slider-zoom.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/company.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
