@@ -155,8 +155,8 @@ a {
 
 /* wkd-article end */
 
-/* ここからスマホ */
-@media screen and (max-width: 480px) {
+/* ここからタブレット */
+@media (max-width: 768px){
   .wkd-page-header--works-detail {
     margin-top: 98px;
     font-size: 30px;
@@ -309,8 +309,8 @@ a {
   /* wkd-article end */
 }
 
-/* ここからタブレット */
-@media screen and (max-width: 769px) {
+/* ここからスマホ */
+@media screen and (max-width: 767px) {
   .wkd-page-header--works-detail {
     margin-top: 98px;
     font-size: 30px;
