@@ -20,7 +20,7 @@ a {
   position: relative;
 }
 .wkd-page-header__heading {
-  font-size: 30px;
+  font-size: 60px;
   padding-left: .8em;
   letter-spacing: .8em;
   display: inline-block;
@@ -37,7 +37,7 @@ a {
   width: 80%;
 }
 .wkd-article__title {
-  font-size: 40px;
+  font-size: 30px;
   font-family: YakuHanJPs, "Roboto Slab", "Midashi Go MB31", sans-serif;
   font-weight: bold;
   letter-spacing: .05em;
@@ -54,7 +54,7 @@ a {
   letter-spacing: 0;
 }
 .wkd-info-module__texts {
-  margin-top: 4px;
+  margin-top: 2px;
   display: flex;
   font-family: "Roboto Slab", serif;
   font-size: 11px;
