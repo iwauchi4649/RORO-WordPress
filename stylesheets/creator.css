@@ -6,6 +6,8 @@
   border-bottom: 5px dashed rgba(43, 104, 156, 1);
   padding-top: 3rem;
   text-align: center;
+  font-family: “Roboto Slab”, serif;
+  letter-spacing: .2rem;
 }
 .creator__container__introduction__title__span {
   /* フォントは後で統一する、統一後にコメントを消去 */

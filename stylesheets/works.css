@@ -9,6 +9,7 @@ a {
   position: relative;
 }
 .wk-page-header__inner {
+  width: 80%;
   display: inline-block;
   position: relative;
 }
@@ -27,7 +28,7 @@ a {
   width: 80%;
 }
 .wk-toolbar-module--works-index {
-  margin: 109px auto 0;
+  margin: 50px auto 0;
   width: 100%;
 }
 .wk-toolbar-module {
