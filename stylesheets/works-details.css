@@ -95,14 +95,14 @@ a {
   margin-top: 37px;
 }
 .wkd-data-module p {
-  width: 480px;
+  width: 50%;
   font-size: 13px;
   line-height: 2.15;
   letter-spacing: .05em;
 }
 .wkd-data-module__members {
   margin: -52px 0 0 70px;
-  width: 500px;
+  width: 50%;
 }
 .wkd-project-members-module__heading {
   font-family: "Roboto Slab", serif;
@@ -127,6 +127,9 @@ a {
 .wkd-project-member-module__inner {
   height: 54px;
   position: relative;
+}
+.wkd-project-member-module__inner p {
+  width: 195px;
 }
 .wkd-project-member-module__image {
   height: 30px;
@@ -157,12 +160,6 @@ a {
 
 /* ここからタブレット */
 @media (max-width: 768px){
-  .wkd-page-header--works-detail {
-    margin-top: 98px;
-    font-size: 30px;
-    padding-left: .8em;
-    letter-spacing: .8em;
-  }
   .wkd-page-header {
     margin-top: 90px;
     text-align: center;
@@ -188,7 +185,7 @@ a {
   /* wkd-article start */
   .wkd-article {
     margin: 50px auto 0;
-    width: 300px;
+    width: 700px;
   }
   .wkd-article__title {
     font-size: 40px;
@@ -249,14 +246,14 @@ a {
     margin-top: 37px;
   }
   .wkd-data-module p {
-    width: 480px;
-    font-size: 13px;
+    width: 50%;
+    font-size: 10px;
     line-height: 2.15;
     letter-spacing: .05em;
   }
   .wkd-data-module__members {
-    margin: -52px 0 0 70px;
-    width: 500px;
+    margin: -52px 0 0 30px;
+    width: 50%;
   }
   .wkd-project-members-module__heading {
     font-family: "Roboto Slab", serif;
@@ -310,15 +307,13 @@ a {
 }
 
 /* ここからスマホ */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   .wkd-page-header--works-detail {
-    margin-top: 98px;
-    font-size: 30px;
     padding-left: .8em;
     letter-spacing: .8em;
   }
   .wkd-page-header {
-    margin-top: 90px;
+    margin-top: 50px;
     text-align: center;
     z-index: 8;
     position: relative;
@@ -329,8 +324,6 @@ a {
   }
   .wkd-page-header__heading {
     font-size: 30px;
-    padding-left: .8em;
-    letter-spacing: .8em;
     display: inline-block;
     padding-left: .3em;
     font-family: "Roboto Slab", serif;
@@ -341,11 +334,11 @@ a {
   
   /* wkd-article start */
   .wkd-article {
-    margin: 50px auto 0;
+    margin: 25px auto 0;
     width: 95%;
   }
   .wkd-article__title {
-    font-size: 20px;
+    font-size: 18px;
     font-family: YakuHanJPs, "Roboto Slab", "Midashi Go MB31", sans-serif;
     font-weight: bold;
     letter-spacing: .05em;
@@ -353,16 +346,13 @@ a {
   .wkd-info-module {
     margin-top: 7px;
   }
-  .wkd-info-module__content {
-    display: block;
-  }
   .wkd-info-module__client {
     margin-right: 5px;
     font-size: 10px;
     letter-spacing: 0;
   }
   .wkd-info-module__texts {
-    margin-top: 4px;
+    margin-top: 0;
     display: flex;
     font-family: "Roboto Slab", serif;
     font-size: 11px;
@@ -401,9 +391,9 @@ a {
     display: block;
     margin-top: 20px;
   }
-  .wkd-data-module p {
+  .wkd-data-module p{
     width: 100%;
-    font-size: 13px;
+    font-size: 10px;
     line-height: 2.15;
     letter-spacing: .05em;
   }
@@ -421,12 +411,15 @@ a {
     display: flex;
     flex-wrap: wrap;
     border-left: solid 1px #dedede;
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .wkd-project-members-module__item {
     width: 50%;
     border: solid #dedede;
     border-width: 1px 1px 1px 0;
+  }
+  .wkd-project-members-module__item{
+    width: 50%;
   }
   .wkd-project-member-module {
     display: block;
@@ -435,6 +428,9 @@ a {
     height: 54px;
     position: relative;
   }
+  .wkd-project-member-module__inner {
+    width: 195px;
+  }
   .wkd-project-member-module__image {
     height: 30px;
     position: relative;
@@ -442,6 +438,7 @@ a {
     left: 14px;
   }
   .wkd-project-member-module__role {
+    width: 175px;
     font-size: 12px;
     position: absolute;
     top: 10px;
