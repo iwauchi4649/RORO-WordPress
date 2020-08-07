@@ -9,6 +9,7 @@ a {
   position: relative;
 }
 .wk-page-header__inner {
+  width: 80%;
   display: inline-block;
   position: relative;
 }
@@ -22,12 +23,22 @@ a {
   font-weight: bold;
   overflow: hidden;
 }
+.cr-page-header__heading {
+  padding-left: .8em;
+  letter-spacing: .5em;
+  font-size: 60px;
+  display: inline-block;
+  padding-left: .3em;
+  font-family: “Roboto Slab”, serif;
+  font-weight: bold;
+  overflow: hidden;
+}
 .wk-index-module {
   margin: 0 auto 100px;
   width: 80%;
 }
 .wk-toolbar-module--works-index {
-  margin: 109px auto 0;
+  margin: 50px auto 0;
   width: 100%;
 }
 .wk-toolbar-module {
@@ -176,7 +187,7 @@ a {
 }
 
 /* ここからスマホ */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
 
   .wk-page-header {
     margin-top: 30px;

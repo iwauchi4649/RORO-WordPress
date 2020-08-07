@@ -5,6 +5,18 @@ Template Name: article
 ?>
  
 <?php get_header(); ?>
+<div class="wk-page-header wk-page-header--works wk-page-header--works-index">
+    <div class="wk-page-header__inner">
+      <h1 class="wk-page-header__heading">
+        <span>blog</span>
+      </h1>
+      <div class="creator__container__introduction__title">
+        <span class="creator__container__introduction__title__span">
+          記事一覧
+        </span>
+      </div>
+    </div>
+  </div>
 <body class="article">
   <div class="article__container">
     <?php $posts = get_posts('numberposts=10&category_name=article'); global $post; ?>

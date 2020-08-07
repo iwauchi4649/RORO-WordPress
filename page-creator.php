@@ -4,6 +4,11 @@ Template Name: creator
 */
 ?>
 <?php get_header()?>
+<div class="wk-page-header wk-page-header--works wk-page-header--works-index">
+    <div class="wk-page-header__inner">
+      <h1 class="cr-page-header__heading">
+        <span>creator</span>
+      </h1>
   <main class="creator">
     <!-- bootstrap等で幅を与えたい時のためにcontainerクラスを作成 -->
     <div class="creator__container">
