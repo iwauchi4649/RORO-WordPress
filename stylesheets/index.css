@@ -406,6 +406,14 @@ dd {
   -webkit-transform: rotate(10deg);
   transform: rotate(10deg);
 }
+footer {
+  margin: 25px 0;
+}
+small {
+  display: table;
+  margin: 0 auto;
+  opacity: 0.5;
+}
 @media screen and (max-width: 920px) {
   /* 記事アイテムを大きくして二列にする */
   .article-item {
