@@ -1,8 +1,9 @@
 .c-main-view {
-  margin-top: 147px;
+  margin: 147px auto 0;
   text-align: center;
   z-index: 8;
   position: relative;
+  width: 80%;
 }
 .c-main-view__title {
   color: #000;

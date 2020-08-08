@@ -9,6 +9,10 @@
   font-family: “Roboto Slab”, serif;
   letter-spacing: .2rem;
 }
+
+.company-sub-title {
+  
+}
 .creator__container__introduction__title__span {
   /* フォントは後で統一する、統一後にコメントを消去 */
   font-size: 2rem;
