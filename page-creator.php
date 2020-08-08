@@ -4,11 +4,13 @@ Template Name: creator
 */
 ?>
 <?php get_header()?>
-<div class="wk-page-header wk-page-header--works wk-page-header--works-index">
+  <div class="wk-page-header wk-page-header--works wk-page-header--works-index">
     <div class="wk-page-header__inner">
       <h1 class="cr-page-header__heading">
         <span>creator</span>
       </h1>
+    </div>
+  </div>
   <main class="creator">
     <!-- bootstrap等で幅を与えたい時のためにcontainerクラスを作成 -->
     <div class="creator__container">
@@ -22,7 +24,7 @@ Template Name: creator
         <div class="creator__container__introduction__content">
           <ul class="creator__container__introduction__content__box">
             <!-- liは1個25%が4個並び、レスポンシブ時は1個50%が2個並び -->
-            <?php $posts = get_posts('numberposts=10&category=4'); global $post; ?>
+            <?php $posts = get_posts('numberposts=10&category_name=creator'); global $post; ?>
             <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
               <li class="creator__container__introduction__content__box__square">
                 <!-- aタグにpaddingを持たせるためdisplay:blockを付与 -->
