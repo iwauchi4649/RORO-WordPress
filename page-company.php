@@ -10,6 +10,11 @@ Template Name: company
     <h1 class="c-main-view__title">
       <span>company</span>
     </h1>
+    <div class="creator__container__introduction__title">
+      <span class="creator__container__introduction__title__span">
+        会社概要
+      </span>
+    </div>
   </div>
   <div class="c-contents">
     <div class="c-contents__list">

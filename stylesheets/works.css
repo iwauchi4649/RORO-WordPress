@@ -89,7 +89,6 @@ a {
 }
 .wk-list-item-module {
   position: relative;
-  margin-top: 100px;
 }
 .wk-list-item-module__figure {
   height: 600px;
@@ -198,6 +197,9 @@ a {
   .wk-toolbar-module--works-index {
     margin: 30px auto 0;
   }
+  .wk-index-module {
+    width: 95%;
+  }  
   /* wk-page-header end */
   /* wk-list-module start */
   .wk-list-module {
