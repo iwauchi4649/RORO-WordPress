@@ -89,6 +89,7 @@ a {
 }
 .wk-list-item-module {
   position: relative;
+  margin-bottom: 50px;
 }
 .wk-list-item-module__figure {
   height: 600px;
