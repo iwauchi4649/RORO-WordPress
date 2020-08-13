@@ -6,16 +6,17 @@ Template Name: company
  
 <?php get_header(); ?>
 <body>
-  <div class="c-main-view">
-    <h1 class="c-main-view__title">
-      <span>company</span>
-    </h1>
-    <div class="creator__container__introduction__title">
-      <span class="creator__container__introduction__title__span">
-        会社概要
-      </span>
+  <div class="page-header">
+    <div class="page-header__inner">
+      <h1 class="page-header__heading c-page-header__heading">
+        <span>company</span>
+      </h1>
+      <div class="creator__container__introduction__title">
+        <span class="creator__container__introduction__title__span">
+          会社概要
+        </span>
+      </div>
     </div>
-  </div>
   <div class="c-contents">
     <div class="c-contents__list">
       <ul>

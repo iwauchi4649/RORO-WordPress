@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/contact.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/slider-zoom.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/company.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/common.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css" media="screen" />
 

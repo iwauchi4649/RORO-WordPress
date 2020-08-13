@@ -2,37 +2,6 @@ a {
   color: currentColor;
   text-decoration: none;
 }
-.wk-page-header {
-  margin-top: 147px;
-  text-align: center;
-  z-index: 8;
-  position: relative;
-}
-.wk-page-header__inner {
-  width: 80%;
-  display: inline-block;
-  position: relative;
-}
-.wk-page-header__heading {
-  padding-left: .8em;
-  letter-spacing: .8em;
-  font-size: 60px;
-  display: inline-block;
-  padding-left: .3em;
-  font-family: “Roboto Slab”, serif;
-  font-weight: bold;
-  overflow: hidden;
-}
-.cr-page-header__heading {
-  padding-left: .8em;
-  letter-spacing: .5em;
-  font-size: 60px;
-  display: inline-block;
-  padding-left: .3em;
-  font-family: “Roboto Slab”, serif;
-  font-weight: bold;
-  overflow: hidden;
-}
 .wk-index-module {
   margin: 0 auto 100px;
   width: 80%;
