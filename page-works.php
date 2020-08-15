@@ -6,9 +6,9 @@ Template Name: works
  
 <?php get_header(); ?>
 <body>
-  <div class="wk-page-header wk-page-header--works wk-page-header--works-index">
-    <div class="wk-page-header__inner">
-      <h1 class="wk-page-header__heading">
+  <div class="page-header">
+    <div class="page-header__inner">
+      <h1 class="page-header__heading">
         <span>works</span>
       </h1>
       <div class="creator__container__introduction__title">

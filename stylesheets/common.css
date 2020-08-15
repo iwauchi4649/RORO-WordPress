@@ -1,0 +1,44 @@
+/* ページの名前 start*/
+.page-header {
+  margin: 147px auto 0;
+  text-align: center;
+  z-index: 8;
+  position: relative;
+  width: 80%;
+}
+.page-header__inner {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.page-header__heading {
+  padding-left: .8em;
+  letter-spacing: .8em;
+  font-size: 60px;
+  display: inline-block;
+  padding-left: .3em;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  overflow: hidden;
+}
+/* ページの名前 end */
+
+/* サブタイトル start */
+.creator__container__introduction__title {
+  border-bottom: 5px dashed rgba(43, 104, 156, 1);
+  padding-top: 3rem;
+  text-align: center;
+  font-family: “Roboto Slab”, serif;
+  letter-spacing: .2rem;
+}
+.creator__container__introduction__title__span {
+  /* フォントは後で統一する、統一後にコメントを消去 */
+  font-size: 2rem;
+  font-weight: bold;
+}
+/* サブタイトル end */
+/* クリエイター,会社概要のみ適用 */
+.c-page-header__heading {
+  letter-spacing: .5em;
+}
+/* クリエイターページのみ適用 */
