@@ -89,10 +89,7 @@
 .slick-slide img
 {
     display: block;
-    /* height: 100vw;
-    max-height: 400px;
-    min-height: 350px;
-    width: 80%; */
+    width: 100%;
 }
 .slick-slide.slick-loading img
 {
