@@ -48,3 +48,19 @@
   letter-spacing: .5em;
 }
 /* クリエイターページのみ適用 end */
+
+/* タブレット start */
+@media screen and (max-width:768px) {
+  .page-header__heading {
+    font-size: 40px;
+  }
+}
+/* タブレット end */
+
+/* スマホ start */
+@media screen and (max-width:639px) {
+  .page-header__heading {
+    font-size: 28px;
+  }
+}
+/* スマホ end */
