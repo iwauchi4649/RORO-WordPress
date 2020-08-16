@@ -17,6 +17,7 @@ Template Name: company
         </span>
       </div>
     </div>
+  </div>
   <div class="c-contents">
     <div class="c-contents__list">
       <ul>
