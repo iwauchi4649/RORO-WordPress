@@ -3,7 +3,7 @@ body {
 }
 
 /*  リファクタリングでindex.cssに統合する予定  */
-.pageTitle {
+/* .pageTitle {
   text-align: center;
   font-size: 2em;
   font-family: serif;
@@ -12,4 +12,4 @@ body {
 }
 .pageTitle span {
   display: none;
-}
+} */

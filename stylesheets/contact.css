@@ -1,3 +1,9 @@
+.pageTitle {
+display: none;
+}
+.pageTitle span {
+  display: none;
+}
 .main {
   display: flex;
 }
