@@ -161,9 +161,9 @@ a {
   .wk-page-header {
     margin-top: 30px;
   }
-  .wk-page-header__heading {
+  /* .wk-page-header__heading {
     font-size: 30px;
-  }
+  } */
   .wk-toolbar-module--works-index {
     margin: 30px auto 0;
   }

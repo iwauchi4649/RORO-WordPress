@@ -257,7 +257,7 @@ img {
   justify-content: space-around;
   flex-wrap: wrap;
   /* 記事折り返し設定 */
-  margin: 70px auto 0 auto;
+  margin: 0 auto ;
 }
 
 .article-item {

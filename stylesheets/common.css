@@ -6,6 +6,12 @@
   position: relative;
   width: 80%;
 }
+/* contactのみ */
+.contact-page-header {
+  width: 100%;
+  margin: 147px auto 30px;
+}
+/* contactのみ */
 .page-header__inner {
   width: 100%;
   display: inline-block;
@@ -37,8 +43,24 @@
   font-weight: bold;
 }
 /* サブタイトル end */
-/* クリエイター,会社概要のみ適用 */
+/* クリエイター,会社概要のみ適用 start */
 .c-page-header__heading {
   letter-spacing: .5em;
 }
-/* クリエイターページのみ適用 */
+/* クリエイターページのみ適用 end */
+
+/* タブレット start */
+@media screen and (max-width:768px) {
+  .page-header__heading {
+    font-size: 40px;
+  }
+}
+/* タブレット end */
+
+/* スマホ start */
+@media screen and (max-width:639px) {
+  .page-header__heading {
+    font-size: 28px;
+  }
+}
+/* スマホ end */
