@@ -1,9 +1,9 @@
 /* page-article */
-.article{
+.article {
   background-color: #ffffff;
 }
 
-.article__container{
+.article__container {
   width: 100%;
   margin-top: 50px;
   display: flex;
@@ -12,18 +12,18 @@
   padding: 0 30px;
 }
 
-.article__container__item{
+.article__container__item {
   width: 30%;
-  margin-bottom:35px;
+  margin-bottom: 35px;
 }
 
-.article__container__item__up-box{
+.article__container__item__up-box {
   position: relative;
   overflow: hidden;
   padding-top: 55%;
 }
 
-.article__container__item__up-box img{
+.article__container__item__up-box img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,102 +33,104 @@
   border-radius: 10px 10px 0 0;
 }
 
-.article__container__item__down-box{
+.article__container__item__down-box {
   position: relative;
-  background-color: #ffffff;
+  background-color: #2c649c;
   height: 150px;
   border-radius: 0 0 10px 10px;
   padding: 20px 15px;
   overflow-y: scroll;
 }
 
-.article__container__item__down-box span{
+.article__container__item__down-box span {
   font-size: 14px;
-  color: #757575;
+  color: #ffffff;
 }
 
-.article__container__item__down-box h3{
+.article__container__item__down-box h3 {
   margin-top: 15px;
   font-weight: bold;
-  color: #454545;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 767px) {
-  .article__container{
+  .article__container {
     display: block;
   }
-  .article__container__item{
+  .article__container__item {
     width: 100%;
     margin-top: 30px;
   }
 }
 
 /* single-article */
-.single-article{
+.single-article {
   padding: 0 30px;
   max-width: 800px;
   margin: 50px auto 0 auto;
 }
 
-.single-article__title{
+.single-article__title {
   color: #545454;
   font-weight: bold;
   font-size: 36px;
 }
 
-.single-article__info-box{
+.single-article__info-box {
   margin-top: 15px;
   padding-bottom: 15px;
   border-bottom: 2px solid #e5e5e5;
 }
 
-.single-article__info-box span{
+.single-article__info-box span {
   display: inline-block;
   vertical-align: bottom;
 }
 
-.single-article__info-box__date{
+.single-article__info-box__date {
   font-size: 14px;
   color: #454545;
   margin-right: 15px;
 }
 
-.single-article__info-box__img{
+.single-article__info-box__img {
   width: 35px;
   border-radius: 50%;
   border: solid 2px #2b689c;
 }
 
-.single-article__info-box__author{
+.single-article__info-box__author {
   color: #2b689c;
   font-weight: bold;
   margin-left: 10px;
 }
 
-.single-article__thumbnail{
+.single-article__thumbnail {
   margin-top: 45px;
 }
 
-.single-article__thumbnail img{
+.single-article__thumbnail img {
   width: 100%;
 }
 
-.single-article__content{
+.single-article__content {
   margin-top: 30px;
 }
 
-.single-article__content p{
-  font-family: 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+.single-article__content p {
+  font-family: "Quicksand", "游ゴシック体", "Yu Gothic", YuGothic,
+    "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo,
+    Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-size: 18px;
   line-height: 32px;
   color: #555555;
 }
 
-.single-article__content img{
+.single-article__content img {
   width: 100%;
 }
 
-.single-article__content h2{
+.single-article__content h2 {
   font-size: 28px;
   padding: 15px 20px;
   margin: 78px 0 25px 0;
@@ -138,7 +140,7 @@
   background-color: #eeeeee;
 }
 
-.single-article__content h3{
+.single-article__content h3 {
   margin: 50px 0 30px 0;
   font-size: 24px;
   font-weight: bold;
@@ -146,48 +148,48 @@
   color: #545454;
 }
 
-.single-article__content ul{
+.single-article__content ul {
   border: solid 3px #6f8eaa;
   padding: 25px 30px;
   margin: 20px 0;
 }
 
-.single-article__content ul li{
+.single-article__content ul li {
   list-style: inside;
   color: #545454;
   font-weight: bold;
   line-height: 32px;
 }
 
-@media screen and (max-width:639px) {
-  .single-article__content p{
+@media screen and (max-width: 639px) {
+  .single-article__content p {
     font-size: 16px;
     line-height: 28px;
   }
 
-  .single-article h1{
+  .single-article h1 {
     font-size: 24px;
   }
 
-  .single-article__content h2{
+  .single-article__content h2 {
     font-size: 20px;
   }
-  
-  .single-article__content h3{
+
+  .single-article__content h3 {
     font-size: 18px;
   }
-  
-  .single-article__content ul{
+
+  .single-article__content ul {
     padding: 15px 20px;
   }
-  
-  .single-article__content ul li{
+
+  .single-article__content ul li {
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 5px;
   }
 
-  .single-article__content ul li :last-child{
+  .single-article__content ul li :last-child {
     margin: 0;
   }
 }

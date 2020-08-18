@@ -20,5 +20,12 @@ add_action( 'init', 'load_js' );
 // ブログのアイキャッチ画像を使用可能にする
 add_theme_support('post-thumbnails');
 // カスタムメニューを使用可能にする
-add_theme_support("menus")
+add_theme_support("menus");
+/*【出力カスタマイズ】検索対象をカスタム投稿タイプで絞り込む */
+function my_pre_get_posts($query) {
+  if ( !is_admin() && $query->is_main_query() && $query->is_search() ) {
+		$query->set('category_name', 'article');
+  }
+}
+add_action( 'pre_get_posts','my_pre_get_posts' );
 ?>
