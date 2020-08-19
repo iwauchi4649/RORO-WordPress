@@ -59,6 +59,67 @@
 #slick01 div {
   height: 600px;
 }
+
+/* top-works start */
+.works-continer {
+  position: relative;
+  overflow: hidden;
+  padding-top: 7.5rem;
+  padding-bottom: 7rem;
+}
+.works-continer__content {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.works-continer__content__heading {
+  margin-bottom: 2.3rem;
+}
+/* フォント後ほど */
+.works-continer__content__heading span {
+  font-weight: 900;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  letter-spacing: .05em;
+  display: block;
+}
+.works-continer__content__heading small {
+  display: block;
+  font-size: 1.125rem;
+  letter-spacing: .05em;
+  margin-top: .3125rem;
+}
+.works-continer__items {
+
+}
+.works-continer__items__navs{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 4.5rem;
+}
+.works-continer__items__navs li {
+  min-width: 7.625rem;
+  margin-right: .5rem;
+}
+.works-continer__items__navs li a {
+  font-family: '見出しゴMB31','Midashi Go MB31','Noto Sans JP',sans-serif;
+  font-weight: 700;
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.9375rem;
+  width: 100%;
+  position: relative;
+  transition: all .3s;
+  font-size: .875rem;
+  box-shadow: 0px 10px 50px rgba(0,0,0,.05);
+}
 .t-works {
   text-align: center;
 }
@@ -112,6 +173,7 @@
   margin: 0 auto;
   background-color: midnightblue;
 }
+/* top-works end */
 
 .blog-articles01-module--row {
   width: auto;
