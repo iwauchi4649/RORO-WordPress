@@ -28,7 +28,7 @@
 <?php endwhile; ?>
 </ul>
 <?php else: ?>
-検索されたキーワードにマッチする記事はありませんでした
+<p style="text-align:center;color:#2c649c;font-size:20px;"><?php echo "検索されたキーワードにマッチする記事はありませんでした"?></p>
 <?php endif; ?>
 </div>
 <?php get_footer()?>
