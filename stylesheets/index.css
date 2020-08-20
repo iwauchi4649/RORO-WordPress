@@ -126,7 +126,9 @@
   box-shadow: 0px 10px 50px rgba(0,0,0,.05);
 }
 /* nav end*/
+
 /* item start */
+/* item-image start */
 .works-continer__items__contents {
   display: block;
 }
@@ -167,6 +169,25 @@ background-position: center center;
 background-size: cover;
 transition: all .3s;
 }
+/* item-image end */
+/* カテゴリー、会社名 start */
+.works-continer__items__contents__post__namebox {
+  padding: 1.25rem .875rem .375rem;
+}
+.works-continer__items__contents__post__namebox__category {
+  font-weight: 700;
+  font-size: .6875rem;
+  letter-spacing: .05em;
+  color: #297b50;
+  margin-bottom: .3125rem;
+}
+.works-continer__items__contents__post__namebox__title {
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  line-height: 26px;
+}
+/* カテゴリー、会社名 end */
 /* item end */
 .t-works {
   text-align: center;

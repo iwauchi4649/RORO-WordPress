@@ -43,40 +43,65 @@
                 <div class="works-continer__items__contents__post__overflow">
                   <div class="works-continer__items__contents__post__image"></div>
                 </div>
+                <div class="works-continer__items__contents__post__namebox">
+                  <div class="works-continer__items__contents__post__namebox__category">
+                    不動産
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox__title">
+                    株式会社RORO
+                  </div>
+                </div>
               </a>
-              <div class="works-continer__items__contents__post__name">
-              </div>
             </div>
             <div class="works-continer__items__contents__block">
               <a class="works-continer__items__contents__post__outer" href="#">
                 <div class="works-continer__items__contents__post__overflow">
                   <div class="works-continer__items__contents__post__image"></div>
                 </div>
+                <div class="works-continer__items__contents__post__namebox">
+                  <div class="works-continer__items__contents__post__namebox__category">
+                    サービス
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox__title">
+                    株式会社天授
+                  </div>
+                </div>
               </a>
-              <div class="works-continer__items__contents__post__name">
-              </div>
             </div>
             <div class="works-continer__items__contents__block">
               <a class="works-continer__items__contents__post__outer" href="#">
                 <div class="works-continer__items__contents__post__overflow">
                   <div class="works-continer__items__contents__post__image"></div>
                 </div>
+                <div class="works-continer__items__contents__post__namebox">
+                  <div class="works-continer__items__contents__post__namebox__category">
+                    不動産
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox__title">
+                    株式会社RORO
+                  </div>
+                </div>
               </a>
-              <div class="works-continer__items__contents__post__name">
-              </div>
             </div>
             <div class="works-continer__items__contents__block">
               <a class="works-continer__items__contents__post__outer" href="#">
                 <div class="works-continer__items__contents__post__overflow">
                   <div class="works-continer__items__contents__post__image"></div>
                 </div>
+                <div class="works-continer__items__contents__post__namebox">
+                  <div class="works-continer__items__contents__post__namebox__category">
+                    サービス
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox__title">
+                    株式会社天授
+                  </div>
+                </div>
               </a>
-              <div class="works-continer__items__contents__post__name">
-              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div ></div>
   </div>
 </div>
