@@ -102,6 +102,10 @@
         </div>
       </div>
     </div>
-    <div ></div>
+    <div class="all-view">
+      <a class="all-view__content all-button" href="#">
+        <span>ALL VIEW</span>
+      </a>
+    </div>
   </div>
 </div>
