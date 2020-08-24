@@ -61,7 +61,7 @@
         </div>
       </div>
     <div class="all-view">
-      <a class="all-view__content all-button" href="#">
+      <a class="all-view__content all-button" href="http://52.192.180.216/blog/index.php/works/">
         <span>ALL VIEW</span>
       </a>
     </div>

@@ -201,7 +201,6 @@ transition: all .3s;
   min-width: 16.125rem;
   height: 4.625rem;
   text-align: left;
-  padding: .5rem 6.125rem .5rem 2.875rem;
 }
 .all-button {
   outline: none;
