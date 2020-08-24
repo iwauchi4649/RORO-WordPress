@@ -47,10 +47,10 @@
                     </div>
                     <div class="works-continer__items__contents__post__namebox">
                       <div class="works-continer__items__contents__post__namebox__category">
-                        不動産
+                        <?php the_field('category'); ?>
                       </div>
                       <div class="works-continer__items__contents__post__namebox__title">
-                        株式会社RORO
+                        <?php the_field('company'); ?>
                       </div>
                     </div>
                   </a>
