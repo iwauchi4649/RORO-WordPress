@@ -37,70 +37,25 @@
       </ul>
       <?php $posts = get_posts('numberposts=6&category_name=works'); global $post; ?>
       <div class="works-continer__items__contents">
-        <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
           <div class="works-continer__items__contents__post">
             <div class="works-continer__items__contents__flex">
-              <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
-                  <div class="works-continer__items__contents__post__overflow">
-                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
-                  </div>
-                  <div class="works-continer__items__contents__post__namebox">
-                    <div class="works-continer__items__contents__post__namebox__category">
-                      不動産
+              <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+                <div class="works-continer__items__contents__block">
+                  <a class="works-continer__items__contents__post__outer" href="#">
+                    <div class="works-continer__items__contents__post__overflow">
+                      <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
                     </div>
-                    <div class="works-continer__items__contents__post__namebox__title">
-                      株式会社RORO
+                    <div class="works-continer__items__contents__post__namebox">
+                      <div class="works-continer__items__contents__post__namebox__category">
+                        不動産
+                      </div>
+                      <div class="works-continer__items__contents__post__namebox__title">
+                        株式会社RORO
+                      </div>
                     </div>
-                  </div>
-                </a>
-              </div>
-        <?php endforeach; endif; ?>
-              <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
-                  <div class="works-continer__items__contents__post__overflow">
-                    <div class="works-continer__items__contents__post__image"></div>
-                  </div>
-                  <div class="works-continer__items__contents__post__namebox">
-                    <div class="works-continer__items__contents__post__namebox__category">
-                      サービス
-                    </div>
-                    <div class="works-continer__items__contents__post__namebox__title">
-                      株式会社天授
-                    </div>
-                  </div>
-                </a>
-              </div> -->
-              <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
-                  <div class="works-continer__items__contents__post__overflow">
-                    <div class="works-continer__items__contents__post__image"></div>
-                  </div>
-                  <div class="works-continer__items__contents__post__namebox">
-                    <div class="works-continer__items__contents__post__namebox__category">
-                      不動産
-                    </div>
-                    <div class="works-continer__items__contents__post__namebox__title">
-                      株式会社RORO
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="works-continer__items__contents__block">
-                <a class="works-continer__items__contents__post__outer" href="#">
-                  <div class="works-continer__items__contents__post__overflow">
-                    <div class="works-continer__items__contents__post__image"></div>
-                  </div>
-                  <div class="works-continer__items__contents__post__namebox">
-                    <div class="works-continer__items__contents__post__namebox__category">
-                      サービス
-                    </div>
-                    <div class="works-continer__items__contents__post__namebox__title">
-                      株式会社天授
-                    </div>
-                  </div>
-                </a>
-              </div>
+                  </a>
+                </div>
+              <?php endforeach; endif; ?>
             </div>
           </div>
         </div>
