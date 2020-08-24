@@ -177,7 +177,8 @@ transition: all .3s;
   font-weight: 700;
   font-size: .6875rem;
   letter-spacing: .05em;
-  color: #297b50;
+  /* color: #297b50; */
+  color: #0000CD;
   margin-bottom: .3125rem;
 }
 .works-continer__items__contents__post__namebox__title {
@@ -209,8 +210,9 @@ transition: all .3s;
   align-items: center;
   width: inherit;
   background-color: #fff;
-  color: #297b50;
-  border-bottom: 1px solid #297b50;
+  /* color: #297b50; */
+  color: #0000CD;
+  border-bottom: 1px solid #0000CD;
   text-decoration: none;
   position: relative;
   transition: all .3s;
