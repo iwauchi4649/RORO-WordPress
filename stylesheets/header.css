@@ -22,8 +22,7 @@
 .header__right__list li{
   position: relative;
   margin-right: 60px;
-  font-size: 1rem;
-  font-family: 見出しゴMB31, "Midashi Go MB31", "Noto Sans JP", sans-serif;
+  font-weight: bold;
 }
 .header__right__list li a::after{
   position: absolute;

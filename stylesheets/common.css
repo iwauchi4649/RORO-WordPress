@@ -1,7 +1,6 @@
 /* ページの名前 start*/
 .page-header {
-  margin: 147px auto 0;
-  text-align: center;
+  margin: 147px 0 30px 70px;
   z-index: 8;
   position: relative;
   width: 80%;
@@ -18,13 +17,20 @@
   position: relative;
 }
 .page-header__heading {
-  padding-left: .8em;
-  letter-spacing: .3em;
-  font-size: 60px;
-  display: inline-block;
-  padding-left: .3em;
-  font-weight: bold;
+  border-left: 8px solid #2b689c;
+  letter-spacing: 3px;
+  font-size: 55px;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.page-header__subtitle{
+  display: block;
+  padding-left: 18px;
+  font-weight: bold;
 }
 /* ページの名前 end */
 
@@ -49,8 +55,11 @@
 
 /* タブレット start */
 @media screen and (max-width:768px) {
+  .page-header {
+    margin: 50px 0 20px 20px;
+  }
   .page-header__heading {
-    font-size: 40px;
+    font-size: 42px;
   }
 }
 /* タブレット end */

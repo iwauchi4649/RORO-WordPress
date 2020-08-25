@@ -1,8 +1,9 @@
 <div class="page-header">
   <div class="page-header__inner">
     <h1 class="page-header__heading cr-page-header__heading">
-      <span>creator</span>
+      <span>CREATOR</span>
     </h1>
+    <span class="page-header__subtitle">クリエイター</span>
   </div>
 </div>
 
