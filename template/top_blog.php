@@ -1,8 +1,9 @@
 <div class="page-header">
   <div class="page-header__inner">
     <h1 class="page-header__heading">
-      <span>blog</span>
+      <span>BLOG</span>
     </h1>
+    <span class="page-header__subtitle">情報発信ブログ</span>
   </div>
 </div>
 
