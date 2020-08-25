@@ -9,10 +9,6 @@
 
 <div class="works-continer">
   <div class="works-continer__content">
-    <h2 class="works-continer__content__heading">
-      <span>works</span>
-      <small>制作実績</small>
-    </h2>
     <div class="works-continer__items">
       <ul class="works-continer__items__navs">
         <li>
