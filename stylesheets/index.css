@@ -401,6 +401,20 @@ img {
     width: 100%;
     margin: 0 auto;
   }
+  .works-continer__items__navs {
+    margin: 0 auto 3rem;
+  }
+  .works-continer__items__navs li {
+    min-width: calc(25% - 3px);
+    max-width: calc(25% - 3px);
+    margin-right: .25rem;
+  }
+  .works-continer__items__navs span {
+    font-size: .6875rem;
+  }
+  .works-continer__items__contents__flex {
+    display: block;
+  }
 }
 .content {
   margin: 0 auto;
