@@ -65,6 +65,8 @@
 .works-continer {
   position: relative;
   overflow: hidden;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .works-continer__content {
   max-width: 1140px;
@@ -405,15 +407,19 @@ img {
     margin: 0 auto 3rem;
   }
   .works-continer__items__navs li {
-    min-width: calc(25% - 3px);
-    max-width: calc(25% - 3px);
+    min-width: calc(24% - 3px);
+    max-width: calc(24% - 3px);
     margin-right: .25rem;
   }
   .works-continer__items__navs span {
     font-size: .6875rem;
   }
-  .works-continer__items__contents__flex {
-    display: block;
+  .works-continer__items__contents__block {
+    width: 100%;
+    max-width: 21.875rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.5rem !important;
   }
 }
 .content {
