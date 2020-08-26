@@ -191,7 +191,7 @@ transition: all .3s;
 /* ALL VIEWボタン start */
 .all-view {
   margin-top: 1rem;
-  text-align: right !important;
+  text-align: right;
 }
 .all-view__content {
   font-weight: 900;
@@ -420,6 +420,9 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1.5rem !important;
+  }
+  .all-view {
+    text-align: center;
   }
 }
 .content {
