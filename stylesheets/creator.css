@@ -32,6 +32,9 @@
 }
 .square__text__img {
   opacity: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .square__text__img:hover {
   opacity: 1;
