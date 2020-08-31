@@ -15,12 +15,12 @@
     <div class="works-continer__items">
       <ul class="works-continer__items__navs">
         <li>
-          <a href="#">
+          <a href="#fuu" class="secList">
             <span>Webサイト</span>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#euu" class="secList">
             <span>Webデザイン</span>
           </a>
         </li>
@@ -40,7 +40,24 @@
           <div class="works-continer__items__contents__post">
             <div class="works-continer__items__contents__flex">
               <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-                <div class="works-continer__items__contents__block">
+                <div id="fuu" class="works-continer__items__contents__block">
+                  <a class="works-continer__items__contents__post__outer" href="#">
+                    <div class="works-continer__items__contents__post__overflow">
+                      <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                    </div>
+                    <div class="works-continer__items__contents__post__namebox">
+                      <div class="works-continer__items__contents__post__namebox__category">
+                        <?php the_field('category'); ?>
+                      </div>
+                      <div class="works-continer__items__contents__post__namebox__title">
+                        <?php the_field('company'); ?>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              <?php endforeach; endif; ?>
+              <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+                <div id="euu" class="works-continer__items__contents__block">
                   <a class="works-continer__items__contents__post__outer" href="#">
                     <div class="works-continer__items__contents__post__overflow">
                       <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
