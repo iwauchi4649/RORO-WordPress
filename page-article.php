@@ -18,6 +18,7 @@ Template Name: article
     </div>
   </div>
 <body class="article">
+<?php get_search_form(); ?>
   <div class="article__container">
     <?php $posts = get_posts('numberposts=10&category_name=article'); global $post; ?>
     <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
