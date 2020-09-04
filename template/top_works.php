@@ -36,44 +36,50 @@
         </li>
       </ul>
       <?php $posts = get_posts('numberposts=6&category_name=works'); global $post; ?>
-      <div class="works-continer__items__contents">
-          <div class="works-continer__items__contents__post">
-            <div class="works-continer__items__contents__flex">
-              <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-                <div id="fuu" class="works-continer__items__contents__block">
-                  <a class="works-continer__items__contents__post__outer" href="#">
-                    <div class="works-continer__items__contents__post__overflow">
-                      <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+      <div id="fuu" class="works-continer__items__contents">
+        <div class="works-continer__items__contents__post">
+          <div class="works-continer__items__contents__flex">
+            <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <div class="works-continer__items__contents__block">
+                <a class="works-continer__items__contents__post__outer" href="#">
+                  <div class="works-continer__items__contents__post__overflow">
+                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox">
+                    <div class="works-continer__items__contents__post__namebox__category">
+                      <?php the_field('category'); ?>
                     </div>
-                    <div class="works-continer__items__contents__post__namebox">
-                      <div class="works-continer__items__contents__post__namebox__category">
-                        <?php the_field('category'); ?>
-                      </div>
-                      <div class="works-continer__items__contents__post__namebox__title">
-                        <?php the_field('company'); ?>
-                      </div>
+                    <div class="works-continer__items__contents__post__namebox__title">
+                      <?php the_field('company'); ?>
                     </div>
-                  </a>
-                </div>
-              <?php endforeach; endif; ?>
-              <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-                <div id="euu" class="works-continer__items__contents__block">
-                  <a class="works-continer__items__contents__post__outer" href="#">
-                    <div class="works-continer__items__contents__post__overflow">
-                      <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach; endif; ?>
+          </div>
+        </div>
+      </div>
+      <?php $posts = get_posts('numberposts=6&category_name=works'); global $post; ?>
+      <div id="euu" class="works-continer__items__contents">
+        <div class="works-continer__items__contents__post">
+          <div class="works-continer__items__contents__flex">
+            <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <div class="works-continer__items__contents__block">
+                <a class="works-continer__items__contents__post__outer" href="#">
+                  <div class="works-continer__items__contents__post__overflow">
+                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox">
+                    <div class="works-continer__items__contents__post__namebox__category">
+                      <?php the_field('category'); ?>
                     </div>
-                    <div class="works-continer__items__contents__post__namebox">
-                      <div class="works-continer__items__contents__post__namebox__category">
-                        <?php the_field('category'); ?>
-                      </div>
-                      <div class="works-continer__items__contents__post__namebox__title">
-                        <?php the_field('company'); ?>
-                      </div>
+                    <div class="works-continer__items__contents__post__namebox__title">
+                      <?php the_field('company'); ?>
                     </div>
-                  </a>
-                </div>
-              <?php endforeach; endif; ?>
-            </div>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach; endif; ?>
           </div>
         </div>
       </div>
