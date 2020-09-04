@@ -11,11 +11,13 @@ Template Name: works
       <h1 class="page-header__heading">
         <span>works</span>
       </h1>
-      <div class="creator__container__introduction__title">
-        <span class="creator__container__introduction__title__span">
-          実績一覧
-        </span>
-      </div>
+    </div>
+  </div>
+  <div class="creator__container__introduction">
+    <div class="creator__container__introduction__title">
+      <span class="creator__container__introduction__title__span">
+        記事一覧
+      </span>
     </div>
   </div>
   <div class="wk-index-module">

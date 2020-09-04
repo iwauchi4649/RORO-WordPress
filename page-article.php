@@ -6,17 +6,19 @@ Template Name: article
  
 <?php get_header(); ?>
 <div class="page-header">
-    <div class="page-header__inner">
-      <h1 class="page-header__heading">
-        <span>blog</span>
-      </h1>
-      <div class="creator__container__introduction__title">
-        <span class="creator__container__introduction__title__span">
-          記事一覧
-        </span>
-      </div>
-    </div>
+  <div class="page-header__inner">
+    <h1 class="page-header__heading">
+      <span>blog</span>
+    </h1>
   </div>
+</div>
+<div class="creator__container__introduction">
+  <div class="creator__container__introduction__title">
+    <span class="creator__container__introduction__title__span">
+      記事一覧
+    </span>
+  </div>
+</div>
 <body class="article">
 <?php get_search_form(); ?>
   <div class="article__container">
