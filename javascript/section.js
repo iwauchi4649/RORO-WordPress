@@ -1,5 +1,7 @@
 jQuery(function(){
-  jQuery('.works-continer__items__contents').hide();
+  jQuery('#euu').hide();
+  jQuery('#guu').hide();
+  jQuery('#duu').hide();
 
   jQuery('.secList').on('click',function(){
     jQuery('.works-continer__items__contents').not($($(this).attr('href'))).hide();
