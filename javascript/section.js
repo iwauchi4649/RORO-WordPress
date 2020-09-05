@@ -11,5 +11,6 @@ jQuery(function(){
 
     // show を使うと、表示するだけ （ 同じボタンを何回押しても変わらない ）
     // $($(this).attr('href')).show();
+    alert("hello")
   });
 });
