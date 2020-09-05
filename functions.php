@@ -14,6 +14,8 @@ function load_js() {
 		wp_enqueue_script( 'script-name', get_template_directory_uri() . '/javascript/slide.js', array(), '1.0.0', true );
 		wp_enqueue_script( 'script-name', get_template_directory_uri() . '/javascript/header.js', array(), '1.0.0', true );
 		wp_enqueue_script( 'slick.min', get_stylesheet_directory_uri().'/slick/slick.min.js', array( 'jquery' ), '1.8.1', true);
+
+		wp_enqueue_script( 'section.js', get_template_directory_uri() . '/javascript/section.js', array(), '1.0.0', true );
 	}
 }
 add_action( 'init', 'load_js' );
