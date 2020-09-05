@@ -35,7 +35,7 @@
           </a>
         </li>
       </ul>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=6'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=27'); global $post; ?>
       <div id="fuu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=7'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=29'); global $post; ?>
       <div id="euu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=8'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=30'); global $post; ?>
       <div id="guu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
@@ -107,7 +107,7 @@
           </div>
         </div>
       </div>
-      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=9'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=28'); global $post; ?>
       <div id="duu" class="works-continer__items__contents">
         <div class="works-continer__items__contents__post">
           <div class="works-continer__items__contents__flex">
