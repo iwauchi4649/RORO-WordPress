@@ -83,21 +83,20 @@
   font-weight: 900;
   line-height: 1.2;
   font-size: 3.5rem;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   display: block;
 }
 .works-continer__content__heading small {
   display: block;
   font-size: 1.125rem;
-  letter-spacing: .05em;
-  margin-top: .3125rem;
+  letter-spacing: 0.05em;
+  margin-top: 0.3125rem;
 }
 /* ヘッド end */
 /* nav */
 .works-continer__items {
-
 }
-.works-continer__items__navs{
+.works-continer__items__navs {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -106,10 +105,10 @@
 }
 .works-continer__items__navs li {
   min-width: 7.625rem;
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 .works-continer__items__navs li a {
-  font-family: '見出しゴMB31','Midashi Go MB31','Noto Sans JP',sans-serif;
+  font-family: "見出しゴMB31", "Midashi Go MB31", "Noto Sans JP", sans-serif;
   font-weight: 700;
   background-color: #fff;
   color: #222;
@@ -121,11 +120,11 @@
   height: 2.9375rem;
   width: 100%;
   position: relative;
-  transition: all .3s;
-  font-size: .875rem;
-  box-shadow: 0px 10px 50px rgba(0,0,0,.05);
+  transition: all 0.3s;
+  font-size: 0.875rem;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
 }
-.works-continer__items__navs li :hover{
+.works-continer__items__navs li :hover {
   background-color: #2b689c;
   color: #fff;
 }
@@ -138,7 +137,6 @@
   display: block;
 }
 .works-continer__items__contents__post {
-
 }
 .works-continer__items__contents__flex {
   display: flex;
@@ -163,33 +161,33 @@
   overflow: hidden;
 }
 .works-continer__items__contents__post__image {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-repeat: no-repeat;
-background-position: center center;
-background-size: cover;
-transition: all .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: all 0.3s;
 }
 /* item-image end */
 /* カテゴリー、会社名 start */
 .works-continer__items__contents__post__namebox {
-  padding: 1.25rem .875rem .375rem;
+  padding: 1.25rem 0.875rem 0.375rem;
 }
 .works-continer__items__contents__post__namebox__category {
   font-weight: 700;
-  font-size: .6875rem;
-  letter-spacing: .05em;
+  font-size: 0.6875rem;
+  letter-spacing: 0.05em;
   /* color: #297b50; */
-  color: #0000CD;
-  margin-bottom: .3125rem;
+  color: #0000cd;
+  margin-bottom: 0.3125rem;
 }
 .works-continer__items__contents__post__namebox__title {
   font-weight: 700;
   font-size: 1rem;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
   line-height: 26px;
 }
 /* カテゴリー、会社名 end */
@@ -201,8 +199,8 @@ transition: all .3s;
 .all-view__content {
   font-weight: 900;
   line-height: 1.2;
-  font-size: .875rem;
-  letter-spacing: .15em;
+  font-size: 0.875rem;
+  letter-spacing: 0.15em;
   min-width: 16.125rem;
   height: 4.625rem;
   text-align: left;
@@ -215,12 +213,12 @@ transition: all .3s;
   width: inherit;
   background-color: #fff;
   /* color: #297b50; */
-  color: #0000CD;
-  border-bottom: 1px solid #0000CD;
+  color: #0000cd;
+  border-bottom: 1px solid #0000cd;
   text-decoration: none;
   position: relative;
-  transition: all .3s;
-  box-shadow: 0px 10px 50px rgba(0,0,0,.05);
+  transition: all 0.3s;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
   opacity: 1 !important;
 }
 /* ALL VIEWボタン end */
@@ -414,10 +412,10 @@ img {
   .works-continer__items__navs li {
     min-width: calc(24% - 3px);
     max-width: calc(24% - 3px);
-    margin-right: .25rem;
+    margin-right: 0.25rem;
   }
   .works-continer__items__navs span {
-    font-size: .6875rem;
+    font-size: 0.6875rem;
   }
   .works-continer__items__contents__block {
     width: 100%;
@@ -445,7 +443,7 @@ img {
   justify-content: space-around;
   flex-wrap: wrap;
   /* 記事折り返し設定 */
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 .article-item {
@@ -612,10 +610,17 @@ small {
     padding-bottom: 10px;
   }
   .flex {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1em;
   }
   .flex-item {
     padding: 1em 0;
+    width: 50%;
+    flex-basis: initial;
+  }
+  .flex-item p {
+    font-size: 15px;
   }
 }
 
@@ -625,9 +630,16 @@ small {
     /* margin-bottom: -100px; */
   }
   .flex {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1em;
   }
   .flex-item {
     padding: 1em 0;
+    width: 50%;
+    flex-basis: initial;
+  }
+  .flex-item p {
+    font-size: 15px;
   }
 }
