@@ -1,9 +1,11 @@
+
 jQuery(function(){
   jQuery('#euu').hide();
   jQuery('#guu').hide();
   jQuery('#duu').hide();
 
   jQuery('.secList').on('click',function(){
+    console.log(this);
     jQuery('.works-continer__items__contents').not(jQuery(jQuery(this).attr('href'))).hide();
     jQuery('.wk-list-module__item').not(jQuery(jQuery(this).attr('href'))).hide();
     // フェードイン・アウトのアニメーション付で、表示・非表示を交互に実行する
