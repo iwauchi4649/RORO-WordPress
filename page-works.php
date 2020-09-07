@@ -16,41 +16,132 @@ Template Name: works
   <div class="creator__container__introduction">
     <div class="creator__container__introduction__title">
       <span class="creator__container__introduction__title__span">
-        記事一覧
+        実績一覧
       </span>
     </div>
   </div>
   <div class="wk-index-module">
-    <div class="wk-toolbar-module wk-toolbar-module--one-line wk-toolbar-module--works-index">
-      <div class="wk-toolbar-section-module">
-        <span class="wk-toolbar-section-module__heading">category</span>
-        <div class="wk-toolbar-section-module__content">
-          <ul class="wk-toolbar-section-module__list">
-            <li class="wk-toolbar-section-module__list-item">
-              <a href="#" class="is-current js-toggle-dropdown-menu">all view</a>
-            </li>
-          </ul>
+    <ul class="works-continer__items__navs">
+      <li>
+        <a href="#fuu" class="secList">
+          <span>Webサイト</span>
+        </a>
+      </li>
+      <li>
+        <a href="#euu" class="secList">
+          <span>Webデザイン</span>
+        </a>
+      </li>
+      <li>
+        <a href="#guu" class="secList">
+          <span>動画</span>
+        </a>
+      </li>
+      <li>
+        <a href="#duu" class="secList">
+          <span>Webアプリ</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="wk-list-module">
+    <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=6'); global $post; ?>
+      <div id="fuu" class="works-continer__items__contents">
+        <div class="works-continer__items__contents__post">
+          <div class="works-continer__items__contents__flex">
+            <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <div class="works-continer__items__contents__block">
+                <a class="works-continer__items__contents__post__outer" href="#">
+                  <div class="works-continer__items__contents__post__overflow">
+                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox">
+                    <div class="works-continer__items__contents__post__namebox__category">
+                      <?php the_field('category'); ?>
+                    </div>
+                    <div class="works-continer__items__contents__post__namebox__title">
+                      <?php the_field('company'); ?>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach; endif; ?>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="wk-list-module">
-      <?php $posts = get_posts('numberposts=10&category_name=works'); global $post; ?>
-      <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-      <article class="wk-list-module__item wk-list-item-module">
-        <a href="<?php the_permalink() ?>">
-          <div class="wk-list-item-module__figure">
-            <img class="wk-cover-image wk-cover-image--absolute" src="<?php the_field('image'); ?>" alt="ROROサイトの画像">
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=7'); global $post; ?>
+      <div id="euu" class="works-continer__items__contents">
+        <div class="works-continer__items__contents__post">
+          <div class="works-continer__items__contents__flex">
+            <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <div class="works-continer__items__contents__block">
+                <a class="works-continer__items__contents__post__outer" href="#">
+                  <div class="works-continer__items__contents__post__overflow">
+                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox">
+                    <div class="works-continer__items__contents__post__namebox__category">
+                      <?php the_field('category'); ?>
+                    </div>
+                    <div class="works-continer__items__contents__post__namebox__title">
+                      <?php the_field('company'); ?>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach; endif; ?>
           </div>
-          <div class="wk-list-item-module__content">
-            <div class="wk-list-item-module__categories">
-              <?php the_tags('', '', '') ?>
-            </div>
-            <h2 class="wk-list-item-module__title wk-typesquare_option"><?php the_title(); ?></h2>
-            <p class="wk-list-item-module__client"><?php the_title(); ?></p>
+        </div>
+      </div>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=8'); global $post; ?>
+      <div id="guu" class="works-continer__items__contents">
+        <div class="works-continer__items__contents__post">
+          <div class="works-continer__items__contents__flex">
+            <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <div class="works-continer__items__contents__block">
+                <a class="works-continer__items__contents__post__outer" href="#">
+                  <div class="works-continer__items__contents__post__overflow">
+                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox">
+                    <div class="works-continer__items__contents__post__namebox__category">
+                      <?php the_field('category'); ?>
+                    </div>
+                    <div class="works-continer__items__contents__post__namebox__title">
+                      <?php the_field('company'); ?>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach; endif; ?>
           </div>
-        </a>
-      </article>
-      <?php endforeach; endif; ?>
+        </div>
+      </div>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=9'); global $post; ?>
+      <div id="duu" class="works-continer__items__contents">
+        <div class="works-continer__items__contents__post">
+          <div class="works-continer__items__contents__flex">
+            <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+              <div class="works-continer__items__contents__block">
+                <a class="works-continer__items__contents__post__outer" href="#">
+                  <div class="works-continer__items__contents__post__overflow">
+                    <img class="works-continer__items__contents__post__image" src="<?php the_field('image'); ?>"></img>
+                  </div>
+                  <div class="works-continer__items__contents__post__namebox">
+                    <div class="works-continer__items__contents__post__namebox__category">
+                      <?php the_field('category'); ?>
+                    </div>
+                    <div class="works-continer__items__contents__post__namebox__title">
+                      <?php the_field('company'); ?>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            <?php endforeach; endif; ?>
+          </div>
+        </div>
+      </div>
+
     </div>
 	</div>
 </body>

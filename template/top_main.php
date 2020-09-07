@@ -5,7 +5,7 @@
 <div class="wrap">
   <ul id="slide_wrap">
     <li class="slide_item">
-      <img src="<?php echo get_template_directory_uri()?>/images/meeting01.jpeg" alt="img1" onload="sliderStart()">
+      <img src="<?php echo get_template_directory_uri()?>/images/meeting01.jpeg" alt="img1">
     </li>
     <!-- <li class="slide_item">
       <img src="https://dl.dropbox.com/s/fipy7gw576dw7fq/slide02.jpg?dl=0" alt="img2">
