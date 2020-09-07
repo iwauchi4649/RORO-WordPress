@@ -16,23 +16,34 @@ Template Name: works
   <div class="creator__container__introduction">
     <div class="creator__container__introduction__title">
       <span class="creator__container__introduction__title__span">
-        記事一覧
+        実績一覧
       </span>
     </div>
   </div>
   <div class="wk-index-module">
-    <div class="wk-toolbar-module wk-toolbar-module--one-line wk-toolbar-module--works-index">
-      <div class="wk-toolbar-section-module">
-        <span class="wk-toolbar-section-module__heading">category</span>
-        <div class="wk-toolbar-section-module__content">
-          <ul class="wk-toolbar-section-module__list">
-            <li class="wk-toolbar-section-module__list-item">
-              <a href="#" class="is-current js-toggle-dropdown-menu">all view</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <ul class="works-continer__items__navs">
+      <li>
+        <a href="#fuu" class="secList">
+          <span>Webサイト</span>
+        </a>
+      </li>
+      <li>
+        <a href="#euu" class="secList">
+          <span>Webデザイン</span>
+        </a>
+      </li>
+      <li>
+        <a href="#guu" class="secList">
+          <span>動画</span>
+        </a>
+      </li>
+      <li>
+        <a href="#duu" class="secList">
+          <span>Webアプリ</span>
+        </a>
+      </li>
+    </ul>
+
     <div class="wk-list-module">
       <?php $posts = get_posts('numberposts=10&category_name=works'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
