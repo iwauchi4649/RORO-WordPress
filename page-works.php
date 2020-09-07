@@ -45,9 +45,60 @@ Template Name: works
     </ul>
 
     <div class="wk-list-module">
-      <?php $posts = get_posts('numberposts=10&category_name=works'); global $post; ?>
+      <?php $posts = get_posts('numberposts=6&category_name=works&tag_id=6'); global $post; ?>
       <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
-      <article class="wk-list-module__item wk-list-item-module">
+      <article id="fuu" class="wk-list-module__item wk-list-item-module">
+        <a href="<?php the_permalink() ?>">
+          <div class="wk-list-item-module__figure">
+            <img class="wk-cover-image wk-cover-image--absolute" src="<?php the_field('image'); ?>" alt="ROROサイトの画像">
+          </div>
+          <div class="wk-list-item-module__content">
+            <div class="wk-list-item-module__categories">
+              <?php the_tags('', '', '') ?>
+            </div>
+            <h2 class="wk-list-item-module__title wk-typesquare_option"><?php the_field('category'); ?></h2>
+            <p class="wk-list-item-module__client"><?php the_field('company'); ?></p>
+          </div>
+        </a>
+      </article>
+      <?php endforeach; endif; ?>
+      <?php $posts = get_posts('numberposts=10&category_name=works&tag_id=7'); global $post; ?>
+      <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+      <article id="euu" class="wk-list-module__item wk-list-item-module">
+        <a href="<?php the_permalink() ?>">
+          <div class="wk-list-item-module__figure">
+            <img class="wk-cover-image wk-cover-image--absolute" src="<?php the_field('image'); ?>" alt="ROROサイトの画像">
+          </div>
+          <div class="wk-list-item-module__content">
+            <div class="wk-list-item-module__categories">
+              <?php the_tags('', '', '') ?>
+            </div>
+            <h2 class="wk-list-item-module__title wk-typesquare_option"><?php the_title(); ?></h2>
+            <p class="wk-list-item-module__client"><?php the_title(); ?></p>
+          </div>
+        </a>
+      </article>
+      <?php endforeach; endif; ?>
+      <?php $posts = get_posts('numberposts=10&category_name=works&tag_id=8'); global $post; ?>
+      <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+      <article id="guu" class="wk-list-module__item wk-list-item-module">
+        <a href="<?php the_permalink() ?>">
+          <div class="wk-list-item-module__figure">
+            <img class="wk-cover-image wk-cover-image--absolute" src="<?php the_field('image'); ?>" alt="ROROサイトの画像">
+          </div>
+          <div class="wk-list-item-module__content">
+            <div class="wk-list-item-module__categories">
+              <?php the_tags('', '', '') ?>
+            </div>
+            <h2 class="wk-list-item-module__title wk-typesquare_option"><?php the_title(); ?></h2>
+            <p class="wk-list-item-module__client"><?php the_title(); ?></p>
+          </div>
+        </a>
+      </article>
+      <?php endforeach; endif; ?>
+      <?php $posts = get_posts('numberposts=10&category_name=works&tag_id=9'); global $post; ?>
+      <?php if($posts): foreach($posts as $post): setup_postdata($post); ?>
+      <article id="duu" class="wk-list-module__item wk-list-item-module">
         <a href="<?php the_permalink() ?>">
           <div class="wk-list-item-module__figure">
             <img class="wk-cover-image wk-cover-image--absolute" src="<?php the_field('image'); ?>" alt="ROROサイトの画像">
