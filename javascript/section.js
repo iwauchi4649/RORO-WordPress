@@ -5,13 +5,13 @@ jQuery(function(){
   jQuery('#duu').hide();
 
   jQuery('.secList').on('click',function(){
-    console.log(this);
     jQuery('.works-continer__items__contents').not(jQuery(jQuery(this).attr('href'))).hide();
-    jQuery('.wk-list-module__item').not(jQuery(jQuery(this).attr('href'))).hide();
+
     // フェードイン・アウトのアニメーション付で、表示・非表示を交互に実行する
     jQuery(jQuery(this).attr('href')).fadeToggle(1000);
 
     // show を使うと、表示するだけ （ 同じボタンを何回押しても変わらない ）
     // $($(this).attr('href')).show();
+    alert("hello")
   });
 });
