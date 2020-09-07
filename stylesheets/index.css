@@ -640,7 +640,21 @@ small {
     flex-basis: initial;
   }
   .flex-item p {
+    font-size: 12px;
+  }
+  .btn-vertical-border {
+    padding: 5px 21px 5px 19px;
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .flex-item {
+    padding: 1em 0.3em;
+    width: 50%;
+    flex-basis: initial;
+  }
+  .flex-item p {
+    font-size: 12px;
   }
   .btn-vertical-border {
     padding: 5px 21px 5px 19px;
