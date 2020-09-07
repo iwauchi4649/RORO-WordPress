@@ -640,6 +640,10 @@ small {
     flex-basis: initial;
   }
   .flex-item p {
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .btn-vertical-border {
+    padding: 5px 21px 5px 19px;
+    font-size: 14px;
   }
 }
