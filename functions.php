@@ -24,6 +24,26 @@ add_theme_support('post-thumbnails');
 // カスタムメニューを使用可能にする
 add_theme_support("menus");
 
+
+//ウィジェット
+function sample_widgets(){
+  
+  register_sidebar(array(
+    'name' => 'サイドバー',
+    'id' => 'sidebar',
+  ));
+  
+}
+add_action('widgets_init', 'sample_widgets');
+
+function add_register_widgets() {
+  register_sidebar(array(
+    'name'          => '追尾サイドバー',
+    'id'            => 'sidebar-fixed',
+  ));
+}
+add_action( 'widgets_init', 'add_register_widgets' );
+
 function change_posts_paging($query) {
 
 	// 管理画面やメインクエリーでない場合は除外
