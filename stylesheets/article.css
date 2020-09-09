@@ -245,6 +245,11 @@
 }
 
 @media screen and (max-width: 639px) {
+  .single-article-container {
+    width: 100%;
+    padding-top: 0;
+  }
+
   .single-article__content p {
     font-size: 16px;
     line-height: 28px;
