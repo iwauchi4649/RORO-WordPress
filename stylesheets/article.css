@@ -64,8 +64,8 @@
 }
 
 /* single-article */
-.article-container {
-  padding: 100px 0;
+.single-article-container {
+  padding-top: 100px;
   display: grid;
   display: -ms-grid;
   grid-template-columns: 80px calc(100% - 300px - 80px) 300px;
