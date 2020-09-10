@@ -129,8 +129,8 @@ legend {
   box-sizing: border-box;
 }
 
-@media screen and (max-width:1023px){
+/* @media screen and (max-width:1023px){
   html{
     margin-top: 60px;
   }
-}
+} */
