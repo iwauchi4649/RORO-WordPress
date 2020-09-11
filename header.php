@@ -8,6 +8,7 @@
     <meta name="description" content="" />
     <meta name="author" content="fiber" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/images/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/header.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/footer.css" />
@@ -24,11 +25,36 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-responsive__right">
-        <div class="toggle">
-          <span></span>
-          <span></span>
-          <span></span>
+      <div class="header__container">
+        <div class="header__container__logo">
+          <div class="header__container__logo__box">
+            <a href="<?php echo home_url(); ?>" class="header__container__logo__box__link">
+              <img src="<?php echo get_template_directory_uri()?>/" alt="ロゴ">
+            </a>
+        </div>
+        </div>
+        <div class="header__container__global-menu">
+          <ul class="header__container__global-menu__item">
+            <li class="header__container__global-menu__item__list">
+              <p class="header__container__global-menu__item__list__text">BUSINESS</p>
+            </li>
+            <li class="header__container__global-menu__item__list">
+              <p class="header__container__global-menu__item__list__text">CAMPANY</p>
+            </li>
+            <li class="header__container__global-menu__item__list">
+              <p class="header__container__global-menu__item__list__text">MESSAGE</p>
+            </li>
+            <li class="header__container__global-menu__item__list">
+              <p class="header__container__global-menu__item__list__text">CONTACT</p>
+            </li>
+          </ul>
+        </div>
+        <div class="header__container__responsive-button">
+          <div class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </div>
     </header>
