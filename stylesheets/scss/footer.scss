@@ -58,6 +58,24 @@
     }
   }
 
+  &__nav{
+    margin: 2rem 0;
+    
+    &__item{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0;
+      margin: 0;
+
+      &__list{
+
+        a:hover{
+          color: #00698C;
+        }
+      }
+    }
+  }
+
   &__bottom{
     background: #000;
     width: 100%;
@@ -124,6 +142,30 @@
   }
 }
 
+@media screen and (min-width: 769px){
+  .footer{
+
+    &__nav{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &__item {
+        display: flex;
+        
+        &__list:after{
+          content: ':';
+          padding: 15px;
+        }
+
+        .li-last:after{
+          content: '';
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width:768px){
 
   .footer{
@@ -167,6 +209,34 @@
       }
     }
   
+    &__nav{
+
+      &__item{
+        border-left: 1px #bbbfc0 solid;
+        text-align: center;
+
+        &__list{
+          width: 50%;
+          border-top: 1px #bbbfc0 solid;
+          border-right: 1px #bbbfc0 solid;
+          font-size: 1rem;
+
+          a{
+            display: block;
+            padding: 10px 0;
+          }
+        }
+
+        .li-bottom{
+          border-bottom: 1px #bbbfc0 solid;
+        }
+
+        .li-last{
+          border-bottom: 1px #bbbfc0 solid;
+        }
+      }
+    }
+
     &__bottom{
       background: none;
       width: 100%;
@@ -180,6 +250,8 @@
         position: relative;
 
         &__link{
+          // display:noneはSNS作成次第に消す
+          display: none;
           position: relative;
           top: auto;
           text-align: center;

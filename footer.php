@@ -28,6 +28,22 @@
         </div>
       </div>
     </div>
+    <nav class="footer__nav">
+      <ul class="footer__nav__item">
+        <li class="footer__nav__item__list">
+          <a href=""><span>BUSINESS</span></a>
+        </li>
+        <li class="footer__nav__item__list">
+          <a href=""><span>CAMPANY</span></a>
+        </li>
+        <li class="footer__nav__item__list li-bottom">
+          <a href=""><span>MESSAGE</span></a>
+        </li>
+        <li class="footer__nav__item__list li-last">
+          <a href=""><span>CONTACT</span></a>
+        </li>
+      </ul>
+    </nav>
     <div class="footer__bottom">
       <div class="footer__bottom__container">
         <ul class="footer__bottom__container__link"></ul>
