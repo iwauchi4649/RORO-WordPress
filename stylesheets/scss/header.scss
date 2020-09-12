@@ -46,11 +46,16 @@
           font-weight: bold;
 
           &__text{
+            color: #333333;
             font-size: 12px;
             height: 130px;
             line-height: 130px;
             display: block;
             padding: 0 30px;
+          }
+
+          &__text:hover{
+            color: #00698C;
           }
         }
       }
@@ -105,6 +110,7 @@
               color: #fff;
               background: #333;
               font-size: 13px;
+              margin: 0;
             }
           }
         }
@@ -157,6 +163,11 @@
           }
         }
         .active{
+          
+          span{
+            border-bottom: solid 3px #fff;
+          }
+
           span:nth-child(1){
             top: 28px;
             -webkit-transform: rotate(-45deg);

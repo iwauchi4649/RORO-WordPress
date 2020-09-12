@@ -6,6 +6,8 @@
 html {
   color: #353535;
   margin-top: 100px;
+  font-weight: bold;
+  font-family: "Segoe UI", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 /*
 	TODO remove settings on BODY since we can't namespace it.
@@ -40,6 +42,10 @@ legend,
 input,
 textarea,
 p,
+a{
+  text-decoration: none;
+  color: #666;
+}
 blockquote,
 th,
 td {
@@ -73,6 +79,7 @@ var {
 ol,
 ul {
   list-style: none;
+  padding: 0;
 }
 
 caption,
