@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/campany.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/contact.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/message.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/common.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
