@@ -41,7 +41,9 @@ fieldset,
 legend,
 input,
 textarea,
-p,
+p{
+  margin: 0;
+}
 a{
   text-decoration: none;
   color: #666;
