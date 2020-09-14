@@ -7,7 +7,7 @@
           <div class="footer__top__container__adress__logo">
             <p class="">
               <a class="">
-                <img src="<?php echo get_template_directory_uri()?>/">
+                <img class="logo" src="<?php echo get_template_directory_uri()?>/images/roro-rogo.png" alt="ロゴ">
               </a>
             </p>
           </div>

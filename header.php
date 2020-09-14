@@ -27,13 +27,11 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <div class="header__container__logo">
-          <div class="header__container__logo__box">
-            <a href="<?php echo home_url(); ?>" class="header__container__logo__box__link">
-              <img src="<?php echo get_template_directory_uri()?>/" alt="ロゴ">
-            </a>
-        </div>
-        </div>
+        <h1 class="header__container__logo">
+          <a href="<?php echo home_url(); ?>" class="header__container__logo__link">
+            <img class="logo" src="<?php echo get_template_directory_uri()?>/images/roro-rogo.png" alt="ロゴ">
+          </a>
+        </h1>
         <div class="header__container__global-menu">
           <ul class="header__container__global-menu__item">
             <li class="header__container__global-menu__item__list">
