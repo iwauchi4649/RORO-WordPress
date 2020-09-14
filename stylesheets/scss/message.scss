@@ -1,0 +1,31 @@
+.message{
+
+  &__container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 80px 25px 0;
+
+    &__body{
+      display: flex;
+      
+      p {
+
+        img{
+          width: 270px;
+          height: 270px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px){
+  .message{
+
+    &__container{
+      width: 100%;
+      margin: 0;
+      padding: 30px 20px 0;
+    }
+  }
+}
