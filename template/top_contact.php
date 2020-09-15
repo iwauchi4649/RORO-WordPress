@@ -2,7 +2,7 @@
   <div class="contact__container">
     <div class="common-area">
       <h3 class="common-area__title">CONTACT</h3>
-      <p class="common-area__desc">イベント・見学会や、新築情報、今手がけている物件にまつわる情報をお伝えします。最新情報をお見逃しなく！</p>
+      <p class="common-area__desc">以下のフォームに必要事項をご記入の上、「送信する」をクリックしてください。</p>
     </div>
     <div class="Form">
       <div class="Form__Item">
