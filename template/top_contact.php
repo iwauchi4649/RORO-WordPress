@@ -25,7 +25,7 @@
       </div>
       <div class="Form__Item">
         <p class="Form__Item__Label isMsg"><span class="Form__Item__Label__Required">必須</span>お問い合わせ内容</p>
-        <textarea class="Form__Item__Textarea"></textarea>
+        <textarea class="Form__Item__Textarea" placeholder="例）お問い合わせ内容を記入してください。"></textarea>
       </div>
       <input type="submit" class="Form__Btn" value="送信する">
     </div>
