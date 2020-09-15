@@ -150,7 +150,11 @@
         margin-top: 2rem;
         text-align: center;
       }
-      
+
+      &__check label{
+        font-weight: bold;
+      }
+
       &__Btn {
         border: 0;
         box-shadow: 0 12px 0 rgba(0,0,0,0.2);

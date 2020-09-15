@@ -1,4 +1,4 @@
-<section class="contact">
+<!-- <section class="contact">
   <div class="contact__container">
     <div class="common-area">
       <h3 class="common-area__title">CONTACT</h3>
@@ -17,7 +17,7 @@
       </div>
       <div class="Form__Item">
         <p class="Form__Item__Label"><span class="Form__Item__Label__Any">任意</span>電話番号</p>
-        <input type="text" class="Form__Item__Input" placeholder="例）000__0000__0000">
+        <input type="text" class="Form__Item__Input" placeholder="例）000-0000-0000">
       </div>
       <div class="Form__Item">
         <p class="Form__Item__Label"><span class="Form__Item__Label__Required">必須</span>メールアドレス</p>
@@ -93,4 +93,7 @@
       <input type="submit" class="Form__Btn" value="送信する">
     </div>
   </div>
-</section>
+</section> -->
+<?php remove_filter ('the_content', 'wpautop'); ?>
+  <?php echo do_shortcode('[mwform_formkey key="5"]'); ?>
+<?php the_content(); ?>
