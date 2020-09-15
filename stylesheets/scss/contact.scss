@@ -113,7 +113,44 @@
       &__Item:last-of-type {
         border-bottom: 1px solid #ddd;
       }
+      
+      // 注意事項
+      &__attention{
+        overflow-y: scroll;
+        margin: 2rem auto 0 auto;
+        max-width: 50rem;
+        height: 15rem;
+        border: solid 1px #ddd;
 
+        &__text{
+          padding: 2rem 1rem;
+
+          span{
+            margin-top: 1rem;
+            display: block;
+          }
+
+          .title{
+            margin-top: 0;
+            text-align: center;
+          }
+
+          .sub-title{
+            text-align: center;
+            border-bottom: 1px solid #333;
+          }
+
+          .discription{
+            font-weight: normal;
+          }
+        }
+      }
+
+      &__check{
+        margin-top: 2rem;
+        text-align: center;
+      }
+      
       &__Btn {
         border: 0;
         box-shadow: 0 12px 0 rgba(0,0,0,0.2);
