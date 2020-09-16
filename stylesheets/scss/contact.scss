@@ -50,6 +50,7 @@
         &__Input , &__Radio{
           border: 1px solid #ddd;
           margin-left: 40px;
+          margin-right: 40px;
           padding: 0 1em;
           height: 48px;
           flex: 1;
@@ -102,6 +103,7 @@
         &__Textarea {
           border: 1px solid #ddd;
           margin-left: 40px;
+          margin-right: 40px;
           padding-left: 1em;
           padding-right: 1em;
           height: 216px;
@@ -204,6 +206,7 @@
 
         &__Input , &__Radio{
           margin-left: 0;
+          margin-right: 0;
           margin-top: 18px;
           height: 40px;
           flex: inherit;
@@ -216,6 +219,7 @@
         &__Textarea {
           margin-top: 18px;
           margin-left: 0;
+          margin-right: 0;
           height: 200px;
           flex: inherit;
         }
