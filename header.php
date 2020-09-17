@@ -11,6 +11,7 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/images/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/shutter.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/footer.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/business.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/campany.css" />
