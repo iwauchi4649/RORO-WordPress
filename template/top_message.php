@@ -1,4 +1,4 @@
-<section class="message">
+<section id="message" class="message">
   <div class="message__container">
     <div class="common-area">
       <h3 class="common-area__title">MESSAGE</h3>

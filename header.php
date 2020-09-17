@@ -36,16 +36,16 @@
         <div class="header__container__global-menu">
           <ul class="header__container__global-menu__item">
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">BUSINESS</p>
+              <a class="header__container__global-menu__item__list__text" href="#business">BUSINESS</a>
             </li>
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">CAMPANY</p>
+              <a class="header__container__global-menu__item__list__text" href="#campany">CAMPANY</a>
             </li>
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">MESSAGE</p>
+              <a class="header__container__global-menu__item__list__text" href="#message">MESSAGE</a>
             </li>
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">CONTACT</p>
+              <a class="header__container__global-menu__item__list__text" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>

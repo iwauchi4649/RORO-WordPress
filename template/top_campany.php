@@ -1,4 +1,4 @@
-<section class="campany">
+<section id="campany" class="campany">
   <div class="campany__container">
     <div class="common-area">
       <h3 class="common-area__title">CAMPANY</h3>
@@ -12,7 +12,7 @@
         </li>
         <li>
           <p class="left-box">代表者</p>
-          <p class="right-box">須田　英明</p>
+          <p class="right-box">須田 英明</p>
         </li>
         <li>
           <p class="left-box">設立日</p>
