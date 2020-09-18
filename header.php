@@ -11,11 +11,13 @@
     <link rel="shortcut icon" href="<?php echo get_template_directory_uri()?>/images/favicon.ico" type="image/vnd.microsoft.icon">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/reset.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/header.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/shutter.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/footer.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/business.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/campany.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/contact.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/message.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/common.css" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/slick/slick-theme.css" media="screen" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -26,26 +28,24 @@
   <body>
     <header class="header">
       <div class="header__container">
-        <div class="header__container__logo">
-          <div class="header__container__logo__box">
-            <a href="<?php echo home_url(); ?>" class="header__container__logo__box__link">
-              <img src="<?php echo get_template_directory_uri()?>/" alt="ロゴ">
-            </a>
-        </div>
-        </div>
+        <h1 class="header__container__logo">
+          <a href="<?php echo home_url(); ?>" class="header__container__logo__link">
+            <img class="logo" src="<?php echo get_template_directory_uri()?>/images/roro-rogo.png" alt="ロゴ">
+          </a>
+        </h1>
         <div class="header__container__global-menu">
           <ul class="header__container__global-menu__item">
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">BUSINESS</p>
+              <a class="header__container__global-menu__item__list__text" href="#business">BUSINESS</a>
             </li>
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">CAMPANY</p>
+              <a class="header__container__global-menu__item__list__text" href="#campany">CAMPANY</a>
             </li>
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">MESSAGE</p>
+              <a class="header__container__global-menu__item__list__text" href="#message">MESSAGE</a>
             </li>
             <li class="header__container__global-menu__item__list">
-              <p class="header__container__global-menu__item__list__text">CONTACT</p>
+              <a class="header__container__global-menu__item__list__text" href="#contact">CONTACT</a>
             </li>
           </ul>
         </div>

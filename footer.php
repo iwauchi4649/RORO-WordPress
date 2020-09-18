@@ -7,7 +7,7 @@
           <div class="footer__top__container__adress__logo">
             <p class="">
               <a class="">
-                <img src="<?php echo get_template_directory_uri()?>/">
+                <img class="logo" src="<?php echo get_template_directory_uri()?>/images/roro-rogo.png" alt="ロゴ">
               </a>
             </p>
           </div>
@@ -31,16 +31,16 @@
     <nav class="footer__nav">
       <ul class="footer__nav__item">
         <li class="footer__nav__item__list">
-          <a href=""><span>BUSINESS</span></a>
+          <a href="#business"><span>BUSINESS</span></a>
         </li>
         <li class="footer__nav__item__list">
-          <a href=""><span>CAMPANY</span></a>
+          <a href="#campany"><span>CAMPANY</span></a>
         </li>
         <li class="footer__nav__item__list li-bottom">
-          <a href=""><span>MESSAGE</span></a>
+          <a href="#message"><span>MESSAGE</span></a>
         </li>
         <li class="footer__nav__item__list li-last">
-          <a href=""><span>CONTACT</span></a>
+          <a href="#contact"><span>CONTACT</span></a>
         </li>
       </ul>
     </nav>

@@ -32,7 +32,8 @@
             a{
               display: inline-block;
 
-              img{
+              .logo{
+                vertical-align: middle;
                 width: 50%;
                 height: 50%;
               }
@@ -42,7 +43,7 @@
 
         &__info{
           margin: 10px 0 0 0;
-          line-height: 1.8;
+          line-height: 2;
         }
       }
 
@@ -195,6 +196,20 @@
             margin: 0 auto;
             height: 130px;
             width: 250px;
+          }
+
+          &__logo{
+
+            p{
+  
+              a{
+  
+                .logo{
+                  width: 38%;
+                  height: 38%;
+                }
+              }
+            }
           }
         }
 
