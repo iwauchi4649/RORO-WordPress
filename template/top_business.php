@@ -6,7 +6,7 @@
       </span>
       <div class="business__contents__item__background">
         <p class="business__contents__item__background__description">
-          プロのインテリアデザイナーによるお住まいに抜群にマッチした内装や家具の配置で創るデザイン例をご紹介します。
+          大阪市中心地に特化した弊社ならではの豊かな購入・売却ノウハウで完全サポート。正確な市場価格をお伝えし、お客様に最適なプランをご案内致します。
         </p>
       </div>
       <img src="<?php echo get_template_directory_uri()?>/images/building1.jpg" alt="">
@@ -16,7 +16,7 @@
         TOWER
       </span>
       <div class="business__contents__item__background">
-        <p class="business__contents__item__background__description">お客様のイメージに沿って、コストパフォーマンスとバランスを取りつつ、理想的な住まいのカタチを提供します。</p>
+        <p class="business__contents__item__background__description">大阪市「北区・中央区・西区」の立地に特化したタワーマンション物件をご提案致します。</p>
       </div>
       <img src="<?php echo get_template_directory_uri()?>/images/building2.jpg" alt="">
     </li>
@@ -27,7 +27,7 @@
         APARTMENT
       </span>
       <div class="business__contents__item__background">
-        <p class="business__contents__item__background__description">新築でもない、中古でもない。MONOLITHはリノベーションという新しい住まい購入のあり方をご提案します。</p>
+        <p class="business__contents__item__background__description">アパート経営を始めるにあたり、最も重要なポイントは「立地条件」です。弊社では地元や大手の不動産会社と連携し良質な物件をお客様にお届けします。</p>
       </div>
       <img src="<?php echo get_template_directory_uri()?>/images/building3.jpg" alt="">
     </li>
