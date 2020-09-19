@@ -10,6 +10,16 @@
       width: 50%;
       overflow: hidden;
       position: relative;
+      &__title{
+        font-weight: 200;
+        font-size: 20px;
+        position: absolute;
+        color: #ffffff;
+        top: 92%;
+        left: 50%;
+        transform: translateY(-92%) translateX(-50%);
+        -webkit-transform: translateY(-92%) translateX(-50%);
+      }
       &__background{
         transition:1s all;
         z-index: 999;
@@ -21,6 +31,7 @@
           width: 100%;
           padding: 0 30px;
           font-size: 14px;
+          font-weight: 200;
           position: absolute;
           color: #ffffff;
           top: 50%;
@@ -59,6 +70,12 @@
       width: 100%;
       height: 400px;
       &__item{
+        &__title{
+          top: 85%;
+          left: 50%;
+          transform: translateY(-85%) translateX(-50%);
+          -webkit-transform: translateY(-85%) translateX(-50%);
+        }
         &__background{
           &__description {
             font-size: 13px;
