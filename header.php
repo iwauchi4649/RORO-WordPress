@@ -26,7 +26,7 @@
     <meta name="robots" content="noindex,nofollow" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="header__container">
         <h1 class="header__container__logo">
           <a href="<?php echo home_url(); ?>" class="header__container__logo__link">
