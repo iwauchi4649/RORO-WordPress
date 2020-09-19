@@ -6,12 +6,21 @@ jQuery(".toggle").on("click", function () {
 });
 
 // スクロールすると上からニョキっと出てきてそのまま追従するメニューの実装
-var navPos = jQuery( '#header' ).offset().top; // グローバルメニューの位置
-var navHeight = jQuery( '#header' ).outerHeight(); // グローバルメニューの高さ
-jQuery( window ).on( 'scroll', function() {
-  if ( 1000 < jQuery( this ).scrollTop() ) { // 1000px以上スクロールしたら
-    jQuery( '#header' ).addClass( 'is-fixed' );
-  } else {
-    jQuery( '#header' ).removeClass( 'is-fixed' );
-  }
+jQuery(function() {
+  jQuery(window).on('load resize', function(){
+        // masthead scroll
+        var header   = jQuery('#header'); // fixed DOM
+        var addclass = 'scrolled'; // add css class
+        var offset   = header.offset();
+        var scrollY  = offset.top; // scroll
+
+        jQuery(window).scroll(function() {
+        if (jQuery(window).scrollTop() > scrollY) {
+            header.addClass(addclass);
+        } 
+        else {
+            header.removeClass(addclass);
+        }
+    });
+  });
 });
