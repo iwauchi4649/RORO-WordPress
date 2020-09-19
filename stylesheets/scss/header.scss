@@ -5,6 +5,11 @@
   background: #fff;
   position: relative;
   z-index: 20;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
 
   &__container{
     height: 130px;
@@ -65,6 +70,19 @@
   }
 }
 
+.is-fixed{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 200;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
+  animation: slideDown 0.5s ease;
+  -ms-animation: slideDown 0.5s ease;
+  -webkit-animation: slideDown 0.5s ease;
+  -moz-animation: slideDown 0.5s ease;
+}
+
 @media screen and (max-width:768px){
   .header{
     height: 56px;
@@ -73,8 +91,8 @@
     top: 0px;
     z-index: 100;
     border-bottom: 1px solid #ccc;
-    // box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
     margin: 0;
+    position: fixed;
 
     &__container{
       height: auto;
