@@ -1,0 +1,95 @@
+.philosophy{
+  background: #f7f7f7;
+  min-width: 1250px;
+
+  &__container{
+    width: 1250px;
+    padding: 0 25px;
+    margin: 0 auto;
+
+    &__box{
+      display: flex;
+      padding: 80px 0;
+
+      li{
+        width: 380px;
+        margin: 0 30px 0 0;
+
+        h2{
+          background: #00698C;
+          font-size: 18px;
+          display: table;
+          width: 130px;
+          height: 130px;
+          margin: 0 auto 41.6px;
+          line-height: 130px;
+          text-align: center;
+          vertical-align: middle;
+          color: #fff;
+          font-family: "Hiragino Sans", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+          font-weight: 100;
+        }
+
+        .desc{
+          height: 90px;
+          line-height: 2.2;
+          margin: 0 0 41.6px 0;
+          overflow: hidden;
+          font-size: 14px;
+          font-weight: 100;
+        }
+
+        .image{
+          overflow: hidden;
+          position: relative;
+
+          p{
+
+            img{
+              width: calc(100% + 30px);
+              height: auto;
+            }
+          }
+        }
+      }
+
+      li:last-child{
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:768px){
+
+  .philosophy{
+    min-width: 0;
+    
+    &__container{
+      padding: 0;
+      width: 100%;
+
+      &__box{
+        display: block;
+        padding: 0 0 30px;
+    
+        li{
+          width: 100%;
+          margin: 0;
+          padding: 30px 20px 0;
+
+          h2{
+            margin: 0 auto 21px;
+
+          }
+
+          .desc{
+            margin: 0 0 30px 0;
+            height: auto;
+            overflow: auto;
+          }
+        }
+      }
+    }
+  }
+}
