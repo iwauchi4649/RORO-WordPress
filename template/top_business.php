@@ -44,11 +44,40 @@
     </ul>
   </div>
   <div class="business__explanation">
-    <h2 class="business__explanation__title">良質なデザイン空間、新しい価値の創造へ。</h2>
+    <h1 class="business__explanation__title">良質なデザイン空間、新しい価値の創造へ。</h1>
     <div class="business__explanation__desc">
       <p>人なら誰しも、こんな家に住みたいなど住居に対する漠然とした理想や信念を持っているはずです。<br>
         私たちの仕事はその頭の中でボヤッとしているイメージを、確かな実績とデザインで、はっきりとしたカタチにするためのお手伝いをすることです。<br>
         個々のコストも考慮しながら、それに付加価値をつけるあなたらしいスタイルで、最高の家づくりを目指します。</p>
     </div>
   </div>
+  <!-- <ol class="business__box">
+    <li class="business__box__one">
+      <h2><span>CONCEPT</span></h2>
+      <div class="desc">
+        <p>コストパフォーマンス管理はもちろん、それに付加価値をつけるスタイルやデザインをもとに、「この家でよかったな」と思ってもらえる家創りを目指します。</p>
+      </div>
+      <div class="image">
+        <p><img src="https://demo.tcd-theme.com/tcd042/wp-content/uploads/2016/12/top_01.jpg" title="" alt=""></p>
+      </div>
+    </li>
+    <li class="business__box__two">
+      <h2><span>SERVICE</span></h2>
+      <div class="desc">
+        <p>私たちは常にモノや資源を⼤切にする暮らしと「豊かさ」の両⽴を考え、そして真に「豊かに住まうこと」とはどういうことなのか、そのビジョンを提供し続けています。</p>
+      </div>
+      <div class="image">
+        <p><img src="https://demo.tcd-theme.com/tcd042/wp-content/uploads/2016/12/top_02.jpg" title="" alt=""></p>
+      </div>
+    </li>
+    <li class="business__box__three">
+      <h2><span>COMPANY</span></h2>
+      <div class="desc">
+        <p>売買からファイナンシャルプランまでお客様のスタイルやイメージに合わせたご提案を行っていきます。</p>
+      </div>
+      <div class="image">
+        <p><img src="https://demo.tcd-theme.com/tcd042/wp-content/uploads/2016/12/top_03.jpg" title="" alt=""></p>
+      </div>
+    </li>
+  </ol> -->
 </section>

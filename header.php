@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/shutter.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/footer.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/business.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/philosophy.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/campany.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/contact.css" />
     <link rel="stylesheet" href="<?php echo get_template_directory_uri()?>/stylesheets/css/message.css" />
