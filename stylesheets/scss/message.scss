@@ -35,16 +35,19 @@
       &__text{
         width: 750px;
         margin-left: auto;
+        // background: linear-gradient(120deg, #fff 40% , #053E62 60%);
 
         h4{
           font-size: 1.6rem;
           margin-bottom: 20px;
           font-weight: bold;
+          // mix-blend-mode: difference;
         }
 
         p {
           line-height: 5;
           font-weight: normal;
+          // mix-blend-mode: difference;
         }
       }
     }
