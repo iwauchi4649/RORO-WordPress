@@ -11,6 +11,10 @@
           <p class="right-box">株式会社RORO</p>
         </li>
         <li>
+          <p class="left-box">住所</p>
+          <p class="right-box">〒530-0047 大阪市北区西天満1-8-9 ヴィークタワー大阪 2202</p>
+        </li>
+        <li>
           <p class="left-box">代表者</p>
           <p class="right-box">須田 英明</p>
         </li>
@@ -20,7 +24,7 @@
         </li>
         <li>
           <p class="left-box">資本金</p>
-          <p class="right-box">500万円</p>
+          <p class="right-box">5,000,000円</p>
         </li>
         <li>
           <p class="left-box">事業内容</p>
