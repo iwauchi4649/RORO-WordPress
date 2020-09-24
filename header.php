@@ -31,7 +31,7 @@
       <div class="header__container">
         <h1 class="header__container__logo">
           <a href="<?php echo home_url(); ?>" class="header__container__logo__link">
-            <img class="logo" src="<?php echo get_template_directory_uri()?>/images/roro-rogo.png" alt="ロゴ">
+            <img class="logo" src="<?php echo get_template_directory_uri()?>/images/roro-rogo.svg" alt="ロゴ">
           </a>
         </h1>
         <div class="header__container__global-menu">
