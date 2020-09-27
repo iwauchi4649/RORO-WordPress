@@ -20,6 +20,7 @@
           left: 50%;
           transform: translateY(-92%) translateX(-50%);
           -webkit-transform: translateY(-92%) translateX(-50%);
+          text-shadow: 2px 2px 10px #777, -2px 2px 10px #777, 2px -2px 10px #777, -2px -2px 10px #777;
         }
         &__background{
           transition:1s all;
