@@ -2,7 +2,7 @@
   <div class="message__container">
     <div class="common-area">
       <h3 class="common-area__title">MESSAGE</h3>
-      <p class="common-area__desc">イベント・見学会や、新築情報、今手がけている物件にまつわる情報をお伝えします。最新情報をお見逃しなく！</p>
+      <p class="common-area__desc">お客様の人生で最も大きなお買い物のパートナーとして、ご挨拶させていただきます。</p>
     </div>
     <div class="message__container__body">
       <div class="message__container__body__ceo">
