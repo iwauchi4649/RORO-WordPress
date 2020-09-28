@@ -1,4 +1,4 @@
-<section id="business" class="business">
+<section id="business" class="business" ontouchstart="">
   <div class="business__project">
     <ul class="business__project__contents">
       <li class="business__project__contents__item">
