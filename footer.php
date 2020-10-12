@@ -3,7 +3,7 @@
     <div class="footer__top">
       <div class="footer__top__container">
         <div class="footer__top__container__adress">
-          <img src="<?php echo get_template_directory_uri()?>/images/kitchen.jpg">
+          <img src="<?php echo get_template_directory_uri()?>/images/company.jpg">
           <div class="footer__top__container__adress__logo">
             <p class="">
               <a class="">
