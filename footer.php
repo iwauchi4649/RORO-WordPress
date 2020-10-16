@@ -3,8 +3,28 @@
     <div class="footer__top">
       <div class="footer__top__container">
         <div class="footer__top__container__adress">
-          <img src="<?php echo get_template_directory_uri()?>/images/company.jpg">
+          <img id="bigimg" src="<?php echo get_template_directory_uri()?>/images/company.jpg">
           <!-- <img src="<?php echo get_template_directory_uri()?>/images/room.jpg"> -->
+          <div class="radio">
+            <input id="one" required class="required" type="radio" value="1" checked="checked">
+            <label for="one">
+              <img class="thumb" data-image="img1.jpg" src="<?php echo get_template_directory_uri()?>/images/company.jpg">
+            </label>
+            <input id="two" required class="required" type="radio" value="2">
+            <label for="two">
+              <img class="thumb" data-image="img2.jpg" src="<?php echo get_template_directory_uri()?>/images/room.jpg">
+            </label>
+          </div>
+          <script>
+            const thumbs = document.querySelectorAll('.thumb');
+              thumbs.forEach(function(item,index){
+                item.onclick = function(){
+                  document.getElementById('bigimg').src = this.src;
+                  // 画像の場合は下の文
+                  // document.getElementById('bigimg').src = this.dataset.image;
+                }
+              });
+          </script>
           <div class="footer__top__container__adress__logo">
             <p class="">
               <a class="">
